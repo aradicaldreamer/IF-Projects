@@ -11,7 +11,7 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Richmond Station" startnode="1" creator="Twine" creator-version="2.2.1" ifid="D358CD39-EDDA-4843-8CF7-9C93897B3D40" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css?family=Orbitron');
+<tw-storydata name="Richmond Station" startnode="8" creator="Twine" creator-version="2.2.1" ifid="D358CD39-EDDA-4843-8CF7-9C93897B3D40" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css?family=Orbitron');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
@@ -23,14 +23,19 @@
 
 tw-story {
 	background-color: white;
-  	
+  	font-size: 1.6em;
+  	line-height: 1.3em;
 }
 
+tw-story[tags~="Dialogue"] {
+	
+}
 /*
 	"tw-passage" is the style for any one passage
 */
 tw-passage{
   	color: black;
+  	font-family: 'Amatic SC', cursive;
 }
 
 /*
@@ -45,7 +50,17 @@ tw-sidebar{
 */
 tw-link{
 
-	color: #CC00FF;
+	color: #0000FF;
+}
+
+/*
+	"mark" is used when the story javascript is called for the cycling link
+	macro. It appears to overlay a fill on top of the text (which is not
+	what we want).
+*/
+
+mark {
+    background-color: transparent;
 }
 
 /*
@@ -55,6 +70,7 @@ tw-link{
 
 .clock{
   font-family: 'Orbitron', sans-serif;
+  text-align: right;
 }
 
 .character1{
@@ -73,6 +89,52 @@ tw-link{
 */
 
 
+/*
+	This is a text fade-in function from the "16 ways to Kill a vampire 	at McDonald's" game that can be found here: http://ifarchive.jmac.org/if-archive/games/competition2016/16%20Ways%20to%20Kill%20a%20Vampire%20at%20McDonalds/Vampire%20%2843%29.html
+*/
+
+.dimLink{
+color: grey;	
+}
+
+
+.fadeinoutslow {
+	opacity:0;
+    animation: fadeinout 20s;
+    -moz-animation: fadeinout 20s; /* Firefox */
+    -webkit-animation: fadeinout 20s; /* Safari and Chrome */
+    -o-animation: fadeinout 20s; /* Opera */
+}
+@keyframes fadeinoutslow { 0% { opacity:0; }  30% { opacity:1; } 100% { opacity:0; }}
+@-moz-keyframes fadeinoutslow { /* Firefox */  0% { opacity:0; } 30% { opacity:1; } 100% {  opacity:0; } }
+@-webkit-keyframes fadeinoutslow { /* Safari and Chrome */ 0% { opacity:0; } 30% { opacity:1; } 100% { opacity:0; } }
+@-o-keyframes fadeinoutslow { /* Opera */ 0% { opacity:0; } 30% { opacity:1; } 100% { opacity:0;  }}
+
+
+
+.fadein {
+	opacity:0;
+    animation: fadein 60s;
+    -moz-animation: fadein 60s; /* Firefox */
+    -webkit-animation: fadein 60s; /* Safari and Chrome */
+    -o-animation: fadein 60s; /* Opera */
+}
+@keyframes fadein { 0% { opacity:0; }  10% { opacity:1; } 100% { opacity:1; }}
+@-moz-keyframes fadein { /* Firefox */  0% { opacity:0; } 10% { opacity:1; } 100% {  opacity:1; } }
+@-webkit-keyframes fadein { /* Safari and Chrome */ 0% { opacity:0; } 10% { opacity:1; } 100% { opacity:1; } }
+@-o-keyframes fadein { /* Opera */ 0% { opacity:0; } 10% { opacity:1; } 100% { opacity:1;  }}
+
+.fadeinfast {
+	opacity:0;
+    animation: fadein 60s;
+    -moz-animation: fadein 60s; /* Firefox */
+    -webkit-animation: fadein 60s; /* Safari and Chrome */
+    -o-animation: fadein 60s; /* Opera */
+}
+@keyframes fadein { 0% { opacity:0; }  5% { opacity:1; } 100% { opacity:1; }}
+@-moz-keyframes fadein { /* Firefox */  0% { opacity:0; } 5% { opacity:1; } 100% {  opacity:1; } }
+@-webkit-keyframes fadein { /* Safari and Chrome */ 0% { opacity:0; } 5% { opacity:1; } 100% { opacity:1; } }
+@-o-keyframes fadein { /* Opera */ 0% { opacity:0; } 5% { opacity:1; } 100% { opacity:1;  }}
 
 
 
@@ -81,7 +143,80 @@ tw-link{
 
 
 
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">// The below code is for including cycling links in Harlowe, using the published solution by Furkle Industries that can be found here: https://furkleindustries.com/fictions/twine/twine2_resources/twine2_macros/
+
+var _engine = Engine;
+window._engine = _engine;
+var _state = State;
+window._state = _state;
+function clickCyclingLink(element, twineVar) {
+var texts = JSON.parse($(element).attr("data-cycling-texts"));
+if (typeof(texts) === typeof(undefined) || texts.length < 2) {
+    return;
+}
+texts.push(texts.shift());
+var currentText = texts[0];
+if (currentText[0] === "$") {
+    currentText = getHarloweVariable(currentText);
+} else if (currentText === "out") {
+    $(element).remove();
+} else if (currentText === "end") {
+    var lastTextsIndex = texts[texts.length - 1];
+    if (lastTextsIndex[0] === "$") {
+        texts = [getHarloweVariable(lastTextsIndex)];
+    } else {
+        texts = [texts[texts.length - 1]];
+    }
+    if (!$(element).hasClass("endedCyclingLink")) {
+        $(element).addClass("endedCyclingLink");
+    }
+} else if (currentText.slice(0, 5) === "goto ") {
+    var gotoText = currentText.slice(5, currentText.length);
+    if (gotoText[0] === '$') {
+        gotoText = gotoText.slice(1, gotoText.length);
+    }
+    var id = parseInt(gotoText.trim());
+    if (!isNaN(id)) {
+        var passageData = $('tw-storydata > tw-passagedata[pid=' + id + ']');
+        if (typeof(passageData) !== typeof(undefined) && 
+                passageData.length > 1) {
+            _engine.goToPassage(id);
+        }
+    } else {
+        var passageData = $('tw-storydata > tw-passagedata[name=' + gotoText + ']');
+        if (typeof(passageData) !== typeof(undefined) && 
+                passageData.length >= 1) {
+            _engine.goToPassage($(passageData).attr('pid'));
+        }
+    }
+}
+setHarloweVariable(twineVar, texts[0]);
+$(element).text(currentText);
+$(element).attr("data-cycling-texts", JSON.stringify(texts));
+}
+window.clickCyclingLink = clickCyclingLink;
+function getHarloweVariable(prop) {
+if (typeof(prop) === typeof(undefined) ||
+        prop === '') {
+    return;
+}   
+return prop[0] === '$' ? 
+    _state.variables[prop.slice(1, prop.length)] : _state.variables[prop];
+}
+window.getHarloweVariable = getHarloweVariable;
+function setHarloweVariable(prop, val) {
+if (typeof(prop) === typeof(undefined) ||
+        prop === '' ||
+        typeof(val) === typeof(undefined)) {
+    return; 
+}
+if (prop[0] === '$') {
+    prop = prop.slice(1, prop.length);  
+}
+_state.variables[prop] = val;
+}
+window.setHarloweVariable = setHarloweVariable;
 
 
 
@@ -89,30 +224,73 @@ tw-link{
 
 
 
-</script><tw-passagedata pid="1" name="Richmond Park" tags="" position="400,301" size="100,100">(display: &quot;Initialize&quot;)
-&lt;p align = &quot;right&quot;&gt;&lt;span class=&quot;clock&quot;&gt;$hours:0$minutes PM&lt;/span&gt;&lt;/p&gt;
+
+
+
+</script><tw-passagedata pid="1" name="Richmond Park" tags="Dialogue" position="403,752" size="100,100">(display: &quot;Clock&quot;)
 [&lt;span class = &quot;character1&quot;&gt; &quot;I&#39;m pretty sure that it was that way.&quot;&lt;/span&gt;]&lt;first|
 (click: ?first)[&lt;span class = &quot;character2&quot;&gt; &quot;I don&#39;t know, I thought that it was this way?&quot;&lt;/span&gt;]&lt;second|
 (click: ?second)[&lt;span class = &quot;character1&quot;&gt; &quot;What. Is. That.&quot;&lt;/span&gt;]&lt;third|
 (click: ?third)[&lt;span class = &quot;character2&quot;&gt; &quot;What is what?&quot;&lt;/span&gt;]&lt;fourth|
-(click: ?fourth)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt; Find Baby]]&lt;/span&gt;]</tw-passagedata><tw-passagedata pid="2" name=" Picked Up Baby" tags="" position="203,452" size="100,100">(display: &quot;Clock&quot;)
+(click: ?fourth)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt; Find Baby]]&lt;/span&gt;]
+</tw-passagedata><tw-passagedata pid="2" name=" Picked Up Baby" tags="" position="206,964" size="100,100">(display: &quot;Clock&quot;)
 (if: $minutes &lt; 5)[[[&quot;Waste Time&quot; -&gt; Picked Up Baby]]]
 (else:)[You&#39;ve managed to miss your train. But you have a baby now, so that&#39;s something right?
-(link:&quot;Start Over&quot;)[(goto:&quot;Richmond Park&quot;)]]</tw-passagedata><tw-passagedata pid="3" name=" Left Baby" tags="" position="594,447" size="100,100">(display: &quot;Clock&quot;)
+(link:&quot;Start Over&quot;)[(goto:&quot;Richmond Park&quot;)]]</tw-passagedata><tw-passagedata pid="3" name=" Left Baby" tags="" position="594,957" size="100,100">(display: &quot;Clock&quot;)
 You left a helpless human being laying on a bench. Their parents will return shortly to retrieve it, you assure yourself. After all, it&#39;s not your problem, and you made your train on time!
 
 Hooray You.
-(link:&quot;Start Over&quot;)[(goto:&quot;Richmond Park&quot;)]</tw-passagedata><tw-passagedata pid="4" name="Initialize" tags="" position="401,0" size="100,100">(set: $hours to 16)
-(set: $minutes to 0)</tw-passagedata><tw-passagedata pid="5" name="Clock" tags="" position="601,0" size="100,100">&lt;p align = &quot;center&quot;&gt;&lt;span class=&quot;clock&quot;&gt;(set: $minutes to $minutes + 1)
+(link:&quot;Start Over&quot;)[(goto:&quot;Richmond Park&quot;)]</tw-passagedata><tw-passagedata pid="4" name="Initialize" tags="" position="0,0" size="100,100">{
+&lt;!-- This passage is intended to set variables for the story --&gt;
+&lt;!-- Initial Clock Values --&gt;
+(set: $hours to 15)
+(set: $minutes to 59)
+&lt;!-- Character Names --&gt;
+(set: $char1Name to &quot;Julia&quot;) &lt;!-- Your companion&#39;s name --&gt;
+(set: $char2Name to &quot;Alexander&quot;) &lt;!-- Your name --&gt;
+(set: $char3Name to &quot;Baby&quot;) &lt;!-- The Baby&#39;s Name --&gt;
+&lt;!-- Reason For Needing to Catch the Train --&gt;
+(set: $myReason to &quot;We won&#39;t be able to see Grandma before visiting hours are over&quot;)
+}</tw-passagedata><tw-passagedata pid="5" name="Clock" tags="" position="120,0" size="100,100">{
+&lt;span style = &quot;position: fixed; right: 5px; top: 5px;&quot; class = &quot;clock&quot;&gt;(set: $minutes to $minutes + 1)
 (if: $minutes &gt; 59)[(set: $hours to $hours + 1)(set: $minutes to 0)$hours:0$minutes PM]
 (elseif: $minutes &lt; 10)[$hours:0$minutes PM]
-(else:)[$hours:$minutes PM]&lt;/span&gt;&lt;/p&gt;</tw-passagedata><tw-passagedata pid="6" name=" Find Baby" tags="" position="402,449" size="100,100">(display: &quot;Clock&quot;)
-As your eyes follow along the line being traced by Stacey&#39;s pointing finger, you see something that decidedly should *not* be here. There is a baby sitting alone on a bench wrapped in what appears to be a very soft blue blanket.
+(else:)[$hours:$minutes PM]&lt;/span&gt;&lt;/p&gt;
+}</tw-passagedata><tw-passagedata pid="6" name=" Find Baby" tags="" position="405,960" size="100,100">(display: &quot;Clock&quot;)
+As your eyes follow along the line being traced by $char1Name&#39;s pointing finger, you see something that decidedly should *not* be here. There is a baby sitting alone on a bench wrapped in what appears to be a very soft blue blanket.
 
 There doesn&#39;t appear to be anyone else around. Your train home leaves from the station in less than an hour. What do you do?
 
 [[&quot;Pick up Baby&quot; -&gt; Picked Up Baby]]
-[[&quot;Leave Baby Alone&quot; -&gt; Left Baby]]</tw-passagedata></tw-storydata>
+[[&quot;Leave Baby Alone&quot; -&gt; Left Baby]]</tw-passagedata><tw-passagedata pid="7" name="Cycling Link Example Text" tags="" position="698,205" size="100,100">(set: $myVar to &quot;One&quot;)&lt;mark&gt;&lt;tw-link class=&#39;cyclingLink&#39; data-cycling-texts=&#39;[&quot;One&quot;, &quot;Two&quot;, &quot;Three&quot;]&#39; onclick=&#39;clickCyclingLink(this, &quot;$myVar&quot;);&#39;&gt;$myVar&lt;/tw-link&gt;&lt;/mark&gt;</tw-passagedata><tw-passagedata pid="8" name="Opening" tags="" position="401,299" size="100,100">(display: &quot;Initialize&quot;)
+You see &lt;mark&gt;&lt;tw-link class=&#39;cyclingLink&#39; data-cycling-texts=&#39;[&quot;Julia&quot;, &quot;Margaret&quot;, &quot;Elizabeth&quot;, &quot;Cynthia&quot;, &quot;Stephanie&quot;]&#39; onclick=&#39;clickCyclingLink(this, &quot;$char1Name&quot;);&#39;&gt;$char1Name&lt;/tw-link&gt;&lt;/mark&gt; around the corner, intently observing a squirrel.
+
+The two of them are squaring off. The squirrel, emboldened by years of human contact, seems more likely to jump on top of her than to run up the nearby tree. You have a feeling that nothing would make your sister happier.
+
+Given everything that has happened lately, it&#39;s nice to see such a small thing make someone so happy.
+
+[[&quot;Continue Watching&quot; -&gt; Watch]]
+
+[[&quot;Surprise Them!&quot; -&gt; Surprise]]</tw-passagedata><tw-passagedata pid="9" name="Header" tags="header" position="248,0" size="100,100"></tw-passagedata><tw-passagedata pid="10" name="Footer" tags="footer" position="371,0" size="100,100"></tw-passagedata><tw-passagedata pid="11" name=" Watch" tags="" position="289,450" size="100,100">You continue to watch $char1Name as she slowly approaches the squirrel, gingerly extending her hand to make an attempt at patting it on it&#39;s head. Quicker than you can do anything to stop it, she leaps forward ungracefully towards the squirrel and lands face first in the underbrush. Unfazed, the squirrel chitters quietly as it scurries away in search of less provocative entertainment.
+
+[&lt;span class = &quot;character2&quot;&gt; &quot;You okay kiddo?&quot;&lt;/span&gt;]&lt;first|
+
+(click: ?first)[&lt;span class = &quot;character1&quot;&gt; &quot;Of course! I&#39;ll just catch the next one&quot;&lt;/span&gt;]&lt;second|
+
+(click: ?second)[&lt;span class = &quot;character2&quot;&gt; &quot;I don&#39;t doubt it! Though I promise you that mom will *kill* me if I let you bring an animal with us to the hospital. C&#39;mon let&#39;s get you cleaned up before we head back.&quot;&lt;/span&gt;]&lt;third|
+
+(click: ?third)[&lt;span class = &quot;character1&quot;&gt; &quot;Awwwwwww. Do we really have to go *now*?&quot;&lt;/span&gt;]&lt;fourth|
+
+(click: ?fourth)[&lt;span class = &quot;character2&quot;&gt; &quot;I don&#39;t want to leave either $char1Name, but if we don&#39;t make the 5:00 train &quot;
+
+(link: &quot;We won&#39;t make it to the hospital in time to see Grandma before visiting hours are over&quot;)[(set: $myReason to &quot;Grandma&quot;)(goto: &quot;Richmond Park&quot;)]
+
+(link: &quot;We&#39;ll miss our connection at King&#39;s cross. And that&#39;s the last train home for the day&quot;)[(set: $myReason to &quot;Train&quot;)(goto: &quot;Richmond Park&quot;)]&lt;/span&gt;]</tw-passagedata><tw-passagedata pid="12" name=" Surprise" tags="" position="531,449" size="100,100">You creep along the edge of the path, making sure to keep your feet along the grass so that you can&#39;t be heard.
+
+[&lt;span class = &quot;character1&quot;&gt; &quot;You jerk! I wanted to catch him!&quot;&lt;/span&gt;]&lt;first|
+
+(click: ?first)[&lt;span class = &quot;character2&quot;&gt; &quot;Him, the deer we saw a few minutes ago, the dog from this morning, *and* the-&quot;&lt;/span&gt;]
+</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
