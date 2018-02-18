@@ -256,9 +256,21 @@ window.setHarloweVariable = setHarloweVariable;
 
 (click: ?eighth)[&lt;span class = &quot;character2&quot;&gt; &quot;What is what?&quot;&lt;/span&gt;]&lt;ninth|
 
-(click: ?ninth)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt;Find Baby]]&lt;/span&gt;]</tw-passagedata><tw-passagedata pid="2" name=" Picked Up Baby" tags="" position="205,1053.3333333333335" size="100,100">(display: &quot;Clock&quot;)
-[[Head Towards the Train Station -&gt;Park Exit WB]]</tw-passagedata><tw-passagedata pid="3" name=" Left Baby" tags="" position="617.3333333333334,1059.6666666666665" size="100,100">(display: &quot;Clock&quot;)
-[[Head Towards the Train Station -&gt;Park Exit NB]]</tw-passagedata><tw-passagedata pid="4" name="Initialize" tags="" position="0,0" size="100,100">{
+(click: ?ninth)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt;Find Baby]]&lt;/span&gt;]</tw-passagedata><tw-passagedata pid="2" name=" Picked Up Baby" tags="" position="205,1051.6666666666667" size="100,100">(display: &quot;Clock&quot;)
+You now have a baby, and your train leaves in less than an hour.
+
+(link: &quot;Change your mind?&quot;)[(set: $haveBaby to false)(goto: &quot; Left Baby&quot;)]
+
+[[Head Towards the Train Station -&gt;Park Exit WB]]</tw-passagedata><tw-passagedata pid="3" name=" Left Baby" tags="" position="619,1056.333333333333" size="100,100">(display: &quot;Clock&quot;)
+You have decided to leave the baby behind. And your train leaves in less than an hour.
+
+[&lt;span class = &quot;character1&quot;&gt;&quot;How could you do that? How could you just leave the baby alone?&quot;&lt;/span&gt;]&lt;first|
+
+(click: ?first)[I&#39;m sorry $char1Name, but we have more important things to worry about. Let&#39;s go.&quot;
+
+(link: &quot;Change your mind?&quot;)[(set: $haveBaby to true)(goto: &quot; Picked Up Baby&quot;)]
+
+[[Head Towards the Train Station -&gt;Park Exit NB]]]</tw-passagedata><tw-passagedata pid="4" name="Initialize" tags="" position="0,0" size="100,100">{
 &lt;!-- This passage is intended to set variables for the story --&gt;
 &lt;!-- Initial Clock Values --&gt;
 (set: $hours to 15)
@@ -292,9 +304,9 @@ There doesn&#39;t appear to be anyone else around. Your train home leaves from t
 
 Take the blanket(click-replace: &quot;Take the blanket&quot;)[&quot;You monster!&quot;]
 
-(link: &quot;Wait and see if the parents return&quot;)[(set: $minutes to $minutes + 5)(goto: &quot;Find Baby&quot;)]
+(link: &quot;Wait and see if the parents return&quot;)[(set: $minutes to $minutes + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Find Baby&quot;)]
 
-(if: $called is false)[(set: $location to &quot;Bench&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 30)[Emergency Services has arrived to pick up the baby.](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Find Baby&quot;)]]
+(if: $called is false)[(set: $location to &quot;Bench&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 30)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Find Baby&quot;)]]
 
 (link: &quot;Pick up Baby&quot;)[(set: $haveBaby to true)(goto: &quot; Picked Up Baby&quot;)]
 
@@ -385,23 +397,35 @@ You creep along the edge of the path, making sure to keep your feet along the gr
 
 (click: ?eighth)[&lt;span class = &quot;character2&quot;&gt; &quot;What is what?&quot;&lt;/span&gt;]&lt;ninth|
 
-(click: ?ninth)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt;Find Baby]]&lt;/span&gt;]</tw-passagedata><tw-passagedata pid="15" name="Ending 1" tags="" position="1804,594" size="100,100">Have Baby, Made Train, Sick Grandma</tw-passagedata><tw-passagedata pid="16" name="Ending 2" tags="" position="1915,592" size="100,100">Have Baby, Missed Train, Sick Grandma</tw-passagedata><tw-passagedata pid="17" name="Ending 3" tags="" position="2031,591" size="100,100">Left Baby, Made Train, Sick Grandma</tw-passagedata><tw-passagedata pid="18" name="Ending 4" tags="" position="2149,590" size="100,100">Left Baby, Missed Train, Sick Grandma</tw-passagedata><tw-passagedata pid="19" name="Ending 5" tags="" position="1802,708" size="100,100">Have Baby, Made Train, Sick Sister</tw-passagedata><tw-passagedata pid="20" name="Ending 6" tags="" position="1916,709" size="100,100">Have Baby, Missed Train, Sick Sister</tw-passagedata><tw-passagedata pid="21" name="Ending 7" tags="" position="2033,709" size="100,100">Left Baby, Made Train, Sick Sister</tw-passagedata><tw-passagedata pid="22" name="Ending 8" tags="" position="2149,709" size="100,100">Left Baby, Missed Train, Sick Sister</tw-passagedata><tw-passagedata pid="23" name="Ending 9" tags="" position="1802,831" size="100,100">Have Baby, Made Train, Connection</tw-passagedata><tw-passagedata pid="24" name="Ending 10" tags="" position="1918,830" size="100,100">Have Baby, Missed Train, Connection</tw-passagedata><tw-passagedata pid="25" name="Ending 11" tags="" position="2035,829" size="100,100">Left Baby, Made Train, Connection</tw-passagedata><tw-passagedata pid="26" name="Ending 12" tags="" position="2151,829" size="100,100">Left Baby, Missed Train, Connection</tw-passagedata><tw-passagedata pid="27" name="Endings" tags="" position="1972,450" size="100,100">(if: $haveBaby is true and $onTime is true and $myReason is &quot;Grandma&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 1&quot;)]
-(elseif: $haveBaby is true and $onTime is false and $myReason is &quot;Grandma&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 2&quot;)]
-(elseif: $haveBaby is false and $onTime is true and $myReason is &quot;Grandma&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 3&quot;)]
-(elseif: $haveBaby is false and $onTime is false and $myReason is &quot;Grandma&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 4&quot;)]
-(elseif: $haveBaby is true and $onTime is true and $myReason is &quot;Medicine&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 5&quot;)]
-(elseif: $haveBaby is true and $onTime is false and $myReason is &quot;Medicine&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 6&quot;)]
-(elseif: $haveBaby is false and $onTime is true and $myReason is &quot;Medicine&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 7&quot;)]
-(elseif: $haveBaby is false and $onTime is false and $myReason is &quot;Medicine&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 8&quot;)]
-(elseif: $haveBaby is true and $onTime is true and $myReason is &quot;Train&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 9&quot;)]
-(elseif: $haveBaby is true and $onTime is false and $myReason is &quot;Train&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 10&quot;)]
-(elseif: $haveBaby is false and $onTime is true and $myReason is &quot;Train&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 11&quot;)]
-(elseif: $haveBaby is false and $onTime is false and $myReason is &quot;Train&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 12&quot;)]
-(else:)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 13&quot;)]</tw-passagedata><tw-passagedata pid="28" name="Test Passage" tags="" position="2107,451" size="100,100">(set: $haveBaby to true)
+(click: ?ninth)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt;Find Baby]]&lt;/span&gt;]</tw-passagedata><tw-passagedata pid="15" name="Ending 1" tags="" position="1805.6666666666667,594" size="100,100">Have Baby, Made Train, Sick Grandma
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="16" name="Ending 2" tags="" position="1915,592" size="100,100">Have Baby, Missed Train, Sick Grandma
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="17" name="Ending 3" tags="" position="2031,591" size="100,100">Left Baby, Made Train, Sick Grandma
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="18" name="Ending 4" tags="" position="2149,590" size="100,100">Left Baby, Missed Train, Sick Grandma
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="19" name="Ending 5" tags="" position="1802,708" size="100,100">Have Baby, Made Train, Sick Sister
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="20" name="Ending 6" tags="" position="1916,707.3333333333334" size="100,100">Have Baby, Missed Train, Sick Sister
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="21" name="Ending 7" tags="" position="2033,709" size="100,100">Left Baby, Made Train, Sick Sister
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="22" name="Ending 8" tags="" position="2150.6666666666665,710.6666666666666" size="100,100">Left Baby, Missed Train, Sick Sister
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="23" name="Ending 9" tags="" position="1802,831" size="100,100">Have Baby, Made Train, Connection
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="24" name="Ending 10" tags="" position="1918,830" size="100,100">Have Baby, Missed Train, Connection
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="25" name="Ending 11" tags="" position="2035,829" size="100,100">Left Baby, Made Train, Connection
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="26" name="Ending 12" tags="" position="2151,829" size="100,100">Left Baby, Missed Train, Connection
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="27" name="Endings" tags="" position="1972,450" size="100,100">(if: $haveBaby is true and $onTime is true and $myReason is &quot;Grandma&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 1&quot;)](elseif: $haveBaby is true and $onTime is false and $myReason is &quot;Grandma&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 2&quot;)](elseif: $haveBaby is false and $onTime is true and $myReason is &quot;Grandma&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 3&quot;)](elseif: $haveBaby is false and $onTime is false and $myReason is &quot;Grandma&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 4&quot;)](elseif: $haveBaby is true and $onTime is true and $myReason is &quot;Medicine&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 5&quot;)](elseif: $haveBaby is true and $onTime is false and $myReason is &quot;Medicine&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 6&quot;)](elseif: $haveBaby is false and $onTime is true and $myReason is &quot;Medicine&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 7&quot;)](elseif: $haveBaby is false and $onTime is false and $myReason is &quot;Medicine&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 8&quot;)](elseif: $haveBaby is true and $onTime is true and $myReason is &quot;Train&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 9&quot;)](elseif: $haveBaby is true and $onTime is false and $myReason is &quot;Train&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 10&quot;)](elseif: $haveBaby is false and $onTime is true and $myReason is &quot;Train&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 11&quot;)](elseif: $haveBaby is false and $onTime is false and $myReason is &quot;Train&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 12&quot;)](else:)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 13&quot;)]</tw-passagedata><tw-passagedata pid="28" name="Test Passage" tags="" position="2107,451" size="100,100">(set: $haveBaby to true)
 (set: $onTime to false)
 (set: $myReason to &quot;Grandma&quot;)
 (display: &quot;Endings&quot;)</tw-passagedata><tw-passagedata pid="29" name="Ending 13" tags="" position="1962,946" size="100,100">You shouldn&#39;t be here.
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="30" name="Emergency Services" tags="" position="1001.6666666666669,800.0000000000001" size="100,100">(display: &quot;Clock&quot;)(set: $called to true)(set: $waitTime to 1)(set: $location to &quot;Exit&quot;)
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="30" name="Emergency Services" tags="" position="1001.6666666666669,795.0000000000002" size="100,100">(display: &quot;Clock&quot;)(set: $called to true)(set: $waitTime to 1)(set: $location to &quot;Bench&quot;)
 [&lt;span class = &quot;character3&quot;&gt;“Hello, Emergency Services. Do you need fire, police or ambulance?”&lt;/span&gt;]&lt;first|
 
 (click: ?first)[&lt;span class = &quot;character1&quot;&gt;(In background) &quot;Let&#39;s ask for the firemen!&quot;]&lt;second|
@@ -420,15 +444,53 @@ You creep along the edge of the path, making sure to keep your feet along the gr
 
 (click: ?eighth)[&lt;span class = &quot;character3&quot;&gt;&quot;What is your emergency?&quot;&lt;/span&gt;]&lt;ninth|
 
-[[Hang Up -&gt;Bench]]</tw-passagedata><tw-passagedata pid="31" name="Riverside WB" tags="" position="201.66666666666669,1473.3333333333335" size="100,100">(display: &quot;Clock&quot;)
+(click: ?ninth)[&lt;span class = &quot;character2&quot;&gt;&quot;I&#39;m visiting Richmond Park with my sister, and we found a baby on a bench. There doesn&#39;t appear to be anyone else nearby.&quot;&lt;/span&gt;]&lt;tenth|
+
+(click: ?tenth)[&lt;span class = &quot;character1&quot;&gt;(In background) &quot;It&#39;s sooooo *CUTE*!&quot;&lt;/span&gt;]&lt;eleventh|
+
+(click: ?eleventh)[&lt;span class = &quot;character3&quot;&gt;&quot;Is the baby breathing?&quot;&lt;/span&gt;]&lt;twelfth|
+
+(click: ?twelfth)[Check Baby]&lt;thirteenth|
+
+(click: ?thirteenth)[*GIGGLE*]&lt;fourteenth|
+
+(click: ?fourteenth)[&quot;The baby appears to be alive and well, just alone. We don&#39;t know what to do, and our train is leaving soon!&quot;]&lt;fifteenth|
+
+(click: ?fifteenth)[&lt;span class = &quot;character3&quot;&gt;&quot;Okay. We&#39;re going to send some officers to your location as soon as possible. Please stay with the child until they arrive. If the parents return, please ask them to stay so they can speak with the officers&quot;&lt;/span&gt;]&lt;sixteenth|
+
+(if: $location is &quot;Bench&quot;)[(click: ?sixteenth)[&quot;Okay...&quot;[[Hang Up -&gt;Bench]]]](elseif: $location is &quot;Exit&quot;)[(click: ?sixteenth)[&quot;Okay...&quot;[[Hang Up -&gt;Park Exit WB]]]](elseif: $location is &quot;Riverside&quot;)[(click: ?sixteenth)[&quot;Okay...&quot;[[Hang Up -&gt;Riverside WB]]]](elseif: $location is &quot;Street&quot;)[(click: ?sixteenth)[&quot;Okay...&quot;[[Hang Up -&gt;Main Street WB]]]]</tw-passagedata><tw-passagedata pid="31" name="Riverside WB" tags="" position="200.00000000000003,1451.6666666666667" size="100,100">(set: $minutes to $minutes + 10)(display: &quot;Clock&quot;)
+
+You are standing along the riverside in Richmond. You can see boats moored against the bank, and a set of large stairs to your right where people are gathering to drink coffee and socialize. There is a light blue door fitted within an archway entitled &quot;Tide Tables Cafe.&quot;
+
+The road ahead leads to the main city street, and the path behind you leads to the park exit.
+
+(if: $called is false)[(set: $location to &quot;Riverside&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 30)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes - 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Riverside WB&quot;)]]
+
 [[Head Back Towards Park Exit -&gt;Park Exit WB]]
-[[Head Towards the Train Station -&gt;Main Street WB]]</tw-passagedata><tw-passagedata pid="32" name="Riverside NB" tags="" position="612.3333333333334,1446.333333333333" size="100,100">(display: &quot;Clock&quot;)
+
+[[Head Towards the Train Station -&gt;Main Street WB]]</tw-passagedata><tw-passagedata pid="32" name="Riverside NB" tags="" position="612.3333333333334,1444.6666666666663" size="100,100">(set: $minutes to $minutes + 10)(display: &quot;Clock&quot;)
+
+You are standing along the riverside in Richmond. You can see boats moored against the bank, and a set of large stairs to your right where people are gathering to drink coffee and socialize. There is a light blue door fitted within an archway entitled &quot;Tide Tables Cafe.&quot;
+
+The road ahead leads to the main city street, and the path behind you leads to the park exit.
+
 [[Head Back Towards Park Exit -&gt;Park Exit NB]]
-[[Head Towards the Train Station -&gt;Main Street NB]]</tw-passagedata><tw-passagedata pid="33" name="Park Exit WB" tags="" position="204.99999999999997,1263.3333333333335" size="100,100">(display: &quot;Clock&quot;)
+
+[[Head Towards the Train Station -&gt;Main Street NB]]</tw-passagedata><tw-passagedata pid="33" name="Park Exit WB" tags="" position="204.99999999999997,1263.3333333333335" size="100,100">(set: $minutes to $minutes + 10)(display: &quot;Clock&quot;)
+
+You are standing in a clearing near a sign that tells you that you just walked along the road for crossing during floods. Ahead of you is the path that leads along the riverside towards the city. The path behind you leads to the bench where you found the baby.
+
+(if: $called is false)[(set: $location to &quot;Exit&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 30)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes - 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Park Exit WB&quot;)]]
+
 [[Head Back Towards the Bench -&gt;Bench]]
-[[Head Towards the Train Station -&gt;Riverside WB]]</tw-passagedata><tw-passagedata pid="34" name="Park Exit NB" tags="" position="619,1247.9999999999995" size="100,100">(display: &quot;Clock&quot;)
+
+[[Head Towards the Train Station -&gt;Riverside WB]]</tw-passagedata><tw-passagedata pid="34" name="Park Exit NB" tags="" position="622.3333333333333,1247.9999999999995" size="100,100">(set: $minutes to $minutes + 10)(display: &quot;Clock&quot;)
+
+You are standing in a clearing near a sign that tells you that you just walked along the road for crossing during floods. Ahead of you is the path that leads along the riverside towards the city. The path behind you leads to the bench where you found the baby.
+
 [[Head Back Towards the Bench -&gt;Bench]]
-[[Head Towards the Train Station -&gt;Riverside NB]]</tw-passagedata><tw-passagedata pid="35" name="Bench" tags="" position="392.33333333333326,1056.333333333333" size="100,100">(display: &quot;Clock&quot;)
+
+[[Head Towards the Train Station -&gt;Riverside NB]]</tw-passagedata><tw-passagedata pid="35" name="Bench" tags="" position="392.33333333333326,1054.6666666666663" size="100,100">(display: &quot;Clock&quot;)
 You are near the center of Richmond Park, where there is a small pond with several paths leading away. There is a baby sitting alone on a bench wrapped in what appears to be a very soft blue blanket.
 
 There doesn&#39;t appear to be anyone else around. Your train home leaves from the station in less than an hour. What do you do?
@@ -437,19 +499,60 @@ There doesn&#39;t appear to be anyone else around. Your train home leaves from t
 
 Take the blanket(click-replace: &quot;Take the blanket&quot;)[&quot;You monster!&quot;]
 
-(link: &quot;Wait and see if the parents return&quot;)[(set: $minutes to $minutes + 5)(goto: &quot;Bench&quot;)]
+(link: &quot;Wait and see if the parents return&quot;)[(set: $minutes to $minutes + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Bench&quot;)]
 
-(if: $called is false)[(set: $location to &quot;Bench&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 30)[Emergency Services has arrived to pick up the baby.](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Bench&quot;)]]
+(if: $called is false)[(set: $location to &quot;Bench&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 30)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Bench&quot;)]]
 
-(if: $haveBaby is true)[[[Head towards Train Station -&gt;Park Exit WB]]](else:)[(link: &quot;Pick up Baby&quot;)[(set: $haveBaby to true)(goto: &quot; Picked Up Baby&quot;)]
+(if: $haveBaby is true)[(link: &quot;Leave Baby Behind&quot;)[(set: $haveBaby to false)(goto: &quot;Park Exit NB&quot;)] or [[Head towards Train Station -&gt;Park Exit WB]]](else:)[(link: &quot;Pick up Baby&quot;)[(set: $haveBaby to true)(goto: &quot; Picked Up Baby&quot;)]
 
-[[Leave Baby -&gt; Left Baby]]]
+[[Head Towards Train Station -&gt;Park Exit NB]]]</tw-passagedata><tw-passagedata pid="36" name="Main Street NB" tags="" position="617.3333333333333,1632.9999999999995" size="100,100">(set: $minutes to $minutes + 10)(display: &quot;Clock&quot;)
+The main street in Richmond has much less of the old world charm than the riverside. As you pass along *another* Costa Coffee, you are reminded that you are returning to the bigger city as a whole.
 
-[[Head towards Train Station -&gt;Park Exit NB]]</tw-passagedata><tw-passagedata pid="36" name="Main Street NB" tags="" position="614,1619.6666666666663" size="100,100">(display: &quot;Clock&quot;)
-[[Head Back Towards the Riverside -&gt;Riverside NB]]
-(display: &quot;Endings&quot;)</tw-passagedata><tw-passagedata pid="37" name="Main Street WB" tags="" position="201.66666666666669,1623.3333333333335" size="100,100">(display: &quot;Clock&quot;)
+Ahead of you and to the right is the entrance to the Richmond Park Overground station. If you hadn&#39;t known it was there, you might have walked right past it.
+
+[&lt;span class = &quot;character1&quot;&gt;&quot;I&#39;m not going. We have to go get the baby back.&quot;&lt;/span&gt;]&lt;first|
+
+(click: ?first)[&lt;span class = &quot;character2&quot;&gt;&quot;$char1Name, we can&#39;t go back and get the baby now. We&#39;ll miss our train!&quot;&lt;/span&gt;]&lt;second|
+
+(click: ?second)[&lt;span class = &quot;character1&quot;&gt;&quot;I. Don&#39;t. Care.&quot;&lt;/span&gt;]&lt;third|
+
+(click: ?third)[&lt;span class = &quot;character1&quot;&gt;&quot;You never listen to me. I asked you to help earlier and you didn&#39;t listen.&quot;&lt;/span&gt;]&lt;fourth|
+
+(click: ?fourth)[&lt;span class = &quot;character2&quot;&gt;&quot;I heard you $char1Name, and I&#39;m sorry that we didn&#39;t pick up the baby. Mom and Dad trusted me to take care of you and make sure that we both got back to the train station on time. I&#39;m sure the baby is okay.&quot;&lt;/span&gt;]&lt;fifth|
+
+(click: ?fifth)[&lt;span class = &quot;character1&quot;&gt;&quot;Do you promise?&quot;&lt;/span&gt;]&lt;sixth|
+
+(click: ?sixth)[&lt;span class = &quot;character2&quot;&gt;&quot;I promise&quot;
+
+&quot;Let&#39;s go.&quot;
+
+&quot;...&quot;&lt;/span&gt;]&lt;seventh|
+
+(click: ?seventh)[[[Head Back Towards the Riverside -&gt;Riverside NB]]
+
+(display: &quot;Endings&quot;)]</tw-passagedata><tw-passagedata pid="37" name="Main Street WB" tags="" position="201.66666666666669,1625.0000000000002" size="100,100">(set: $minutes to $minutes + 10)(display: &quot;Clock&quot;)
+
+The main street in Richmond has much less of the old world charm than the riverside. As you pass along *another* Costa Coffee, you are reminded that you are returning to the bigger city as a whole.
+
+Ahead of you and to the right is the entrance to the Richmond Park Overground station. If you hadn&#39;t known it was there, you might have walked right past it.
+
+(if: $called is false)[(set: $location to &quot;Street&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 30)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes - 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Main Street WB&quot;)]]
+
 [[Head Back Towards the Riverside -&gt;Riverside WB]]
-(display: &quot;Endings&quot;)</tw-passagedata></tw-storydata>
+
+(display: &quot;Endings&quot;)</tw-passagedata><tw-passagedata pid="38" name="Emergency Ending" tags="" position="1201.6666666666667,1403.3333333333335" size="100,100">(if: $onTime is true and $myReason is &quot;Grandma&quot;)[Test]
+
+(elseif: $onTime is false and $myReason is &quot;Grandma&quot;)[Test]
+
+(elseif: $onTime is true and $myReason is &quot;Medicine&quot;)[Test]
+
+(elseif: $onTime is false and $myReason is &quot;Medicine&quot;)[Test]
+
+(elseif: $onTime is true and $myReason is &quot;Train&quot;)[Test]
+
+(elseif: $onTime is false and $myReason is &quot;Train&quot;)[Test]
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
