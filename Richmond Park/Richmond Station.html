@@ -453,7 +453,7 @@ You also missed your train. You get ready to take the next train towards Kings C
 (set: $onTime to false)
 (set: $myReason to &quot;Grandma&quot;)
 (display: &quot;Endings&quot;)</tw-passagedata><tw-passagedata pid="29" name="Ending 13" tags="" position="1962,946" size="100,100">You shouldn&#39;t be here.
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="30" name="Emergency Services" tags="" position="1001.6666666666669,795.0000000000002" size="100,100">(display: &quot;Clock&quot;)(set: $called to true)(set: $waitTime to 1)(set: $location to &quot;Bench&quot;)
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="30" name="Emergency Services" tags="" position="1001.6666666666669,793.3333333333336" size="100,100">(display: &quot;Clock&quot;)(set: $called to true)(set: $waitTime to 1)
 [&lt;span class = &quot;character3&quot;&gt;“Hello, Emergency Services. Do you need fire, police or ambulance?”&lt;/span&gt;]&lt;first|
 
 (click: ?first)[&lt;span class = &quot;character1&quot;&gt;(In background) &quot;Let&#39;s ask for the firemen!&quot;]&lt;second|
@@ -468,7 +468,7 @@ You also missed your train. You get ready to take the next train towards Kings C
 
 (click: ?sixth)[&lt;span class = &quot;character3&quot;&gt;&quot;Where are you now?&quot;&lt;/span&gt;]&lt;seventh|
 
-(if: $location is &quot;Bench&quot;)[(click: ?seventh)[&lt;span class = &quot;character2&quot;&gt;&quot;I&#39;m near the center of Richmond Park, near a pond with a bench&quot;&lt;/span&gt;]&lt;eighth|](elseif: $location is &quot;Exit&quot;)[(click: ?seventh)[&lt;span class = &quot;character2&quot;&gt;&quot;I&#39;m near the exit of Richmond Park, near the road leading to the riverside.&quot;&lt;/span&gt;]&lt;eighth|](elseif: $location is &quot;Riverside&quot;)[(click: ?seventh)[&lt;span class = &quot;character2&quot;&gt;&quot;I&#39;m near the exit of Richmond Park, near the road leading to the riverside.&quot;&lt;/span&gt;]&lt;eighth|](elseif: $location is &quot;Street&quot;)[(click: ?seventh)[&lt;span class = &quot;character2&quot;&gt;&quot;I&#39;m near the exit of Richmond Park, near the road leading to the riverside.&quot;&lt;/span&gt;]&lt;eighth|]
+(if: $location is &quot;Bench&quot;)[(click: ?seventh)[&lt;span class = &quot;character2&quot;&gt;&quot;I&#39;m near the center of Richmond Park, near a pond with a bench&quot;&lt;/span&gt;]&lt;eighth|](elseif: $location is &quot;Exit&quot;)[(click: ?seventh)[&lt;span class = &quot;character2&quot;&gt;&quot;I&#39;m near the exit of Richmond Park, near the road leading to the riverside.&quot;&lt;/span&gt;]&lt;eighth|](elseif: $location is &quot;Riverside&quot;)[(click: ?seventh)[&lt;span class = &quot;character2&quot;&gt;&quot;I&#39;m near the Tide Tables Cafe on the riverside.&quot;&lt;/span&gt;]&lt;eighth|](elseif: $location is &quot;Street&quot;)[(click: ?seventh)[&lt;span class = &quot;character2&quot;&gt;&quot;I&#39;m on the main road, near the entrance to Richmond Station.&quot;&lt;/span&gt;]&lt;eighth|]
 
 (click: ?eighth)[&lt;span class = &quot;character3&quot;&gt;&quot;What is your emergency?&quot;&lt;/span&gt;]&lt;ninth|
 
