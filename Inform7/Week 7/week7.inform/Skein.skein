@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1002">
+<Skein rootNode="node-1165">
     <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
-    <item nodeId="node-1002">
+    <item nodeId="node-1165">
         <command xml:space="preserve">week7</command>
         <result xml:space="preserve">
 
@@ -15,12 +15,12 @@ New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1057"></child>
-            <child nodeId="node-1013"></child>
-            <child nodeId="node-1003"></child>
+        <children><child nodeId="node-1251"></child>
+            <child nodeId="node-1249"></child>
+            <child nodeId="node-1166"></child>
         </children>
     </item>
-    <item nodeId="node-1003">
+    <item nodeId="node-1166">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
@@ -28,34 +28,34 @@ You can see a BPB door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1018"></child>
-            <child nodeId="node-1004"></child>
-            <child nodeId="node-1146"></child>
-            <child nodeId="node-1159"></child>
-            <child nodeId="node-1162"></child>
-            <child nodeId="node-1157"></child>
-            <child nodeId="node-1148"></child>
+        <children><child nodeId="node-1186"></child>
+            <child nodeId="node-1177"></child>
+            <child nodeId="node-1176"></child>
+            <child nodeId="node-1174"></child>
+            <child nodeId="node-1173"></child>
+            <child nodeId="node-1172"></child>
+            <child nodeId="node-1167"></child>
         </children>
     </item>
-    <item nodeId="node-1148">
+    <item nodeId="node-1167">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">(first opening the BPB door)
 It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1149"></child>
+        <children><child nodeId="node-1168"></child>
         </children>
     </item>
-    <item nodeId="node-1149">
+    <item nodeId="node-1168">
         <command xml:space="preserve">swipe keycard in door</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1154"></child>
-            <child nodeId="node-1150"></child>
+        <children><child nodeId="node-1170"></child>
+            <child nodeId="node-1169"></child>
         </children>
     </item>
-    <item nodeId="node-1150">
+    <item nodeId="node-1169">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">(first opening the BPB door)
 It seems to be locked.
@@ -63,14 +63,14 @@ It seems to be locked.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1154">
+    <item nodeId="node-1170">
         <command xml:space="preserve">swipe keycard in card reader</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1155"></child>
+        <children><child nodeId="node-1171"></child>
         </children>
     </item>
-    <item nodeId="node-1155">
+    <item nodeId="node-1171">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">(first opening the BPB door)
 It seems to be locked.
@@ -78,7 +78,7 @@ It seems to be locked.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1157">
+    <item nodeId="node-1172">
         <command xml:space="preserve">unlock door</command>
         <result xml:space="preserve">(with the keycard)
 The BPB doors unlock. The automatic opening mechanism looks non-functional today. Maybe it's too cold?
@@ -86,7 +86,7 @@ The BPB doors unlock. The automatic opening mechanism looks non-functional today
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1162">
+    <item nodeId="node-1173">
         <command xml:space="preserve">unlock card reader</command>
         <result xml:space="preserve">(with the keycard)
 That doesn't seem to be something you can unlock.
@@ -94,99 +94,99 @@ That doesn't seem to be something you can unlock.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1159">
+    <item nodeId="node-1174">
         <command xml:space="preserve">swipe keycard in door</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1160"></child>
+        <children><child nodeId="node-1175"></child>
         </children>
     </item>
-    <item nodeId="node-1160">
+    <item nodeId="node-1175">
         <command xml:space="preserve">swipe keycard in card reader</command>
         <result xml:space="preserve">The BPB doors unlock. The automatic opening mechanism looks non-functional today. Maybe it's too cold?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1146">
+    <item nodeId="node-1176">
         <command xml:space="preserve">swipe keycard in card reader</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1004">
+    <item nodeId="node-1177">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1005"></child>
+        <children><child nodeId="node-1178"></child>
         </children>
     </item>
-    <item nodeId="node-1005">
+    <item nodeId="node-1178">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1006"></child>
+        <children><child nodeId="node-1179"></child>
         </children>
     </item>
-    <item nodeId="node-1006">
+    <item nodeId="node-1179">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1007"></child>
+        <children><child nodeId="node-1180"></child>
         </children>
     </item>
-    <item nodeId="node-1007">
+    <item nodeId="node-1180">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1008"></child>
+        <children><child nodeId="node-1181"></child>
         </children>
     </item>
-    <item nodeId="node-1008">
+    <item nodeId="node-1181">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1009"></child>
+        <children><child nodeId="node-1182"></child>
         </children>
     </item>
-    <item nodeId="node-1009">
+    <item nodeId="node-1182">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1010"></child>
+        <children><child nodeId="node-1183"></child>
         </children>
     </item>
-    <item nodeId="node-1010">
+    <item nodeId="node-1183">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1011"></child>
+        <children><child nodeId="node-1184"></child>
         </children>
     </item>
-    <item nodeId="node-1011">
+    <item nodeId="node-1184">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1012"></child>
+        <children><child nodeId="node-1185"></child>
         </children>
     </item>
-    <item nodeId="node-1012">
+    <item nodeId="node-1185">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 GDS
@@ -200,54 +200,54 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1018">
+    <item nodeId="node-1186">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1019"></child>
-            <child nodeId="node-1038"></child>
+        <children><child nodeId="node-1192"></child>
+            <child nodeId="node-1187"></child>
         </children>
     </item>
-    <item nodeId="node-1038">
+    <item nodeId="node-1187">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1039"></child>
+        <children><child nodeId="node-1188"></child>
         </children>
     </item>
-    <item nodeId="node-1039">
+    <item nodeId="node-1188">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1040"></child>
+        <children><child nodeId="node-1189"></child>
         </children>
     </item>
-    <item nodeId="node-1040">
+    <item nodeId="node-1189">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1041"></child>
+        <children><child nodeId="node-1190"></child>
         </children>
     </item>
-    <item nodeId="node-1041">
+    <item nodeId="node-1190">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1042"></child>
+        <children><child nodeId="node-1191"></child>
         </children>
     </item>
-    <item nodeId="node-1042">
+    <item nodeId="node-1191">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
@@ -261,18 +261,18 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1019">
+    <item nodeId="node-1192">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1046"></child>
-            <child nodeId="node-1020"></child>
+        <children><child nodeId="node-1209"></child>
+            <child nodeId="node-1193"></child>
         </children>
     </item>
-    <item nodeId="node-1020">
+    <item nodeId="node-1193">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 GDS
@@ -285,10 +285,10 @@ GDS
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1021"></child>
+        <children><child nodeId="node-1194"></child>
         </children>
     </item>
-    <item nodeId="node-1021">
+    <item nodeId="node-1194">
         <command xml:space="preserve">restart</command>
         <result xml:space="preserve">
 
@@ -301,128 +301,128 @@ New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1022"></child>
+        <children><child nodeId="node-1195"></child>
         </children>
     </item>
-    <item nodeId="node-1022">
+    <item nodeId="node-1195">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1023"></child>
+        <children><child nodeId="node-1196"></child>
         </children>
     </item>
-    <item nodeId="node-1023">
+    <item nodeId="node-1196">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1024"></child>
+        <children><child nodeId="node-1197"></child>
         </children>
     </item>
-    <item nodeId="node-1024">
+    <item nodeId="node-1197">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1025"></child>
+        <children><child nodeId="node-1198"></child>
         </children>
     </item>
-    <item nodeId="node-1025">
+    <item nodeId="node-1198">
         <command xml:space="preserve">b</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1026"></child>
+        <children><child nodeId="node-1199"></child>
         </children>
     </item>
-    <item nodeId="node-1026">
+    <item nodeId="node-1199">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1027"></child>
+        <children><child nodeId="node-1200"></child>
         </children>
     </item>
-    <item nodeId="node-1027">
+    <item nodeId="node-1200">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1028"></child>
+        <children><child nodeId="node-1201"></child>
         </children>
     </item>
-    <item nodeId="node-1028">
+    <item nodeId="node-1201">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1029"></child>
+        <children><child nodeId="node-1202"></child>
         </children>
     </item>
-    <item nodeId="node-1029">
+    <item nodeId="node-1202">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1030"></child>
+        <children><child nodeId="node-1203"></child>
         </children>
     </item>
-    <item nodeId="node-1030">
+    <item nodeId="node-1203">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1031"></child>
+        <children><child nodeId="node-1204"></child>
         </children>
     </item>
-    <item nodeId="node-1031">
+    <item nodeId="node-1204">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1032"></child>
+        <children><child nodeId="node-1205"></child>
         </children>
     </item>
-    <item nodeId="node-1032">
+    <item nodeId="node-1205">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1033"></child>
+        <children><child nodeId="node-1206"></child>
         </children>
     </item>
-    <item nodeId="node-1033">
+    <item nodeId="node-1206">
         <command xml:space="preserve">rules</command>
         <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1034"></child>
+        <children><child nodeId="node-1207"></child>
         </children>
     </item>
-    <item nodeId="node-1034">
+    <item nodeId="node-1207">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
 [Rule "standard set going variables rule" applies.]
@@ -486,10 +486,10 @@ Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1035"></child>
+        <children><child nodeId="node-1208"></child>
         </children>
     </item>
-    <item nodeId="node-1035">
+    <item nodeId="node-1208">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
 [Rule "standard set going variables rule" applies.]
@@ -554,101 +554,101 @@ New Cross Road
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1046">
+    <item nodeId="node-1209">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1069"></child>
-            <child nodeId="node-1047"></child>
+        <children><child nodeId="node-1220"></child>
+            <child nodeId="node-1210"></child>
         </children>
     </item>
-    <item nodeId="node-1047">
+    <item nodeId="node-1210">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1048"></child>
+        <children><child nodeId="node-1211"></child>
         </children>
     </item>
-    <item nodeId="node-1048">
+    <item nodeId="node-1211">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1049"></child>
+        <children><child nodeId="node-1212"></child>
         </children>
     </item>
-    <item nodeId="node-1049">
+    <item nodeId="node-1212">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1050"></child>
+        <children><child nodeId="node-1213"></child>
         </children>
     </item>
-    <item nodeId="node-1050">
+    <item nodeId="node-1213">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1051"></child>
+        <children><child nodeId="node-1214"></child>
         </children>
     </item>
-    <item nodeId="node-1051">
+    <item nodeId="node-1214">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1052"></child>
+        <children><child nodeId="node-1215"></child>
         </children>
     </item>
-    <item nodeId="node-1052">
+    <item nodeId="node-1215">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1053"></child>
+        <children><child nodeId="node-1216"></child>
         </children>
     </item>
-    <item nodeId="node-1053">
+    <item nodeId="node-1216">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1054"></child>
+        <children><child nodeId="node-1217"></child>
         </children>
     </item>
-    <item nodeId="node-1054">
+    <item nodeId="node-1217">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1055"></child>
+        <children><child nodeId="node-1218"></child>
         </children>
     </item>
-    <item nodeId="node-1055">
+    <item nodeId="node-1218">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1056"></child>
+        <children><child nodeId="node-1219"></child>
         </children>
     </item>
-    <item nodeId="node-1056">
+    <item nodeId="node-1219">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
@@ -662,34 +662,34 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1069">
+    <item nodeId="node-1220">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1070"></child>
+        <children><child nodeId="node-1221"></child>
         </children>
     </item>
-    <item nodeId="node-1070">
+    <item nodeId="node-1221">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1071"></child>
+        <children><child nodeId="node-1222"></child>
         </children>
     </item>
-    <item nodeId="node-1071">
+    <item nodeId="node-1222">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1072"></child>
+        <children><child nodeId="node-1223"></child>
         </children>
     </item>
-    <item nodeId="node-1072">
+    <item nodeId="node-1223">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
@@ -702,10 +702,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1073"></child>
+        <children><child nodeId="node-1224"></child>
         </children>
     </item>
-    <item nodeId="node-1073">
+    <item nodeId="node-1224">
         <command xml:space="preserve">restart</command>
         <result xml:space="preserve">
 
@@ -718,10 +718,10 @@ New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1074"></child>
+        <children><child nodeId="node-1225"></child>
         </children>
     </item>
-    <item nodeId="node-1074">
+    <item nodeId="node-1225">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 New Cross Station
@@ -729,247 +729,247 @@ You can see some snowshoes here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1075"></child>
+        <children><child nodeId="node-1226"></child>
         </children>
     </item>
-    <item nodeId="node-1075">
+    <item nodeId="node-1226">
         <command xml:space="preserve">wear snowshoes</command>
         <result xml:space="preserve">(first taking the snowshoes)
 You put on the snowshoes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1076"></child>
+        <children><child nodeId="node-1227"></child>
         </children>
     </item>
-    <item nodeId="node-1076">
+    <item nodeId="node-1227">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1077"></child>
+        <children><child nodeId="node-1228"></child>
         </children>
     </item>
-    <item nodeId="node-1077">
+    <item nodeId="node-1228">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1078"></child>
+        <children><child nodeId="node-1229"></child>
         </children>
     </item>
-    <item nodeId="node-1078">
+    <item nodeId="node-1229">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1079"></child>
+        <children><child nodeId="node-1230"></child>
         </children>
     </item>
-    <item nodeId="node-1079">
+    <item nodeId="node-1230">
         <command xml:space="preserve">sn</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1080"></child>
+        <children><child nodeId="node-1231"></child>
         </children>
     </item>
-    <item nodeId="node-1080">
+    <item nodeId="node-1231">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1081"></child>
+        <children><child nodeId="node-1232"></child>
         </children>
     </item>
-    <item nodeId="node-1081">
+    <item nodeId="node-1232">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1082"></child>
+        <children><child nodeId="node-1233"></child>
         </children>
     </item>
-    <item nodeId="node-1082">
+    <item nodeId="node-1233">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1083"></child>
+        <children><child nodeId="node-1234"></child>
         </children>
     </item>
-    <item nodeId="node-1083">
+    <item nodeId="node-1234">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1084"></child>
+        <children><child nodeId="node-1235"></child>
         </children>
     </item>
-    <item nodeId="node-1084">
+    <item nodeId="node-1235">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1085"></child>
+        <children><child nodeId="node-1236"></child>
         </children>
     </item>
-    <item nodeId="node-1085">
+    <item nodeId="node-1236">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1086"></child>
+        <children><child nodeId="node-1237"></child>
         </children>
     </item>
-    <item nodeId="node-1086">
+    <item nodeId="node-1237">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1087"></child>
+        <children><child nodeId="node-1238"></child>
         </children>
     </item>
-    <item nodeId="node-1087">
+    <item nodeId="node-1238">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1088"></child>
+        <children><child nodeId="node-1239"></child>
         </children>
     </item>
-    <item nodeId="node-1088">
+    <item nodeId="node-1239">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1089"></child>
+        <children><child nodeId="node-1240"></child>
         </children>
     </item>
-    <item nodeId="node-1089">
+    <item nodeId="node-1240">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1090"></child>
+        <children><child nodeId="node-1241"></child>
         </children>
     </item>
-    <item nodeId="node-1090">
+    <item nodeId="node-1241">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1091"></child>
+        <children><child nodeId="node-1242"></child>
         </children>
     </item>
-    <item nodeId="node-1091">
+    <item nodeId="node-1242">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1092"></child>
+        <children><child nodeId="node-1243"></child>
         </children>
     </item>
-    <item nodeId="node-1092">
+    <item nodeId="node-1243">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1093"></child>
+        <children><child nodeId="node-1244"></child>
         </children>
     </item>
-    <item nodeId="node-1093">
+    <item nodeId="node-1244">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1094"></child>
+        <children><child nodeId="node-1245"></child>
         </children>
     </item>
-    <item nodeId="node-1094">
+    <item nodeId="node-1245">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1095"></child>
+        <children><child nodeId="node-1246"></child>
         </children>
     </item>
-    <item nodeId="node-1095">
+    <item nodeId="node-1246">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1096"></child>
+        <children><child nodeId="node-1247"></child>
         </children>
     </item>
-    <item nodeId="node-1096">
+    <item nodeId="node-1247">
         <command xml:space="preserve">quit</command>
         <result xml:space="preserve">Are you sure you want to quit? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1097"></child>
+        <children><child nodeId="node-1248"></child>
         </children>
     </item>
-    <item nodeId="node-1097">
+    <item nodeId="node-1248">
         <command xml:space="preserve">yes</command>
         <result xml:space="preserve"></result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1013">
+    <item nodeId="node-1249">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1014"></child>
+        <children><child nodeId="node-1250"></child>
         </children>
     </item>
-    <item nodeId="node-1014">
+    <item nodeId="node-1250">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">as you head off, you slip on the ground.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1057">
+    <item nodeId="node-1251">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 New Cross Station
@@ -977,31 +977,31 @@ You can see some snowshoes here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1060"></child>
-            <child nodeId="node-1058"></child>
+        <children><child nodeId="node-1256"></child>
+            <child nodeId="node-1252"></child>
         </children>
     </item>
-    <item nodeId="node-1058">
+    <item nodeId="node-1252">
         <command xml:space="preserve">wear snowshoes</command>
         <result xml:space="preserve">(first taking the snowshoes)
 You put on the snowshoes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1142"></child>
+        <children><child nodeId="node-1253"></child>
         </children>
     </item>
-    <item nodeId="node-1142">
+    <item nodeId="node-1253">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 New Cross Road
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1143"></child>
+        <children><child nodeId="node-1254"></child>
         </children>
     </item>
-    <item nodeId="node-1143">
+    <item nodeId="node-1254">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
@@ -1009,36 +1009,36 @@ You can see a BPB door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1144"></child>
+        <children><child nodeId="node-1255"></child>
         </children>
     </item>
-    <item nodeId="node-1144">
+    <item nodeId="node-1255">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">You see nothing special about the BPB door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1060">
+    <item nodeId="node-1256">
         <command xml:space="preserve">wear shoes</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1061"></child>
+        <children><child nodeId="node-1257"></child>
         </children>
     </item>
-    <item nodeId="node-1061">
+    <item nodeId="node-1257">
         <command xml:space="preserve">wear snowshoes</command>
         <result xml:space="preserve">(first taking the snowshoes)
 You put on the snowshoes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1062"></child>
+        <children><child nodeId="node-1258"></child>
         </children>
     </item>
-    <item nodeId="node-1062">
+    <item nodeId="node-1258">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   some snowshoes (being worn)
