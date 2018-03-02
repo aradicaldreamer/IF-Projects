@@ -24,12 +24,94 @@ New Cross Road
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Laurie Grove
+You can see a BPB door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1018"></child>
             <child nodeId="node-1004"></child>
+            <child nodeId="node-1146"></child>
+            <child nodeId="node-1159"></child>
+            <child nodeId="node-1162"></child>
+            <child nodeId="node-1157"></child>
+            <child nodeId="node-1148"></child>
         </children>
+    </item>
+    <item nodeId="node-1148">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening the BPB door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1149"></child>
+        </children>
+    </item>
+    <item nodeId="node-1149">
+        <command xml:space="preserve">swipe keycard in door</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1154"></child>
+            <child nodeId="node-1150"></child>
+        </children>
+    </item>
+    <item nodeId="node-1150">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening the BPB door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1154">
+        <command xml:space="preserve">swipe keycard in card reader</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1155"></child>
+        </children>
+    </item>
+    <item nodeId="node-1155">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening the BPB door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1157">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">(with the keycard)
+The BPB doors unlock. The automatic opening mechanism looks non-functional today. Maybe it's too cold?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1162">
+        <command xml:space="preserve">unlock card reader</command>
+        <result xml:space="preserve">(with the keycard)
+That doesn't seem to be something you can unlock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1159">
+        <command xml:space="preserve">swipe keycard in door</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1160"></child>
+        </children>
+    </item>
+    <item nodeId="node-1160">
+        <command xml:space="preserve">swipe keycard in card reader</command>
+        <result xml:space="preserve">The BPB doors unlock. The automatic opening mechanism looks non-functional today. Maybe it's too cold?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1146">
+        <command xml:space="preserve">swipe keycard in card reader</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1004">
         <command xml:space="preserve">s</command>
@@ -903,6 +985,36 @@ You can see some snowshoes here.
         <command xml:space="preserve">wear snowshoes</command>
         <result xml:space="preserve">(first taking the snowshoes)
 You put on the snowshoes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1142"></child>
+        </children>
+    </item>
+    <item nodeId="node-1142">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+New Cross Road
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1143"></child>
+        </children>
+    </item>
+    <item nodeId="node-1143">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Laurie Grove
+You can see a BPB door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1144"></child>
+        </children>
+    </item>
+    <item nodeId="node-1144">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">You see nothing special about the BPB door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
