@@ -310,7 +310,7 @@ Take the blanket(click-replace: &quot;Take the blanket&quot;)[&quot;You monster!
 
 (link: &quot;Wait and see if the parents return&quot;)[(set: $minutes to $minutes + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Find Baby&quot;)]
 
-(if: $called is false)[(set: $location to &quot;Bench&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 30)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Find Baby&quot;)]]
+(if: $called is false)[(set: $location to &quot;Bench&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 20)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Find Baby&quot;)]]
 
 (link: &quot;Pick up Baby&quot;)[(set: $haveBaby to true)(goto: &quot; Picked Up Baby&quot;)]
 
@@ -492,7 +492,7 @@ You are standing along the riverside in Richmond. You can see boats moored again
 
 The road ahead leads to the main city street, and the path behind you leads to the park exit.
 
-(if: $called is false)[(set: $location to &quot;Riverside&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 30)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes - $movementSpeed + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Riverside WB&quot;)]]
+(if: $called is false)[(set: $location to &quot;Riverside&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 15)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes - 2)(set: $waitTime to $waitTime + 5)(goto: &quot;Riverside WB&quot;)]]
 
 [[Head Back Towards Park Exit -&gt;Park Exit WB]]
 
@@ -508,7 +508,7 @@ The road ahead leads to the main city street, and the path behind you leads to t
 
 You are standing in a clearing near a sign that tells you that you just walked along the road for crossing during floods. Ahead of you is the path that leads along the riverside towards the city. The path behind you leads to the bench where you found the baby.
 
-(if: $called is false)[(set: $location to &quot;Exit&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 30)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes - $movementSpeed + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Park Exit WB&quot;)]]
+(if: $called is false)[(set: $location to &quot;Exit&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 15)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes - 2)(set: $waitTime to $waitTime + 5)(goto: &quot;Park Exit WB&quot;)]]
 
 [[Head Back Towards the Bench -&gt;Bench]]
 
@@ -529,7 +529,7 @@ Take the blanket(click-replace: &quot;Take the blanket&quot;)[&quot;You monster!
 
 (link: &quot;Wait and see if the parents return&quot;)[(set: $minutes to $minutes + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Bench&quot;)]
 
-(if: $called is false)[(set: $location to &quot;Bench&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 30)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Bench&quot;)]]
+(if: $called is false)[(set: $location to &quot;Bench&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 20)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Bench&quot;)]]
 
 (if: $haveBaby is true)[(link: &quot;Leave Baby Behind&quot;)[(set: $haveBaby to false)(goto: &quot;Park Exit NB&quot;)] or [[Head towards Train Station -&gt;Park Exit WB]]](else:)[(link: &quot;Pick up Baby&quot;)[(set: $haveBaby to true)(goto: &quot; Picked Up Baby&quot;)]
 
@@ -546,7 +546,7 @@ The main street in Richmond has much less of the old world charm than the rivers
 
 Ahead of you and to the right is the entrance to the Richmond Park Overground station. If you hadn&#39;t known it was there, you might have walked right past it.
 
-(if: $called is false)[(set: $location to &quot;Street&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 30)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes - $movementSpeed + 5)(set: $waitTime to $waitTime + 5)(goto: &quot;Main Street WB&quot;)]]
+(if: $called is false)[(set: $location to &quot;Street&quot;)[[Call Emergency Services -&gt;Emergency Services]]](elseif: $called is true and $waitTime &gt; 15)[[[Emergency Services has arrived to pick up the baby. -&gt;Emergency Ending]]](else:)[You have contacted emergency services and they have advised you to stay put and wait for help to arrive. (link: &quot;Wait here?&quot;)[(set: $minutes to $minutes - 2)(set: $waitTime to $waitTime + 5)(goto: &quot;Main Street WB&quot;)]]
 
 [[Head Back Towards the Riverside -&gt;Riverside WB]]
 
