@@ -1,0 +1,440 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1100">
+    <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
+    <item nodeId="node-1100">
+        <command xml:space="preserve">Sand Dancer</command>
+        <result xml:space="preserve">
+
+
+Sand Dancer
+An Interactive Fiction by Matthew Deline
+Release 1 / Serial number 180302 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Middle of Nowhere
+You can see a tall Saguaro, a worn-out shoe and a water bottle (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1134"></child>
+            <child nodeId="node-1114"></child>
+            <child nodeId="node-1109"></child>
+            <child nodeId="node-1104"></child>
+            <child nodeId="node-1101"></child>
+        </children>
+    </item>
+    <item nodeId="node-1101">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1102"></child>
+        </children>
+    </item>
+    <item nodeId="node-1102">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Middle of Nowhere
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1103"></child>
+        </children>
+    </item>
+    <item nodeId="node-1103">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Crumbling Concrete
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1104">
+        <command xml:space="preserve">pick up Saguaro</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1105"></child>
+        </children>
+    </item>
+    <item nodeId="node-1105">
+        <command xml:space="preserve">pick up shoe</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1106"></child>
+        </children>
+    </item>
+    <item nodeId="node-1106">
+        <command xml:space="preserve">throw shoe</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1107"></child>
+        </children>
+    </item>
+    <item nodeId="node-1107">
+        <command xml:space="preserve">look at show</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1108"></child>
+        </children>
+    </item>
+    <item nodeId="node-1108">
+        <command xml:space="preserve">look at shoe</command>
+        <result xml:space="preserve">You see nothing special about the worn-out shoe.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1109">
+        <command xml:space="preserve">open bottle</command>
+        <result xml:space="preserve">You open the water bottle, revealing some dust.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1110"></child>
+        </children>
+    </item>
+    <item nodeId="node-1110">
+        <command xml:space="preserve">take dust</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1111"></child>
+        </children>
+    </item>
+    <item nodeId="node-1111">
+        <command xml:space="preserve">put cigarettes in bottle</command>
+        <result xml:space="preserve">You put the pack of cigarettes into the water bottle.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1112"></child>
+        </children>
+    </item>
+    <item nodeId="node-1112">
+        <command xml:space="preserve">close bottle</command>
+        <result xml:space="preserve">You close the water bottle.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1113"></child>
+        </children>
+    </item>
+    <item nodeId="node-1113">
+        <command xml:space="preserve">smoke dust</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1114">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Crumbling Concrete
+You can see some faded graffiti and a doorway leading inside here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1130"></child>
+            <child nodeId="node-1115"></child>
+        </children>
+    </item>
+    <item nodeId="node-1115">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Crumbling Concrete
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1116"></child>
+        </children>
+    </item>
+    <item nodeId="node-1116">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1117"></child>
+        </children>
+    </item>
+    <item nodeId="node-1117">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1118"></child>
+        </children>
+    </item>
+    <item nodeId="node-1118">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Weed-strewn Rust
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1119"></child>
+        </children>
+    </item>
+    <item nodeId="node-1119">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1120"></child>
+        </children>
+    </item>
+    <item nodeId="node-1120">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Crumbling Concrete
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1121"></child>
+        </children>
+    </item>
+    <item nodeId="node-1121">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Middle of Nowhere
+You can see a tall Saguaro, a worn-out shoe and an empty water bottle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1122"></child>
+        </children>
+    </item>
+    <item nodeId="node-1122">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Crumbling Concrete
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1123"></child>
+        </children>
+    </item>
+    <item nodeId="node-1123">
+        <command xml:space="preserve">enter</command>
+        <result xml:space="preserve">You must supply a noun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1124"></child>
+        </children>
+    </item>
+    <item nodeId="node-1124">
+        <command xml:space="preserve">inside</command>
+        <result xml:space="preserve">
+Staging Area
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1125"></child>
+        </children>
+    </item>
+    <item nodeId="node-1125">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Staging Area
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1126"></child>
+        </children>
+    </item>
+    <item nodeId="node-1126">
+        <command xml:space="preserve">x cage</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1127"></child>
+        </children>
+    </item>
+    <item nodeId="node-1127">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Break Room
+You can see a wire mesh cage (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1128"></child>
+        </children>
+    </item>
+    <item nodeId="node-1128">
+        <command xml:space="preserve">open cage</command>
+        <result xml:space="preserve">You open the wire mesh cage, revealing an emergency blanket.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1129"></child>
+        </children>
+    </item>
+    <item nodeId="node-1129">
+        <command xml:space="preserve">take blanket</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1130">
+        <command xml:space="preserve">inside</command>
+        <result xml:space="preserve">
+Staging Area
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1131"></child>
+        </children>
+    </item>
+    <item nodeId="node-1131">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Foreman's Office
+You can see a half-collapsed desk (on which is a rusted key) and a trash bin (in which are some bits of paper) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1132"></child>
+        </children>
+    </item>
+    <item nodeId="node-1132">
+        <command xml:space="preserve">take paper</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1133"></child>
+        </children>
+    </item>
+    <item nodeId="node-1133">
+        <command xml:space="preserve">put paper in bin</command>
+        <result xml:space="preserve">You put the bits of paper into the trash bin.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1134">
+        <command xml:space="preserve">TREE</command>
+        <result xml:space="preserve">compass (591306) 
+  the north
+  the northeast
+  the northwest
+  the south
+  the southeast
+  the southwest
+  the east
+  the west
+  the up
+  the down
+  the inside
+  the outside
+(darkness object) (591338) 
+(Inform Parser) (591370) 
+(Inform Library) (591402) 
+(property_numberspace_forcer) (591434) 
+(ValuePropertyHolder_43) (591498) 
+(ValuePropertyHolder_47) (591530) 
+last day of high school (592714) 
+Staying the night (592746) 
+canned oranges (592778) 
+roll of duct tape (592810) 
+gas can (592842) 
+Fixing the truck (592874) 
+Middle of Nowhere (592906) 
+  yourself
+    a pack of cigarettes
+    a lighter
+    a denim jacket (being worn)
+  a tall Saguaro
+  a worn-out shoe
+  an empty water bottle
+Crumbling Concrete (593034) 
+  some faded graffiti
+  a doorway leading inside
+Base of the Tower (593130) 
+  a tumbleweed
+  a rusty tin can
+  a broken road sign
+  a huge electrical tower
+Weed-strewn Rust (593290) 
+  some yellowing weeds
+Back-tracking (593354) 
+Roof (593386) 
+Staging Area (593418) 
+  a pane of cracked glass
+Foreman's Office (593482) 
+  a half-collapsed desk
+    a rusted key
+  a trash bin
+    some bits of paper
+  a dust-covered window
+Break Room (593674) 
+  a wire mesh cage (closed)
+    an emergency blanket
+  a tiny frosted window
+Storage Room (593802) 
+Tower Vicinity (593834) 
+  Around the Tower
+  Office Interior
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1135"></child>
+        </children>
+    </item>
+    <item nodeId="node-1135">
+        <command xml:space="preserve">TREE BREAK ROOM</command>
+        <result xml:space="preserve">Break Room (593674) 
+  a wire mesh cage (closed)
+    an emergency blanket
+  a tiny frosted window
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1136"></child>
+        </children>
+    </item>
+    <item nodeId="node-1136">
+        <command xml:space="preserve">SHOWME TUMBLEWEED</command>
+        <result xml:space="preserve">tumbleweed - plant
+location: in Base of the Tower
+singular-named, improper-named; unlit, inedible, portable; dead
+list grouping key: none
+printed name: "tumbleweed"
+printed plural name: "plants"
+indefinite article: none
+description: none
+initial appearance: none
+plant condition: small
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1137"></child>
+        </children>
+    </item>
+    <item nodeId="node-1137">
+        <command xml:space="preserve">RELATIONS</command>
+        <result xml:space="preserve">Suggestion relates various things to one memory:
+  The tumbleweed  &gt;=&gt;  the last day of high school
+Requirement relates one plan to various things:
+  Staying the night  &gt;=&gt;  the canned oranges
+  Staying the night  &gt;=&gt;  the emergency blanket
+  Fixing the truck  &gt;=&gt;  the roll of duct tape
+  Fixing the truck  &gt;=&gt;  the gas can
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
