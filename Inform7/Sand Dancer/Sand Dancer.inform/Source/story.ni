@@ -4,7 +4,7 @@ Part - Mechanics
 
 Chapter - Beginning the Story
 
-The player carries a pack of cigarettes and a lighter. The player wears a denim jacket.
+The player carries a pack of cigarettes and lighter. The player wears a denim jacket.
 
 Chapter - Memories
 
@@ -49,7 +49,7 @@ Some yellowing weeds are fixed in place and undescribed in Weed-strewn Rust.
 
 A huge electrical tower is in Base of the Tower. It is undescribed and fixed in place.
 
-A worn-out shoe and a water bottle are in Middle of Nowhere. The water bottle is a closed openable container. Inside the water bottle is some dust.
+A worn-out shoe and a water bottle are in Middle of Nowhere. The water bottle is a [closed] openable container. Inside the water bottle is some dust.
 
 Some faded graffiti are fixed in place in Crumbling Concrete.
 

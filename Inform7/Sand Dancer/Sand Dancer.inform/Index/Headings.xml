@@ -3,56 +3,56 @@
 <plist version="1.0"><dict>
     <key>Application Version</key><string>6M62</string>
     <key>0</key><dict>
-        <key>Filename</key><string>/Users/mattdeline/Documents/Sand Dancer.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/IF-Projects/Inform7/Sand Dancer/Sand Dancer.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>"Sand Dancer" by Matthew Deline</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>1</key><dict>
-        <key>Filename</key><string>/Users/mattdeline/Documents/Sand Dancer.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/IF-Projects/Inform7/Sand Dancer/Sand Dancer.inform/Source/story.ni</string>
         <key>Line</key><integer>3</integer>
         <key>Title</key><string>Part - Mechanics</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>2</key><dict>
-        <key>Filename</key><string>/Users/mattdeline/Documents/Sand Dancer.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/IF-Projects/Inform7/Sand Dancer/Sand Dancer.inform/Source/story.ni</string>
         <key>Line</key><integer>5</integer>
         <key>Title</key><string>Chapter - Beginning the Story</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>3</key><dict>
-        <key>Filename</key><string>/Users/mattdeline/Documents/Sand Dancer.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/IF-Projects/Inform7/Sand Dancer/Sand Dancer.inform/Source/story.ni</string>
         <key>Line</key><integer>9</integer>
         <key>Title</key><string>Chapter - Memories</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>4</key><dict>
-        <key>Filename</key><string>/Users/mattdeline/Documents/Sand Dancer.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/IF-Projects/Inform7/Sand Dancer/Sand Dancer.inform/Source/story.ni</string>
         <key>Line</key><integer>19</integer>
         <key>Title</key><string>Chapter - Plans</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>5</key><dict>
-        <key>Filename</key><string>/Users/mattdeline/Documents/Sand Dancer.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/IF-Projects/Inform7/Sand Dancer/Sand Dancer.inform/Source/story.ni</string>
         <key>Line</key><integer>29</integer>
         <key>Title</key><string>Part - Setting</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>6</key><dict>
-        <key>Filename</key><string>/Users/mattdeline/Documents/Sand Dancer.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/IF-Projects/Inform7/Sand Dancer/Sand Dancer.inform/Source/story.ni</string>
         <key>Line</key><integer>33</integer>
         <key>Title</key><string>Chapter - Around the Tower</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>7</key><dict>
-        <key>Filename</key><string>/Users/mattdeline/Documents/Sand Dancer.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/mattdeline/Documents/GitHub/IF-Projects/Inform7/Sand Dancer/Sand Dancer.inform/Source/story.ni</string>
         <key>Line</key><integer>61</integer>
         <key>Title</key><string>Chapter - Office Interior</string>
         <key>Level</key><integer>4</integer>

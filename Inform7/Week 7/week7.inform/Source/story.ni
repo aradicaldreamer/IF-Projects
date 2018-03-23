@@ -31,14 +31,13 @@ Every turn (this is the broken leg rule):
 	If the slip count of the player > 4:
 		end the story saying "Oh no! You have broken your leg.".
 
-[		
+		
 Check going when the location is in Campus and the player does not wear some snowshoes (this is the it's icy on Campus rule):
 	let x be a random number from 1 to 10;
 	if x < 10:
 		now the slip count of the player is the slip count of the player + 1;
 		say "as you head off, you slip on the ground." instead;
 	continue the action.
-]
 
 Shoes are a kind of thing. Shoes are usually wearable.
 	
