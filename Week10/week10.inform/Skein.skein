@@ -16,7 +16,9 @@ You can see a chair, some cake and a present here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1018"></child>
+        <children><child nodeId="node-1027"></child>
+            <child nodeId="node-1031"></child>
+            <child nodeId="node-1018"></child>
             <child nodeId="node-1022"></child>
             <child nodeId="node-1020"></child>
         </children>
@@ -64,6 +66,54 @@ Happy birthday to you!
     <item nodeId="node-1019">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1031">
+        <command xml:space="preserve">eat cake</command>
+        <result xml:space="preserve">(first taking the cake)
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1032"></child>
+        </children>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  some cake
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1033"></child>
+        </children>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">accuse</command>
+        <result xml:space="preserve">I accuse Mr Green!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1027">
+        <command xml:space="preserve">accuse</command>
+        <result xml:space="preserve">I accuse Mrs White!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1029"></child>
+        </children>
+    </item>
+    <item nodeId="node-1029">
+        <command xml:space="preserve">open present</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1030"></child>
+        </children>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve">accuse</command>
+        <result xml:space="preserve">I accuse Professor Plum!
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>

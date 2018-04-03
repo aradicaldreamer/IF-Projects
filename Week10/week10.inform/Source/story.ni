@@ -40,3 +40,27 @@ Birthdaying is an action applying to nothing. Understand "birthday" as birthdayi
 Carry out birthdaying:
 	let x be the birthdayest;
 	try taking x.
+	
+Professor Plum is a person. Miss Scarlet is a person. Colonel Mustard is a Person. Lady Peacock is a person. Mrs White is a person. Mr Green is a person.
+
+To decide which person is the murder suspect:
+	decide on the person produced by murder suspecting rulebook.
+
+The murder suspecting rulebook is a rulebook producing a person.
+
+Murder suspecting (this is the default murder suspect rule):
+	rule succeeds with result Professor Plum.
+	
+Murder suspecting when the player can see the present (this is the present is present rule):
+		rule succeeds with result Mrs White.
+
+Murder suspecting when the player carries some cake (this is the carrying cake rule):
+	rule succeeds with result Mr Green.
+	
+The carrying cake rule is listed before the present is present rule in the murder suspecting rulebook.
+	
+Accusing is an action applying to nothing. Understand "accuse" as accusing.
+
+Report accusing:
+	let x be the murder suspect;
+	say "I accuse [x]!".
