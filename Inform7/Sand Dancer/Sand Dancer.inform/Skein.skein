@@ -9,7 +9,7 @@
 
 Sand Dancer
 An Interactive Fiction by Matthew Deline
-Release 1 / Serial number 180403 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 180427 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Base of the Tower
 Behind the concrete building a steel girder rises from the desert sand, one of three legs of the huge electrical tower looming like some gargantuan spider into blackness above you. A tumbleweed drifts lazily against the rusted metal among scrawny weeds and bits of trash. The desert stretches in all directions except back south towards the building.
@@ -605,7 +605,94 @@ Ahead of you lies a rusty metal fence that stretches for hundreds of meters to t
             <child nodeId="node-1082"></child>
             <child nodeId="node-1072"></child>
             <child nodeId="node-1062"></child>
+            <child nodeId="node-1123"></child>
         </children>
+    </item>
+    <item nodeId="node-1123">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1124"></child>
+        </children>
+    </item>
+    <item nodeId="node-1124">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1125"></child>
+        </children>
+    </item>
+    <item nodeId="node-1125">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1126"></child>
+        </children>
+    </item>
+    <item nodeId="node-1126">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1127"></child>
+        </children>
+    </item>
+    <item nodeId="node-1127">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Base of the Tower
+Behind the concrete building a steel girder rises from the desert sand, one of three legs of the huge electrical tower looming like some gargantuan spider into blackness above you. A tumbleweed drifts lazily against the rusted metal among scrawny weeds and bits of trash. The desert stretches in all directions except back south towards the building.
+
+Someone left a tin can here years ago: ridged ripples run down its rusty side.
+
+You can also see a broken road sign here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1128"></child>
+        </children>
+    </item>
+    <item nodeId="node-1128">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1129"></child>
+        </children>
+    </item>
+    <item nodeId="node-1129">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Crumbling Concrete
+This concrete building must've been some sort of utility structure for the huge electrical tower to the north, now abandoned: fragments of glass sparkle faintly in the beam of your headlights. Tendrils of desert sand spill through the empty doorframe leading in to a dark interior; you could also walk around to the east or head south back to your truck.
+
+You can see some faded graffiti and a doorway leading inside here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1130"></child>
+        </children>
+    </item>
+    <item nodeId="node-1130">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Middle of Nowhere
+The tire tracks from the south stop abruptly here, but where the hell are you? The desert sand and clumps of pale sagebrush are all your dimming headlights pick out before barely reaching the concrete building to the north.
+
+Your poor old pickup truck ticks and groans, smashed gracelessly against a tall Saguaro; whiffs of evaporating gasoline linger in the chill air. On the dash you can see nothing.
+
+You can also see a worn-out shoe and a water bottle (in which are some dust) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1062">
         <command xml:space="preserve">s</command>
