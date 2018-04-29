@@ -158,6 +158,7 @@ color: grey;
 
 
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">// The below code is for including cycling links in Harlowe, using the published solution by Furkle Industries that can be found here: https://furkleindustries.com/fictions/twine/twine2_resources/twine2_macros/
 
 var _engine = Engine;
@@ -249,6 +250,7 @@ window.setHarloweVariable = setHarloweVariable;
 
 
 
+
 </script><tw-passagedata pid="1" name="Richmond Park Grandma" tags="" position="409,631" size="100,100">(display: &quot;Clock&quot;)
 [&lt;span class = &quot;character2&quot;&gt; &quot;And I know it&#39;s a bit scary to think that she&#39;s not well, but we&#39;ve come a long way to see her.&quot;&lt;/span&gt;]
 
@@ -273,7 +275,7 @@ You now have a baby, and your train leaves in less than an hour.
 
 (link: &quot;Change your mind and return to the bench?&quot;)[(set: $haveBaby to false)(goto: &quot;Bench&quot;)]
 
-[[Head Towards the Train Station -&gt;Park Exit WB]]</tw-passagedata><tw-passagedata pid="3" name=" Left Baby" tags="" position="620.6666666666666,1056" size="100,100">(display: &quot;Clock&quot;)
+[[Head Towards the Train Station -&gt;Park Exit WB]]</tw-passagedata><tw-passagedata pid="3" name=" Left Baby" tags="" position="620,1056" size="100,100">(display: &quot;Clock&quot;)
 You have decided to leave the baby behind. And your train leaves in less than an hour.
 
 [&lt;span class = &quot;character1&quot;&gt;&quot;How could you do that? How could you just leave the baby alone?&quot;&lt;/span&gt;]&lt;first|
@@ -315,7 +317,7 @@ You have decided to leave the baby behind. And your train leaves in less than an
 (if: $minutes &gt; 59)[(set: $hours to $hours + 1)(set: $minutes to 0)$hours:0$minutes PM]
 (elseif: $minutes &lt; 10)[$hours:0$minutes PM]
 (else:)[$hours:$minutes PM]&lt;/span&gt;&lt;/p&gt;
-}</tw-passagedata><tw-passagedata pid="6" name="Find Baby" tags="" position="400,902.6666666666666" size="100,100">(display: &quot;Clock&quot;)
+}</tw-passagedata><tw-passagedata pid="6" name="Find Baby" tags="" position="400,902" size="100,100">(display: &quot;Clock&quot;)
 As your eyes follow along the line being traced by $char1Name&#39;s pointing finger, you see something that decidedly should *not* be here. There is a baby sitting alone on a bench wrapped in what appears to be a very soft blue blanket.
 
 There doesn&#39;t appear to be anyone else around. Your train home leaves from the station in less than an hour. What do you do?
@@ -339,7 +341,7 @@ Given everything that has happened lately, it&#39;s nice to see such a small thi
 
 [[Continue Watching -&gt; Watch]]
 
-[[Surprise Them! -&gt; Surprise]]</tw-passagedata><tw-passagedata pid="9" name="Header" tags="header" position="248,0" size="100,100"></tw-passagedata><tw-passagedata pid="10" name="Footer" tags="footer" position="371,0" size="100,100"></tw-passagedata><tw-passagedata pid="11" name=" Watch" tags="" position="290,448.3333333333333" size="100,100">(display: &quot;Clock&quot;)
+[[Surprise Them! -&gt; Surprise]]</tw-passagedata><tw-passagedata pid="9" name="Header" tags="header" position="248,0" size="100,100"></tw-passagedata><tw-passagedata pid="10" name="Footer" tags="footer" position="371,0" size="100,100"></tw-passagedata><tw-passagedata pid="11" name=" Watch" tags="" position="290,448" size="100,100">(display: &quot;Clock&quot;)
 You continue to watch $char1Name as she slowly approaches the squirrel, gingerly extending her hand to make an attempt at patting it on it&#39;s head. Quicker than you can do anything to stop it, she leaps forward ungracefully towards the squirrel and lands face first in the underbrush. Unfazed, the squirrel chitters quietly as it scurries away in search of less provocative entertainment.
 
 [&lt;span class = &quot;character2&quot;&gt; &quot;You okay kiddo?&quot;&lt;/span&gt;]&lt;first|
@@ -417,59 +419,7 @@ You creep along the edge of the path, making sure to keep your feet along the gr
 
 {(live: 16s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt; &quot;What is what?&quot;&lt;/span&gt;](stop:)]}
 
-{(live: 18s)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt;Find Baby]]&lt;/span&gt;]}</tw-passagedata><tw-passagedata pid="15" name="Ending 1" tags="" position="1805,594" size="100,100">You have managed to save the baby from the elements, but are none the wiser as to where it is from or whom it&#39;s parents are. You should probably figure this out soon. 
-
-You also managed to make your train on time! You&#39;re a little worried about seeing your grandmother so sick, but you have your sister with you, and you&#39;re certain that you can face anything together.
-
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="16" name="Ending 2" tags="" position="1917.6666666666667,592" size="100,100">You have managed to save the baby from the elements, but are none the wiser as to where it is from or whom it&#39;s parents are. You should probably figure this out soon.
-
-You also missed your train. You get ready to call your parents to explain the situation, and hope that your grandmother will last through the night so that you can make it up to her tomorrow
-
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="17" name="Ending 3" tags="" position="2031,591" size="100,100">As you enter the train station, you can&#39;t help but think of the baby that you left behind. You&#39;re also concerned about the empty promises that you made to your sister, and know that you couldn&#39;t possibly know if the baby is okay. It wasn&#39;t *your* problem, after all. Right?
-
-You also managed to make your train on time! You&#39;re a little worried about seeing your grandmother so sick, but you have your sister with you, and you&#39;re certain that you can face anything together.
-
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="18" name="Ending 4" tags="" position="2149,590" size="100,100">As you enter the train station, you can&#39;t help but think of the baby that you left behind. You&#39;re also concerned about the empty promises that you made to your sister, and know that you couldn&#39;t possibly know if the baby is okay. It wasn&#39;t *your* problem, after all. Right?
-
-You also missed your train. You get ready to call your parents to explain the situation, and hope that your grandmother will last through the night so that you can make it up to her tomorrow
-
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="19" name="Ending 5" tags="" position="1802,708" size="100,100">You have managed to save the baby from the elements, but are none the wiser as to where it is from or whom it&#39;s parents are. You should probably figure this out soon.
-
-You also managed to make your train on time! Your sister must be very happy that she got to spend the day away from the hospital, and that she&#39;ll make it back in time for her daily treatments.
-
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="20" name="Ending 6" tags="" position="1917.6666666666667,707" size="100,100">You have managed to save the baby from the elements, but are none the wiser as to where it is from or whom it&#39;s parents are. You should probably figure this out soon.
-
-You also missed your train. Your sister is now in danger of missing her daily treatment at the hospital, and you prepare yourself to make the call to your parents to explain the situation. You feel sick.
-
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="21" name="Ending 7" tags="" position="2033,707" size="100,100">As you enter the train station, you can&#39;t help but think of the baby that you left behind. You&#39;re also concerned about the empty promises that you made to your sister, and know that you couldn&#39;t possibly know if the baby is okay. It wasn&#39;t *your* problem, after all. Right?
-
-You also managed to make your train on time! Your sister must be very happy that she got to spend the day away from the hospital, and that she&#39;ll make it back in time for her daily treatments.
-
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="22" name="Ending 8" tags="" position="2150,709" size="100,100">As you enter the train station, you can&#39;t help but think of the baby that you left behind. You&#39;re also concerned about the empty promises that you made to your sister, and know that you couldn&#39;t possibly know if the baby is okay. It wasn&#39;t *your* problem, after all. Right?
-
-You also missed your train. Your sister is now in danger of missing her daily treatment at the hospital, and you prepare yourself to make the call to your parents to explain the situation. You feel sick.
-
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="23" name="Ending 9" tags="" position="1798,831" size="100,100">You have managed to save the baby from the elements, but are none the wiser as to where it is from or whom it&#39;s parents are. You should probably figure this out soon.
-
-You also managed to make your train on time! It was a close call, but you&#39;re very happy that you managed to help someone out and spend some time with your sister. This is one trip that you definitely won&#39;t forget!
-
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="24" name="Ending 10" tags="" position="1919,828" size="100,100">You have managed to save the baby from the elements, but are none the wiser as to where it is from or whom it&#39;s parents are. You should probably figure this out soon.
-
-You also missed your train. You&#39;re very happy that you managed to help someone out and spend some time with your sister, but you&#39;re terrified of what your parents will say when you let them know that you&#39;re going to miss your connection home.
-
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="25" name="Ending 11" tags="" position="2035,829" size="100,100">As you enter the train station, you can&#39;t help but think of the baby that you left behind. You&#39;re also concerned about the empty promises that you made to your sister, and know that you couldn&#39;t possibly know if the baby is okay. It wasn&#39;t *your* problem, after all. Right?
-
-You also managed to make your train on time! This is one trip that you definitely won&#39;t forget!
-
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="26" name="Ending 12" tags="" position="2151,829" size="100,100">As you enter the train station, you can&#39;t help but think of the baby that you left behind. You&#39;re also concerned about the empty promises that you made to your sister, and know that you couldn&#39;t possibly know if the baby is okay. It wasn&#39;t *your* problem, after all. Right?
-
-You also missed your train. You get ready to take the next train towards Kings Cross, but you&#39;re terrified of what your parents will say when you let them know that you&#39;re going to miss your connection home. You feel sick.
-
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="27" name="Endings" tags="" position="1973.6666666666667,450" size="100,100">(if: $haveBaby is true and $onTime is true and $myReason is &quot;Grandma&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 1&quot;)](elseif: $haveBaby is true and $onTime is false and $myReason is &quot;Grandma&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 2&quot;)](elseif: $haveBaby is false and $onTime is true and $myReason is &quot;Grandma&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 3&quot;)](elseif: $haveBaby is false and $onTime is false and $myReason is &quot;Grandma&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 4&quot;)](elseif: $haveBaby is true and $onTime is true and $myReason is &quot;Medicine&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 5&quot;)](elseif: $haveBaby is true and $onTime is false and $myReason is &quot;Medicine&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 6&quot;)](elseif: $haveBaby is false and $onTime is true and $myReason is &quot;Medicine&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 7&quot;)](elseif: $haveBaby is false and $onTime is false and $myReason is &quot;Medicine&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 8&quot;)](elseif: $haveBaby is true and $onTime is true and $myReason is &quot;Train&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 9&quot;)](elseif: $haveBaby is true and $onTime is false and $myReason is &quot;Train&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 10&quot;)](elseif: $haveBaby is false and $onTime is true and $myReason is &quot;Train&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 11&quot;)](elseif: $haveBaby is false and $onTime is false and $myReason is &quot;Train&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 12&quot;)](else:)[(link-goto: &quot;Walk into the station&quot; , &quot;Ending 13&quot;)]</tw-passagedata><tw-passagedata pid="28" name="Test Passage" tags="" position="2107,451" size="100,100">(set: $haveBaby to true)
-(set: $onTime to false)
-(set: $myReason to &quot;Grandma&quot;)
-(display: &quot;Endings&quot;)</tw-passagedata><tw-passagedata pid="29" name="Ending 13" tags="" position="1962,946" size="100,100">You shouldn&#39;t be here.
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="30" name="Emergency Services" tags="" position="1001,793" size="100,100">(display: &quot;Clock&quot;)(set: $called to true)(set: $waitTime to 1)
+{(live: 18s)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt;Find Baby]]&lt;/span&gt;]}</tw-passagedata><tw-passagedata pid="15" name="Emergency Services" tags="" position="1001,793" size="100,100">(display: &quot;Clock&quot;)(set: $called to true)(set: $waitTime to 1)
 (transition: &quot;shudder&quot;)[&lt;span class = &quot;character3&quot;&gt;“Hello, Emergency Services. Do you need fire, police or ambulance?”&lt;/span&gt;]
 
 {(live: 2s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt;(In background) &quot;Let&#39;s ask for the firemen!&quot;](stop:)]}
@@ -506,7 +456,7 @@ You also missed your train. You get ready to take the next train towards Kings C
 
 {(live: 32s)[
 &lt;span class = &quot;character2&quot;&gt;(if: $location is &quot;Bench&quot;)[&quot;Okay...&quot;[[Hang Up -&gt;Bench]]](elseif: $location is &quot;Exit&quot;)[&quot;Okay...&quot;[[Hang Up -&gt;Park Exit WB]]](elseif: $location is &quot;Riverside&quot;)[&quot;Okay...&quot;[[Hang Up -&gt;Riverside WB]]](elseif: $location is &quot;Street&quot;)[&quot;Okay...&quot;[[Hang Up -&gt;Main Street WB]]]&lt;/span&gt;
-(stop:)]}</tw-passagedata><tw-passagedata pid="31" name="Riverside WB" tags="" position="200,1451" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)
+(stop:)]}</tw-passagedata><tw-passagedata pid="16" name="Riverside WB" tags="" position="200,1451" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)
 
 You are standing along the riverside in Richmond. You can see boats moored against the bank, and a set of large stairs to your right where people are gathering to drink coffee and socialize. There is a light blue door fitted within an archway entitled &quot;Tide Tables Cafe.&quot;
 
@@ -516,7 +466,7 @@ The road ahead leads to the main city street, and the path behind you leads to t
 
 [[Head Back Towards Park Exit -&gt;Park Exit WB]]
 
-[[Head Towards the Train Station -&gt;Main Street WB]]</tw-passagedata><tw-passagedata pid="32" name="Riverside NB" tags="" position="612,1444" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)
+[[Head Towards the Train Station -&gt;Main Street WB]]</tw-passagedata><tw-passagedata pid="17" name="Riverside NB" tags="" position="612,1444" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)
 
 You are standing along the riverside in Richmond. You can see boats moored against the bank, and a set of large stairs to your right where people are gathering to drink coffee and socialize. There is a light blue door fitted within an archway entitled &quot;Tide Tables Cafe.&quot;
 
@@ -524,7 +474,7 @@ The road ahead leads to the main city street, and the path behind you leads to t
 
 [[Head Back Towards Park Exit -&gt;Park Exit NB]]
 
-[[Head Towards the Train Station -&gt;Main Street NB]]</tw-passagedata><tw-passagedata pid="33" name="Park Exit WB" tags="" position="204,1265" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)
+[[Head Towards the Train Station -&gt;Main Street NB]]</tw-passagedata><tw-passagedata pid="18" name="Park Exit WB" tags="" position="204,1265" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)
 
 You are standing in a clearing near a sign that tells you that you just walked along the road for crossing during floods. Ahead of you is the path that leads along the riverside towards the city. The path behind you leads to the bench where you found the baby.
 
@@ -532,13 +482,13 @@ You are standing in a clearing near a sign that tells you that you just walked a
 
 [[Head Back Towards the Bench -&gt;Bench]]
 
-[[Head Towards the Train Station -&gt;Riverside WB]]</tw-passagedata><tw-passagedata pid="34" name="Park Exit NB" tags="" position="622,1247" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)(set: $turnBack to false)
+[[Head Towards the Train Station -&gt;Riverside WB]]</tw-passagedata><tw-passagedata pid="19" name="Park Exit NB" tags="" position="622,1247" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)(set: $turnBack to false)
 
 You are standing in a clearing near a sign that tells you that you just walked along the road for crossing during floods. Ahead of you is the path that leads along the riverside towards the city. The path behind you leads to the bench where you found the baby.
 
 [[Head Back Towards the Bench -&gt;Bench]]
 
-[[Head Towards the Train Station -&gt;Riverside NB]]</tw-passagedata><tw-passagedata pid="35" name="Bench" tags="" position="392,1054" size="100,100">(display: &quot;Clock&quot;)
+[[Head Towards the Train Station -&gt;Riverside NB]]</tw-passagedata><tw-passagedata pid="20" name="Bench" tags="" position="392,1054" size="100,100">(display: &quot;Clock&quot;)
 You are near the center of Richmond Park, where there is a small pond with several paths leading away. There is a baby sitting alone on a bench wrapped in what appears to be a very soft blue blanket.
 
 There doesn&#39;t appear to be anyone else around. Your train home leaves from the station in less than an hour. What do you do?
@@ -553,14 +503,14 @@ There doesn&#39;t appear to be anyone else around. Your train home leaves from t
 
 (if: $haveBaby is true)[(link: &quot;Leave Baby Behind&quot;)[(set: $haveBaby to false)(goto: &quot;Park Exit NB&quot;)] or [[Head towards Train Station -&gt;Park Exit WB]]](else:)[(link: &quot;Pick up Baby&quot;)[(set: $haveBaby to true)(goto: &quot; Picked Up Baby&quot;)]
 
-[[Head Towards Train Station -&gt;Park Exit NB]]]</tw-passagedata><tw-passagedata pid="36" name="Main Street NB" tags="" position="608,1634" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)
+[[Head Towards Train Station -&gt;Park Exit NB]]]</tw-passagedata><tw-passagedata pid="21" name="Main Street NB" tags="" position="608,1634" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)
 The main street in Richmond has much less of the old world charm than the riverside. As you pass along *another* Costa Coffee, you are reminded that you are returning to the bigger city as a whole.
 
 Ahead of you and to the right is the entrance to the Richmond Park Overground station. If you hadn&#39;t known it was there, you might have walked right past it.
 
 (if: $turnBack is false)[(display: &quot;Turn Back&quot;)](else:)[[[Head Back Towards the Riverside -&gt;Riverside NB]]
 
-(link-goto: &quot;Walk into the station&quot; , &quot;New Endings&quot;)]</tw-passagedata><tw-passagedata pid="37" name="Main Street WB" tags="" position="203,1625" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)
+(link-goto: &quot;Walk into the station&quot; , &quot;New Endings&quot;)]</tw-passagedata><tw-passagedata pid="22" name="Main Street WB" tags="" position="203,1625" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)
 
 The main street in Richmond has much less of the old world charm than the riverside. As you pass along *another* Costa Coffee, you are reminded that you are returning to the bigger city as a whole.
 
@@ -570,9 +520,9 @@ Ahead of you and to the right is the entrance to the Richmond Park Overground st
 
 [[Head Back Towards the Riverside -&gt;Riverside WB]]
 
-(link-goto: &quot;Walk into the station&quot; , &quot;New Endings&quot;)</tw-passagedata><tw-passagedata pid="38" name="Emergency Ending" tags="" position="1203,1403" size="100,100">(if: $onTime is true and $myReason is &quot;Grandma&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also managed to make your train on time! You&#39;re a little worried about seeing your grandmother so sick, but you have your sister with you, and you&#39;re certain that you can face anything together.&lt;/p&gt;](elseif: $onTime is false and $myReason is &quot;Grandma&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also missed your train. You get ready to call your parents to explain the situation, and hope that your grandmother will last through the night so that you can make it up to her tomorrow&lt;/p&gt;](elseif: $onTime is true and $myReason is &quot;Medicine&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also managed to make your train on time! Your sister must be very happy that she got to spend the day away from the hospital, and that she&#39;ll make it back in time for her daily treatments.&lt;/p&gt;](elseif: $onTime is false and $myReason is &quot;Medicine&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also missed your train. Your sister is now in danger of missing her daily treatment at the hospital, and you prepare yourself to make the call to your parents to explain the situation. You feel sick.&lt;/p&gt;](elseif: $onTime is true and $myReason is &quot;Train&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also managed to make your train on time! It was a close call, but you&#39;re very happy that you managed to help someone out and spend some time with your sister. This is one trip that you definitely won&#39;t forget!&lt;/p&gt;](elseif: $onTime is false and $myReason is &quot;Train&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also missed your train. You&#39;re very happy that you managed to help someone out and spend some time with your sister, but you&#39;re terrified of what your parents will say when you let them know that you&#39;re going to miss your connection home.&lt;/p&gt;]
+(link-goto: &quot;Walk into the station&quot; , &quot;New Endings&quot;)</tw-passagedata><tw-passagedata pid="23" name="Emergency Ending" tags="" position="1203,1403" size="100,100">(if: $onTime is true and $myReason is &quot;Grandma&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also managed to make your train on time! You&#39;re a little worried about seeing your grandmother so sick, but you have your sister with you, and you&#39;re certain that you can face anything together.&lt;/p&gt;](elseif: $onTime is false and $myReason is &quot;Grandma&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also missed your train. You get ready to call your parents to explain the situation, and hope that your grandmother will last through the night so that you can make it up to her tomorrow&lt;/p&gt;](elseif: $onTime is true and $myReason is &quot;Medicine&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also managed to make your train on time! Your sister must be very happy that she got to spend the day away from the hospital, and that she&#39;ll make it back in time for her daily treatments.&lt;/p&gt;](elseif: $onTime is false and $myReason is &quot;Medicine&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also missed your train. Your sister is now in danger of missing her daily treatment at the hospital, and you prepare yourself to make the call to your parents to explain the situation. You feel sick.&lt;/p&gt;](elseif: $onTime is true and $myReason is &quot;Train&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also managed to make your train on time! It was a close call, but you&#39;re very happy that you managed to help someone out and spend some time with your sister. This is one trip that you definitely won&#39;t forget!&lt;/p&gt;](elseif: $onTime is false and $myReason is &quot;Train&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also missed your train. You&#39;re very happy that you managed to help someone out and spend some time with your sister, but you&#39;re terrified of what your parents will say when you let them know that you&#39;re going to miss your connection home.&lt;/p&gt;]
 
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="39" name="Turn Back" tags="" position="746.6666666666666,1631" size="100,100">(set: $turnBack to true)\
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="24" name="Turn Back" tags="" position="746,1631" size="100,100">(set: $turnBack to true)\
 {(live: 10s)[(transition: &quot;shudder&quot;)[&lt;span class = &quot;character1&quot;&gt;&quot;I&#39;m not going. We have to go get the baby back.&quot;&lt;/span&gt;](stop:)]}
 
 {(live: 12s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt;&quot;$char1Name, we can&#39;t go back and get the baby now. We&#39;ll miss our train!&quot;&lt;/span&gt;](stop:)]}
@@ -589,7 +539,7 @@ Ahead of you and to the right is the entrance to the Richmond Park Overground st
 
 (click: ?first)[[[Head Back Towards the Riverside -&gt;Riverside NB]]]
 
-{(live: 24s)[(transition: &quot;dissolve&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;New Endings&quot;)](stop:)]}</tw-passagedata><tw-passagedata pid="40" name="New Endings" tags="" position="410.3333333333333,1817.3333333333333" size="100,100">&lt;!-- Ending First Part --&gt;
+{(live: 24s)[(transition: &quot;dissolve&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;New Endings&quot;)](stop:)]}</tw-passagedata><tw-passagedata pid="25" name="New Endings" tags="" position="410,1817" size="100,100">&lt;!-- Ending First Part --&gt;
 (if: $haveBaby is true)[You have managed to save the baby from the elements, but are none the wiser as to where it is from or whom it&#39;s parents are. You should probably figure this out soon.]\
 (elseif: $haveBaby is false)[As you enter the train station, you can&#39;t help but think of the baby that you left behind. You&#39;re also concerned about the empty promises that you made to your sister, and know that you couldn&#39;t possibly know if the baby is okay. It wasn&#39;t *your* problem, after all. Right?]\
 (else:)[You shouldn&#39;t be here! OH NO!]\
