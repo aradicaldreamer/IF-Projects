@@ -250,25 +250,25 @@ window.setHarloweVariable = setHarloweVariable;
 
 
 </script><tw-passagedata pid="1" name="Richmond Park Grandma" tags="" position="409,631" size="100,100">(display: &quot;Clock&quot;)
-[&lt;span class = &quot;character2&quot;&gt; &quot;And I know it&#39;s a bit scary to think that she&#39;s not well, but we&#39;ve come a long way to see her.&quot;&lt;/span&gt;]&lt;first|
+[&lt;span class = &quot;character2&quot;&gt; &quot;And I know it&#39;s a bit scary to think that she&#39;s not well, but we&#39;ve come a long way to see her.&quot;&lt;/span&gt;]
 
-(click: ?first)[&lt;span class = &quot;character1&quot;&gt; &quot;I know... It&#39;s just that sometimes I get really mad that people think that I don&#39;t understand what&#39;s going on.&quot;&lt;/span&gt;]&lt;second|
+{(live: 2s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt; &quot;I know... It&#39;s just that sometimes I get really mad that people think that I don&#39;t understand what&#39;s going on.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?second)[&lt;span class = &quot;character2&quot;&gt; &quot;What do you mean?&quot;&lt;/span&gt;]&lt;third|
+{(live: 4s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt; &quot;What do you mean?&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?third)[&lt;span class = &quot;character1&quot;&gt; &quot;She&#39;s going to die.&quot;&lt;/span&gt;]&lt;fourth|
+{(live: 6s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt; &quot;She&#39;s going to die.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?fourth)[&lt;span class = &quot;character2&quot;&gt; &quot;$char1Name, we don&#39;t know that for sure.&quot;&lt;/span&gt;]&lt;fifth|
+{(live: 8s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt; &quot;$char1Name, we don&#39;t know that for sure.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?fifth)[&lt;span class = &quot;character1&quot;&gt; &quot;Then why did we come all the way here? This is the farthest away from home that I&#39;ve ever been and I don&#39;t want to be here. I WANT TO GO HOME.&quot;&lt;/span&gt;]&lt;sixth|
+{(live: 10s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt; &quot;Then why did we come all the way here? This is the farthest away from home that I&#39;ve ever been and I don&#39;t want to be here. I WANT TO GO HOME.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?sixth)[&lt;span class = &quot;character2&quot;&gt; &quot;Me too. I-&quot;&lt;/span&gt;]&lt;seventh|
+{(live: 12s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt; &quot;Me too. I-&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?seventh)[&lt;span class = &quot;character1&quot;&gt; &quot;What. Is. That.&quot;&lt;/span&gt;]&lt;eighth|
+{(live: 14s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt; &quot;What. Is. That.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?eighth)[&lt;span class = &quot;character2&quot;&gt; &quot;What is what?&quot;&lt;/span&gt;]&lt;ninth|
+{(live: 16s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt; &quot;What is what?&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?ninth)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt;Find Baby]]&lt;/span&gt;]</tw-passagedata><tw-passagedata pid="2" name=" Picked Up Baby" tags="" position="205,1053" size="100,100">(display: &quot;Clock&quot;)
+{(live: 18s)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt;Find Baby]]&lt;/span&gt;](stop:)}</tw-passagedata><tw-passagedata pid="2" name=" Picked Up Baby" tags="" position="205,1053" size="100,100">(display: &quot;Clock&quot;)
 You now have a baby, and your train leaves in less than an hour.
 
 (link: &quot;Change your mind and return to the bench?&quot;)[(set: $haveBaby to false)(goto: &quot;Bench&quot;)]
@@ -384,40 +384,40 @@ You creep along the edge of the path, making sure to keep your feet along the gr
 (link: &quot;We won&#39;t be back in time to give you your shots&quot;)[(set: $myReason to &quot;Medicine&quot;)(goto: &quot;Richmond Park Medicine&quot;)]
 
 &lt;/span&gt;]</tw-passagedata><tw-passagedata pid="13" name="Richmond Park Train" tags="" position="570,630" size="100,100">(display: &quot;Clock&quot;)
-[&lt;span class &quot;character2&quot;&gt; &quot;We&#39;ve had a really great vacation, haven&#39;t we? It&#39;s kind of hard to believe that we need to go home now.&quot;&lt;/span&gt;]&lt;first|
+[&lt;span class &quot;character2&quot;&gt; &quot;We&#39;ve had a really great vacation, haven&#39;t we? It&#39;s kind of hard to believe that we need to go home now.&quot;&lt;/span&gt;]
 
-(click: ?first)[&lt;span class = &quot;character1&quot;&gt; &quot;I know... Thanks for taking me out today, I&#39;ve had a lot of fun. I promise to tell Mom and Dad that you lost me and tried to feed me to the deer.&quot;&lt;/span&gt;]&lt;second|
+{(live: 2s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt; &quot;I know... Thanks for taking me out today, I&#39;ve had a lot of fun. I promise to tell Mom and Dad that you lost me and tried to feed me to the deer.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?second)[&lt;span class = &quot;character2&quot;&gt; &quot;Deer don&#39;t eat people $char1Name&quot;&lt;/span&gt;]&lt;third|
+{(live: 4s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt; &quot;Deer don&#39;t eat people $char1Name&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?third)[&lt;span class = &quot;character1&quot;&gt; &quot;They don&#39;t in AMERICA. This is *England*&quot;&lt;/span&gt;]&lt;fourth|
+{(live: 6s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt; &quot;They don&#39;t in AMERICA. This is *England*&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?fourth)[&lt;span class = &quot;character2&quot;&gt; &quot;Hahahaha! Well I&#39;ll be sure to mention our narrow escape when we see them back in Paris.&quot;&lt;/span&gt;]&lt;fifth|
+{(live: 8s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt; &quot;Hahahaha! Well I&#39;ll be sure to mention our narrow escape when we see them back in Paris.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?fifth)[&lt;span class = &quot;character1&quot;&gt; &quot;What. Is. That.&quot;&lt;/span&gt;]&lt;sixth|
+{(live: 10s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt; &quot;What. Is. That.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?sixth)[&lt;span class = &quot;character2&quot;&gt; &quot;What is what?&quot;&lt;/span&gt;]&lt;seventh|
+{(live: 12s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt; &quot;What is what?&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?seventh)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt;Find Baby]]&lt;/span&gt;]</tw-passagedata><tw-passagedata pid="14" name="Richmond Park Medicine" tags="" position="249,628" size="100,100">(display: &quot;Clock&quot;)
-[&lt;span class &quot;character2&quot;&gt; &quot;And I know it&#39;s a bit scary at the hospital, but we&#39;ve come a long way so that you can feel better. And if it means I get to help you out *and* get a free vacation.&quot;&lt;/span&gt;]&lt;first|
+{(live: 14s)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt;Find Baby]]&lt;/span&gt;](stop:)}</tw-passagedata><tw-passagedata pid="14" name="Richmond Park Medicine" tags="" position="249,628" size="100,100">(display: &quot;Clock&quot;)
+[&lt;span class &quot;character2&quot;&gt; &quot;And I know it&#39;s a bit scary at the hospital, but we&#39;ve come a long way so that you can feel better. And if it means I get to help you out *and* get a free vacation...&quot;&lt;/span&gt;]
 
-(click: ?first)[&lt;span class = &quot;character1&quot;&gt; &quot;I know... It&#39;s just that sometimes I get really mad that people think that I don&#39;t understand what&#39;s going on.&quot;&lt;/span&gt;]&lt;second|
+{(live: 2s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt; &quot;I know... It&#39;s just that sometimes I get really mad that people think that I don&#39;t understand what&#39;s going on.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?second)[&lt;span class = &quot;character2&quot;&gt; &quot;What do you mean?&quot;&lt;/span&gt;]&lt;third|
+{(live: 4s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt; &quot;What do you mean?&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?third)[&lt;span class = &quot;character1&quot;&gt; &quot;I&#39;m going to die.&quot;&lt;/span&gt;]&lt;fourth|
+{(live: 6s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt; &quot;I&#39;m going to die.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?fourth)[&lt;span class = &quot;character2&quot;&gt; &quot;$char1Name, we don&#39;t know that for sure.&quot;&lt;/span&gt;]&lt;fifth|
+{(live: 8s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt; &quot;$char1Name, we don&#39;t know that for sure.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?fifth)[&lt;span class = &quot;character1&quot;&gt; &quot;Then why did we come all the way here? This is the farthest away from home that I&#39;ve ever been and I don&#39;t want to be here. I WANT TO GO HOME.&quot;&lt;/span&gt;]&lt;sixth|
+{(live: 10s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt; &quot;Then why did we come all the way here? This is the farthest away from home that I&#39;ve ever been and I don&#39;t want to be here. I WANT TO GO HOME.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?sixth)[&lt;span class = &quot;character2&quot;&gt; &quot;Me too. I-&quot;&lt;/span&gt;]&lt;seventh|
+{(live: 12s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt; &quot;Me too. I-&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?seventh)[&lt;span class = &quot;character1&quot;&gt; &quot;What. Is. That.&quot;&lt;/span&gt;]&lt;eighth|
+{(live: 14s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt; &quot;What. Is. That.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?eighth)[&lt;span class = &quot;character2&quot;&gt; &quot;What is what?&quot;&lt;/span&gt;]&lt;ninth|
+{(live: 16s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt; &quot;What is what?&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?ninth)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt;Find Baby]]&lt;/span&gt;]</tw-passagedata><tw-passagedata pid="15" name="Ending 1" tags="" position="1805,594" size="100,100">You have managed to save the baby from the elements, but are none the wiser as to where it is from or whom it&#39;s parents are. You should probably figure this out soon. 
+{(live: 18s)[&lt;span class = &quot;character1&quot;&gt; [[&quot;That&quot; -&gt;Find Baby]]&lt;/span&gt;]}</tw-passagedata><tw-passagedata pid="15" name="Ending 1" tags="" position="1805,594" size="100,100">You have managed to save the baby from the elements, but are none the wiser as to where it is from or whom it&#39;s parents are. You should probably figure this out soon. 
 
 You also managed to make your train on time! You&#39;re a little worried about seeing your grandmother so sick, but you have your sister with you, and you&#39;re certain that you can face anything together.
 
@@ -560,7 +560,7 @@ Ahead of you and to the right is the entrance to the Richmond Park Overground st
 
 (if: $turnBack is false)[(display: &quot;Turn Back&quot;)](else:)[[[Head Back Towards the Riverside -&gt;Riverside NB]]
 
-(display: &quot;Endings&quot;)]</tw-passagedata><tw-passagedata pid="37" name="Main Street WB" tags="" position="203,1625" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)
+(link-goto: &quot;Walk into the station&quot; , &quot;New Endings&quot;)]</tw-passagedata><tw-passagedata pid="37" name="Main Street WB" tags="" position="203,1625" size="100,100">(set: $minutes to $minutes + $movementSpeed)(display: &quot;Clock&quot;)
 
 The main street in Richmond has much less of the old world charm than the riverside. As you pass along *another* Costa Coffee, you are reminded that you are returning to the bigger city as a whole.
 
@@ -570,32 +570,26 @@ Ahead of you and to the right is the entrance to the Richmond Park Overground st
 
 [[Head Back Towards the Riverside -&gt;Riverside WB]]
 
-(display: &quot;Endings&quot;)</tw-passagedata><tw-passagedata pid="38" name="Emergency Ending" tags="" position="1203,1403" size="100,100">(if: $onTime is true and $myReason is &quot;Grandma&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also managed to make your train on time! You&#39;re a little worried about seeing your grandmother so sick, but you have your sister with you, and you&#39;re certain that you can face anything together.&lt;/p&gt;](elseif: $onTime is false and $myReason is &quot;Grandma&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also missed your train. You get ready to call your parents to explain the situation, and hope that your grandmother will last through the night so that you can make it up to her tomorrow&lt;/p&gt;](elseif: $onTime is true and $myReason is &quot;Medicine&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also managed to make your train on time! Your sister must be very happy that she got to spend the day away from the hospital, and that she&#39;ll make it back in time for her daily treatments.&lt;/p&gt;](elseif: $onTime is false and $myReason is &quot;Medicine&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also missed your train. Your sister is now in danger of missing her daily treatment at the hospital, and you prepare yourself to make the call to your parents to explain the situation. You feel sick.&lt;/p&gt;](elseif: $onTime is true and $myReason is &quot;Train&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also managed to make your train on time! It was a close call, but you&#39;re very happy that you managed to help someone out and spend some time with your sister. This is one trip that you definitely won&#39;t forget!&lt;/p&gt;](elseif: $onTime is false and $myReason is &quot;Train&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also missed your train. You&#39;re very happy that you managed to help someone out and spend some time with your sister, but you&#39;re terrified of what your parents will say when you let them know that you&#39;re going to miss your connection home.&lt;/p&gt;]
+(link-goto: &quot;Walk into the station&quot; , &quot;New Endings&quot;)</tw-passagedata><tw-passagedata pid="38" name="Emergency Ending" tags="" position="1203,1403" size="100,100">(if: $onTime is true and $myReason is &quot;Grandma&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also managed to make your train on time! You&#39;re a little worried about seeing your grandmother so sick, but you have your sister with you, and you&#39;re certain that you can face anything together.&lt;/p&gt;](elseif: $onTime is false and $myReason is &quot;Grandma&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also missed your train. You get ready to call your parents to explain the situation, and hope that your grandmother will last through the night so that you can make it up to her tomorrow&lt;/p&gt;](elseif: $onTime is true and $myReason is &quot;Medicine&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also managed to make your train on time! Your sister must be very happy that she got to spend the day away from the hospital, and that she&#39;ll make it back in time for her daily treatments.&lt;/p&gt;](elseif: $onTime is false and $myReason is &quot;Medicine&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also missed your train. Your sister is now in danger of missing her daily treatment at the hospital, and you prepare yourself to make the call to your parents to explain the situation. You feel sick.&lt;/p&gt;](elseif: $onTime is true and $myReason is &quot;Train&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also managed to make your train on time! It was a close call, but you&#39;re very happy that you managed to help someone out and spend some time with your sister. This is one trip that you definitely won&#39;t forget!&lt;/p&gt;](elseif: $onTime is false and $myReason is &quot;Train&quot;)[&lt;p&gt;The officers were kind enough to give you a ride to the station while they asked you both a few questions. They assure you that the baby will be taken care of, and that they hope to find the parents.&lt;/p&gt;&lt;p&gt;You also missed your train. You&#39;re very happy that you managed to help someone out and spend some time with your sister, but you&#39;re terrified of what your parents will say when you let them know that you&#39;re going to miss your connection home.&lt;/p&gt;]
 
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="39" name="Turn Back" tags="" position="745,1631" size="100,100">(set: $turnBack to true)
-[&lt;span class = &quot;character1&quot;&gt;&quot;I&#39;m not going. We have to go get the baby back.&quot;&lt;/span&gt;]&lt;first|
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="39" name="Turn Back" tags="" position="746.6666666666666,1631" size="100,100">(set: $turnBack to true)\
+{(live: 10s)[(transition: &quot;shudder&quot;)[&lt;span class = &quot;character1&quot;&gt;&quot;I&#39;m not going. We have to go get the baby back.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?first)[&lt;span class = &quot;character2&quot;&gt;&quot;$char1Name, we can&#39;t go back and get the baby now. We&#39;ll miss our train!&quot;&lt;/span&gt;]&lt;second|
+{(live: 12s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt;&quot;$char1Name, we can&#39;t go back and get the baby now. We&#39;ll miss our train!&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?second)[&lt;span class = &quot;character1&quot;&gt;&quot;I. Don&#39;t. Care.&quot;&lt;/span&gt;]&lt;third|
+{(live: 14s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt;&quot;I. Don&#39;t. Care.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?third)[&lt;span class = &quot;character1&quot;&gt;&quot;You never listen to me. I asked you to help earlier and you didn&#39;t listen.&quot;&lt;/span&gt;]&lt;fourth|
+{(live: 16s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt;&quot;You never listen to me. I asked you to help earlier and you didn&#39;t listen.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?fourth)[&lt;span class = &quot;character2&quot;&gt;&quot;I heard you $char1Name, and I&#39;m sorry that we didn&#39;t pick up the baby. Mom and Dad trusted me to take care of you and make sure that we both got back to the train station on time. I&#39;m sure the baby is okay.&quot;&lt;/span&gt;]&lt;fifth|
+{(live: 18s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt;&quot;I heard you $char1Name, and I&#39;m sorry that we didn&#39;t pick up the baby. Mom and Dad trusted me to take care of you and make sure that we both got back to the train station on time. I&#39;m sure the baby is okay.&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?fifth)[&lt;span class = &quot;character1&quot;&gt;&quot;Do you promise?&quot;&lt;/span&gt;]&lt;sixth|
+{(live: 22s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character1&quot;&gt;&quot;Do you promise?&quot;&lt;/span&gt;](stop:)]}
 
-(click: ?sixth)[&lt;span class = &quot;character2&quot;&gt;&quot;I promise&quot;
+{(live: 24s)[(transition: &quot;dissolve&quot;)[&lt;span class = &quot;character2&quot;&gt;&quot;I promise&quot;&lt;/span&gt;]&lt;first|(stop:)]}
 
-&quot;Let&#39;s go.&quot;
+(click: ?first)[[[Head Back Towards the Riverside -&gt;Riverside NB]]]
 
-&quot;...&quot;&lt;/span&gt;]&lt;seventh|
-
-(click: ?seventh)[[[Head Back Towards the Riverside -&gt;Riverside NB]]
-
-(display: &quot;Endings&quot;)]</tw-passagedata><tw-passagedata pid="40" name="New Endings" tags="" position="1547,470.66666666666663" size="100,100">(set: $onTime to false)\
-(set: $myReason to &quot;Grandma&quot;)\
-&lt;!-- Ending First Part --&gt;
+{(live: 24s)[(transition: &quot;dissolve&quot;)[(link-goto: &quot;Walk into the station&quot; , &quot;New Endings&quot;)](stop:)]}</tw-passagedata><tw-passagedata pid="40" name="New Endings" tags="" position="410.3333333333333,1817.3333333333333" size="100,100">&lt;!-- Ending First Part --&gt;
 (if: $haveBaby is true)[You have managed to save the baby from the elements, but are none the wiser as to where it is from or whom it&#39;s parents are. You should probably figure this out soon.]\
 (elseif: $haveBaby is false)[As you enter the train station, you can&#39;t help but think of the baby that you left behind. You&#39;re also concerned about the empty promises that you made to your sister, and know that you couldn&#39;t possibly know if the baby is okay. It wasn&#39;t *your* problem, after all. Right?]\
 (else:)[You shouldn&#39;t be here! OH NO!]\
@@ -609,13 +603,8 @@ Ahead of you and to the right is the entrance to the Richmond Park Overground st
 (elseif: $onTime is true and $myReason is &quot;Train&quot;)[You also missed your train. You&#39;re very happy that you managed to help someone out and spend some time with your sister, but you&#39;re terrified of what your parents will say when you let them know that you&#39;re going to miss your connection home.]\
 (else:)[You shouldn&#39;t be here! OH NO!]\
 
-(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata><tw-passagedata pid="41" name="Test" tags="" position="1440.3333333333333,687.3333333333334" size="100,100">(set: $haveBaby to false)\
-(set: $onTime to false)\
-(set: $myReason to &quot;Grandma&quot;)\
-&lt;!-- Ending First Part --&gt;
-(if: $haveBaby is true)[You have managed to save the baby from the elements, but are none the wiser as to where it is from or whom it&#39;s parents are. You should probably figure this out soon.]\
-(if: $haveBaby is false)[As you enter the train station, you can&#39;t help but think of the baby that you left behind. You&#39;re also concerned about the empty promises that you made to your sister, and know that you couldn&#39;t possibly know if the baby is okay. It wasn&#39;t *your* problem, after all. Right?]\
-Baby?</tw-passagedata></tw-storydata>
+
+(link-goto: &quot;Start Over?&quot; , &quot;Opening&quot;)</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
