@@ -5,30 +5,60 @@
     <item nodeId="node-1162">
         <command xml:space="preserve">Turkey Street</command>
         <result xml:space="preserve">
+Turkey Street
+An Interactive Fiction by Raymond Vermeulen and Matthew Deline
+Release 1 / Serial number 180430 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
+Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
+Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg.
 
-                                                                                                                                                                                        Turkey Street
-                                                                                                                                                                            by Raymond Vermeulen and Matthew Deline
-
-
-
-Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
-
-Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE (which refers to the noise, not the action of eating). If you are unfamiliar with parser based games, you can type HELP or COMMANDS to get a full list, and SAVE to save your progress. Have fun!
-
-
-   Start the story - from the beginning    :    (SPACE)
-                   - from a saved position :       R
-   Quit                                    :       Q
-</result>
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1173"></child>
             <child nodeId="node-1181"></child>
             <child nodeId="node-1163"></child>
             <child nodeId="node-1187"></child>
             <child nodeId="node-1178"></child>
+            <child nodeId="node-1205"></child>
         </children>
+    </item>
+    <item nodeId="node-1205">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1206"></child>
+        </children>
+    </item>
+    <item nodeId="node-1206">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1207"></child>
+        </children>
+    </item>
+    <item nodeId="node-1207">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1208"></child>
+        </children>
+    </item>
+    <item nodeId="node-1208">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1178">
         <command xml:space="preserve">w</command>

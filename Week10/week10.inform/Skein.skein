@@ -1,54 +1,54 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1015">
+<Skein rootNode="node-1190">
     <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
-    <item nodeId="node-1015">
+    <item nodeId="node-1190">
         <command xml:space="preserve">week10</command>
         <result xml:space="preserve">
 
 
 week10
 An Interactive Fiction by Matthew Deline
-Release 1 / Serial number 180323 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 180430 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 GDS
 You can see a chair, some cake and a present here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1027"></child>
-            <child nodeId="node-1031"></child>
-            <child nodeId="node-1018"></child>
-            <child nodeId="node-1022"></child>
-            <child nodeId="node-1020"></child>
+        <children><child nodeId="node-1200"></child>
+            <child nodeId="node-1197"></child>
+            <child nodeId="node-1195"></child>
+            <child nodeId="node-1192"></child>
+            <child nodeId="node-1191"></child>
         </children>
     </item>
-    <item nodeId="node-1020">
+    <item nodeId="node-1191">
         <command xml:space="preserve">sit on chair</command>
         <result xml:space="preserve">Happy birthday to you!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1022">
+    <item nodeId="node-1192">
         <command xml:space="preserve">sit on chain</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1023"></child>
+        <children><child nodeId="node-1193"></child>
         </children>
     </item>
-    <item nodeId="node-1023">
+    <item nodeId="node-1193">
         <command xml:space="preserve">sit on chair</command>
         <result xml:space="preserve">Happy birthday to you!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1024"></child>
+        <children><child nodeId="node-1194"></child>
         </children>
     </item>
-    <item nodeId="node-1024">
+    <item nodeId="node-1194">
         <command xml:space="preserve">eat cake</command>
         <result xml:space="preserve">(first taking the cake)
 Happy birthday to you!
@@ -56,60 +56,60 @@ Happy birthday to you!
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1018">
+    <item nodeId="node-1195">
         <command xml:space="preserve">quit</command>
         <result xml:space="preserve">Are you sure you want to quit? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1019"></child>
+        <children><child nodeId="node-1196"></child>
         </children>
     </item>
-    <item nodeId="node-1019">
+    <item nodeId="node-1196">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve"></result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1031">
+    <item nodeId="node-1197">
         <command xml:space="preserve">eat cake</command>
         <result xml:space="preserve">(first taking the cake)
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1032"></child>
+        <children><child nodeId="node-1198"></child>
         </children>
     </item>
-    <item nodeId="node-1032">
+    <item nodeId="node-1198">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   some cake
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1033"></child>
+        <children><child nodeId="node-1199"></child>
         </children>
     </item>
-    <item nodeId="node-1033">
+    <item nodeId="node-1199">
         <command xml:space="preserve">accuse</command>
         <result xml:space="preserve">I accuse Mr Green!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1027">
+    <item nodeId="node-1200">
         <command xml:space="preserve">accuse</command>
         <result xml:space="preserve">I accuse Mrs White!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1029"></child>
+        <children><child nodeId="node-1201"></child>
         </children>
     </item>
-    <item nodeId="node-1029">
+    <item nodeId="node-1201">
         <command xml:space="preserve">open present</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1030"></child>
+        <children><child nodeId="node-1202"></child>
         </children>
     </item>
-    <item nodeId="node-1030">
+    <item nodeId="node-1202">
         <command xml:space="preserve">accuse</command>
         <result xml:space="preserve">I accuse Professor Plum!
 

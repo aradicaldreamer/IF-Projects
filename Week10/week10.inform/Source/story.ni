@@ -41,7 +41,7 @@ Carry out birthdaying:
 	let x be the birthdayest;
 	try taking x.
 	
-Professor Plum is a person. Miss Scarlet is a person. Colonel Mustard is a Person. Lady Peacock is a person. Mrs White is a person. Mr Green is a person.
+Professor Plum is a person. Miss Scarlet is a person. Colonel Mustard is a person. Lady Peacock is a person. Mrs White is a person. Mr Green is a person.
 
 To decide which person is the murder suspect:
 	decide on the person produced by murder suspecting rulebook.
