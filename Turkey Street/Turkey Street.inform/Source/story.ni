@@ -20,6 +20,16 @@ Volume 2 - Extensions
 
 Include Exit Lister by Eric Eve.
 
+Include Title Page by Jon Ingold.
+
+[Introduction text inspired by the included text in The Wizard Sniffer by Buster Hudson]
+
+To say quotation:
+	say "Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
+	
+	Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE (which refers to the noise, not the action of eating). If you are unfamiliar with parser based games, you can type HELP or COMMANDS to get a full list, and SAVE to save your progress. Have fun!".
+
+
 Volume 3 - Mechanics
 
 Chapter 1 - Evidence
@@ -48,9 +58,7 @@ Turkey Street is a region. Turkey Street Station, Turkey Street East, and Turkey
 
 Chapter 2 - Rooms
 
-The Roost is south of On the Case. "Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. 
-
-   The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself."
+The Roost is south of On the Case. "The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself."
 
 The description of On the Case is "DESCRIPTION".
 
@@ -66,7 +74,7 @@ Book 2 - The Case of Why the Chicken Crossed Turkey Street
 
 Volume 1 - Beginning
 
-The Player is in Roost.
+The Player is in Roost. When play begins: say "Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg."
 
 Volume 2 - Evidence
 
