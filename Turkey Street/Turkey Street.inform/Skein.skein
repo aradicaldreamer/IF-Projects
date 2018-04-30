@@ -1,40 +1,147 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1129">
+<Skein rootNode="node-1010">
     <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
-    <item nodeId="node-1129">
+    <item nodeId="node-1010">
         <command xml:space="preserve">Turkey Street</command>
         <result xml:space="preserve">
 
 
 Turkey Street
-An Interactive Fiction by Matthew Deline
-Release 1 / Serial number 180323 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+An Interactive Fiction by Raymond Vermeulen and Matthew Deline
+Release 1 / Serial number 180430 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
-Turkey Street Station
+Roost
+DESCRIPTION HERE
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1130"></child>
+        <children><child nodeId="node-1011"></child>
+            <child nodeId="node-1146"></child>
         </children>
     </item>
-    <item nodeId="node-1130">
+    <item nodeId="node-1146">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+On the Case
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1153"></child>
+            <child nodeId="node-1149"></child>
+        </children>
+    </item>
+    <item nodeId="node-1149">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Roost
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1150"></child>
+        </children>
+    </item>
+    <item nodeId="node-1150">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+On the Case
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1153">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1154"></child>
+        </children>
+    </item>
+    <item nodeId="node-1154">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+DESCRIPTION WEST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1155"></child>
+        </children>
+    </item>
+    <item nodeId="node-1155">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1156"></child>
+        </children>
+    </item>
+    <item nodeId="node-1156">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+DESCRIPTION WEST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1157"></child>
+        </children>
+    </item>
+    <item nodeId="node-1157">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1158"></child>
+        </children>
+    </item>
+    <item nodeId="node-1158">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+DESCRIPTION EAST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1159"></child>
+        </children>
+    </item>
+    <item nodeId="node-1159">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1011">
         <command xml:space="preserve">exit</command>
         <result xml:space="preserve">But you aren't in anything at the moment.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1131"></child>
+        <children><child nodeId="node-1012"></child>
         </children>
     </item>
-    <item nodeId="node-1131">
+    <item nodeId="node-1012">
         <command xml:space="preserve">quit</command>
         <result xml:space="preserve">Are you sure you want to quit? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1132"></child>
+        <children><child nodeId="node-1013"></child>
         </children>
     </item>
-    <item nodeId="node-1132">
+    <item nodeId="node-1013">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve"></result>
         <commentary xml:space="preserve"></commentary>
