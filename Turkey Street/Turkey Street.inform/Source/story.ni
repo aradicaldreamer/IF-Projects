@@ -29,7 +29,7 @@ Include Title Page by Jon Ingold.
 To say quotation:
 	say "Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
 	
-	Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE (which refers to the noise, not the action of eating). If you are unfamiliar with parser based games, you can type HELP or COMMANDS to get a full list, and SAVE to save your progress. Have fun!".
+	Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), TAKE, DROP, WAIT, and GOBBLE (which refers to turkey speak, not the action of eating). If you are unfamiliar with parser based games, you can type HELP or COMMANDS to get a full list, and SAVE to save your progress. Have fun!".
 
 
 Volume 3 - Mechanics
@@ -60,18 +60,27 @@ Turkey Street is a region. Turkey Street Station, Turkey Street East, and Turkey
 
 Chapter 2 - Rooms
 
+Section 1 - The Roost
 The Roost is south of On the Case. 
 "The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself."
 
 The introduction of The Roost is "Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg."
 
+Section 2 - On the Case
+
 The description of On the Case is "DESCRIPTION".
+
+Section 3 - Turkey Street Station
 
 Turkey Street Station is north of On the Case. "DESCRIPTION".
 
 South of Turkey Street Station is nowhere. [this is so you can not go back]
 
+Section 4 - Turkey Street West
+
 Turkey Street West is west of Turkey Street Station. "DESCRIPTION WEST".
+
+Section 5 - Turkey Street East
 
 Turkey Street East is east of Turkey Street Station. "DESCRIPTION EAST".
 
@@ -82,8 +91,6 @@ Volume 1 - Beginning
 The Player is in Roost.
 
 Volume 2 - Evidence
-
-
 
 Volume 3 - Characters
 
