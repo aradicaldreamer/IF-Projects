@@ -4,6 +4,32 @@ Book 1 - Global Settings
 
 Volume 1 - Brainstorming
 
+Book 1 - To Do List
+
+[
+
+	- Replace Talk to with Gobble
+	
+	- Find a way to track seen evidence, so that when all the evidence is seen, the game ends (this way we don’t have to worry about the player needing to collect evidence)
+	
+	- Limit inventory to one item at a time
+	
+	- Write place descriptions for each location
+	
+	- Add interactive items to each location
+	
+	- Add evidence to each location
+	
+	- Add NPCs to each location
+	
+	- Add behavior to the NPCs
+	
+	- Add dialogue with scenes?
+
+]
+
+Book 2 - Notes
+
 [
 
 	- Please do not read this until AFTER you have played the game (SPOILERS)
