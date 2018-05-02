@@ -1,58 +1,142 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1241">
+<Skein rootNode="node-1708">
     <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
-    <item nodeId="node-1241">
+    <item nodeId="node-1708">
         <command xml:space="preserve">Turkey Street</command>
         <result xml:space="preserve">
 Turkey Street
 An Interactive Fiction by Raymond Vermeulen and Matthew Deline
-Release 1 / Serial number 180430 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 180502 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
-Roost
+The Roost
+Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. 
+
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself. The exit towards Turkey Street is to the north
+
+You can see a sign here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2037"></child>
+            <child nodeId="node-2036"></child>
+            <child nodeId="node-2022"></child>
+            <child nodeId="node-2021"></child>
+            <child nodeId="node-2018"></child>
+            <child nodeId="node-2013"></child>
+            <child nodeId="node-2007"></child>
+            <child nodeId="node-2006"></child>
+            <child nodeId="node-2004"></child>
+            <child nodeId="node-2000"></child>
+            <child nodeId="node-1998"></child>
+            <child nodeId="node-1977"></child>
+            <child nodeId="node-1976"></child>
+            <child nodeId="node-1967"></child>
+            <child nodeId="node-1815"></child>
+            <child nodeId="node-1803"></child>
+            <child nodeId="node-1800"></child>
+            <child nodeId="node-1798"></child>
+            <child nodeId="node-1791"></child>
+            <child nodeId="node-1739"></child>
+            <child nodeId="node-1738"></child>
+            <child nodeId="node-1733"></child>
+            <child nodeId="node-1729"></child>
+            <child nodeId="node-1726"></child>
+            <child nodeId="node-1716"></child>
+            <child nodeId="node-1712"></child>
+            <child nodeId="node-1711"></child>
+            <child nodeId="node-1709"></child>
+        </children>
+    </item>
+    <item nodeId="node-1709">
+        <command xml:space="preserve">x sign</command>
+        <result xml:space="preserve">A piece of wood lies against the entryway. It has been not so carefully pecked to read "Fowl Feathers, Poultry Investigator"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1710"></child>
+        </children>
+    </item>
+    <item nodeId="node-1710">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
-Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg.
+You can see a sign here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1264"></child>
-            <child nodeId="node-1260"></child>
-            <child nodeId="node-1250"></child>
-            <child nodeId="node-1249"></child>
-            <child nodeId="node-1246"></child>
-            <child nodeId="node-1242"></child>
+    </item>
+    <item nodeId="node-1711">
+        <command xml:space="preserve">x chick</command>
+        <result xml:space="preserve">Young, blonde, and clearly stressed out. She smells like danger, a danger on which I will have to whet my beak.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1712">
+        <command xml:space="preserve">x bottle</command>
+        <result xml:space="preserve">Wild Turkey, 101 proof. It's cheap, but it gets the job done. +101 proof.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1714"></child>
+            <child nodeId="node-1713"></child>
         </children>
     </item>
-    <item nodeId="node-1242">
+    <item nodeId="node-1713">
+        <command xml:space="preserve">x bottle</command>
+        <result xml:space="preserve"> Wild Turkey, 101 proof. It's cheap, but it gets the job done
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1714">
+        <command xml:space="preserve">drink bottle</command>
+        <result xml:space="preserve">You have had enough... for now
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1715"></child>
+        </children>
+    </item>
+    <item nodeId="node-1715">
+        <command xml:space="preserve">eat bottle</command>
+        <result xml:space="preserve">That's plainly inedible.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1716">
         <command xml:space="preserve">x</command>
-        <result xml:space="preserve">What do you want to examine?
+        <result xml:space="preserve">(the child)
+You see nothing special about the child.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1243"></child>
+        <children><child nodeId="node-1720"></child>
+            <child nodeId="node-1717"></child>
         </children>
     </item>
-    <item nodeId="node-1243">
+    <item nodeId="node-1717">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You see nothing unexpected in that direction.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1244"></child>
+        <children><child nodeId="node-1718"></child>
         </children>
     </item>
-    <item nodeId="node-1244">
+    <item nodeId="node-1718">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1245"></child>
+        <children><child nodeId="node-1719"></child>
         </children>
     </item>
-    <item nodeId="node-1245">
+    <item nodeId="node-1719">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -60,25 +144,83 @@ The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottl
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1246">
+    <item nodeId="node-1720">
+        <command xml:space="preserve">gobble child</command>
+        <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
+The child runs screaming, and appears to have dropped something
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1721"></child>
+        </children>
+    </item>
+    <item nodeId="node-1721">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(the book)
+You see nothing special about the book.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1722"></child>
+        </children>
+    </item>
+    <item nodeId="node-1722">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1723"></child>
+        </children>
+    </item>
+    <item nodeId="node-1723">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1724"></child>
+        </children>
+    </item>
+    <item nodeId="node-1724">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1725"></child>
+        </children>
+    </item>
+    <item nodeId="node-1725">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a book here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1726">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1247"></child>
+        <children><child nodeId="node-1727"></child>
         </children>
     </item>
-    <item nodeId="node-1247">
+    <item nodeId="node-1727">
         <command xml:space="preserve">x</command>
         <result xml:space="preserve">What do you want to examine?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1248"></child>
+        <children><child nodeId="node-1728"></child>
         </children>
     </item>
-    <item nodeId="node-1248">
+    <item nodeId="node-1728">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
@@ -86,66 +228,1466 @@ The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottl
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1249">
+    <item nodeId="node-1729">
+        <command xml:space="preserve">take egg</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1731"></child>
+            <child nodeId="node-1730"></child>
+        </children>
+    </item>
+    <item nodeId="node-1730">
+        <command xml:space="preserve">take spoon</command>
+        <result xml:space="preserve">Your inventory is full
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1731">
+        <command xml:space="preserve">drop</command>
+        <result xml:space="preserve">(the egg)
+Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1732"></child>
+        </children>
+    </item>
+    <item nodeId="node-1732">
+        <command xml:space="preserve">take spoon</command>
+        <result xml:space="preserve">That is far too big for you to carry in your beak and you don't want to ruffle your feathers! You can not take it with you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1733">
+        <command xml:space="preserve">take bottle</command>
+        <result xml:space="preserve">The bottle is far too large to take with you. You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1734"></child>
+        </children>
+    </item>
+    <item nodeId="node-1734">
+        <command xml:space="preserve">drink bottle</command>
+        <result xml:space="preserve">There's nothing suitable to drink here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1735"></child>
+        </children>
+    </item>
+    <item nodeId="node-1735">
+        <command xml:space="preserve">take sign</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1736"></child>
+        </children>
+    </item>
+    <item nodeId="node-1736">
+        <command xml:space="preserve">read sign</command>
+        <result xml:space="preserve">You see nothing special about the sign.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1737"></child>
+        </children>
+    </item>
+    <item nodeId="node-1737">
+        <command xml:space="preserve">x sign</command>
+        <result xml:space="preserve">You see nothing special about the sign.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1738">
         <command xml:space="preserve">save</command>
         <result xml:space="preserve">Save failed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1250">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-On the Case
-DESCRIPTION
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1253"></child>
-            <child nodeId="node-1251"></child>
-        </children>
-    </item>
-    <item nodeId="node-1251">
+    <item nodeId="node-1739">
         <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-Roost
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1252"></child>
+        <children><child nodeId="node-1787"></child>
+            <child nodeId="node-1740"></child>
         </children>
     </item>
-    <item nodeId="node-1252">
+    <item nodeId="node-1740">
+        <command xml:space="preserve">t</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1741"></child>
+        </children>
+    </item>
+    <item nodeId="node-1741">
+        <command xml:space="preserve">a</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1742"></child>
+        </children>
+    </item>
+    <item nodeId="node-1742">
+        <command xml:space="preserve">r</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1743"></child>
+        </children>
+    </item>
+    <item nodeId="node-1743">
+        <command xml:space="preserve">t</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1744"></child>
+        </children>
+    </item>
+    <item nodeId="node-1744">
+        <command xml:space="preserve">[back]</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1745"></child>
+        </children>
+    </item>
+    <item nodeId="node-1745">
+        <command xml:space="preserve">[back]</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1746"></child>
+        </children>
+    </item>
+    <item nodeId="node-1746">
+        <command xml:space="preserve">[back]</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1747"></child>
+        </children>
+    </item>
+    <item nodeId="node-1747">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">Turkey Street
+                                                                        by Raymond Vermeulen and Matthew Deline
+
+
+
+Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
+
+Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!
+
+
+   Start the story - from the beginning    :    (SPACE)
+                   - from a saved position :       R
+   Quit                                    :       Q</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1748"></child>
+        </children>
+    </item>
+    <item nodeId="node-1748">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">Turkey Street
+An Interactive Fiction by Raymond Vermeulen and Matthew Deline
+Release 1 / Serial number 180502 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+The Roost
+Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. 
+
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a sign here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1749"></child>
+        </children>
+    </item>
+    <item nodeId="node-1749">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a sign here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1750"></child>
+        </children>
+    </item>
+    <item nodeId="node-1750">
+        <command xml:space="preserve">look at chick</command>
+        <result xml:space="preserve">Young, blonde, and clearly stressed out. She smells like danger, a danger on which I will have to whet my beak.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1751"></child>
+        </children>
+    </item>
+    <item nodeId="node-1751">
+        <command xml:space="preserve">cluck</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1752"></child>
+        </children>
+    </item>
+    <item nodeId="node-1752">
+        <command xml:space="preserve">gobble</command>
+        <result xml:space="preserve">What do you want to gobble?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1753"></child>
+        </children>
+    </item>
+    <item nodeId="node-1753">
+        <command xml:space="preserve">gobble at chick</command>
+        <result xml:space="preserve">"Cluck. Cluck. Cluck cluck CLUCK-AH." She sings her sweet song to me.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1754"></child>
+        </children>
+    </item>
+    <item nodeId="node-1754">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">On the Case
+The chick's distress is still fresh and palpable. She can't help me now. I leave her to her clucking. With some luck, she'll still be there when I come home to roost. I spread my wings and glide away to the next case. A case more interesting than the typical cuckolding of henpecked husbands I get saddled with. The case of... WHY THE CHICKEN CROSSED THE ROAD.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1755"></child>
+        </children>
+    </item>
+    <item nodeId="node-1755">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Turkey Street Station
+A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. 
+
+A very dead chicken lies in the center of the road
+
+You can also see a fox and an eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1756"></child>
+        </children>
+    </item>
+    <item nodeId="node-1756">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. 
+
+A very dead chicken lies in the center of the road
+
+You can also see a fox and an eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1757"></child>
+        </children>
+    </item>
+    <item nodeId="node-1757">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Turkey Street West
+A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. 
+
+You can see a bus stop (on which is a red herring), a heron and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1758"></child>
+        </children>
+    </item>
+    <item nodeId="node-1758">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Turkey Street West
+The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition. 
+
+You can see a bus stop (on which is a red herring), a heron and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1759"></child>
+        </children>
+    </item>
+    <item nodeId="node-1759">
+        <command xml:space="preserve">look at bus stop</command>
+        <result xml:space="preserve">The bus stop appears to be in a state of disrepair. One side is slumped over and is low enough for you to climb on top of it.
+
+On the bus stop is a red herring.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1760"></child>
+        </children>
+    </item>
+    <item nodeId="node-1760">
+        <command xml:space="preserve">climb on bus stop</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1761"></child>
+        </children>
+    </item>
+    <item nodeId="node-1761">
+        <command xml:space="preserve">take red herring</command>
+        <result xml:space="preserve">The herring appears to be just out of reach. You may not be able to fly, but there's more than one way to pluck a chicken. Maybe there is another way to get up there?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1762"></child>
+        </children>
+    </item>
+    <item nodeId="node-1762">
+        <command xml:space="preserve">fly up bus stop</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1763"></child>
+        </children>
+    </item>
+    <item nodeId="node-1763">
+        <command xml:space="preserve">fly at</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1764"></child>
+        </children>
+    </item>
+    <item nodeId="node-1764">
+        <command xml:space="preserve">fly</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1765"></child>
+        </children>
+    </item>
+    <item nodeId="node-1765">
+        <command xml:space="preserve">jump</command>
+        <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1766"></child>
+        </children>
+    </item>
+    <item nodeId="node-1766">
+        <command xml:space="preserve">jump on bus stop</command>
+        <result xml:space="preserve">I only understood you as far as wanting to jump.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1767"></child>
+        </children>
+    </item>
+    <item nodeId="node-1767">
+        <command xml:space="preserve">just on</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1768"></child>
+        </children>
+    </item>
+    <item nodeId="node-1768">
+        <command xml:space="preserve">jump</command>
+        <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1769"></child>
+        </children>
+    </item>
+    <item nodeId="node-1769">
+        <command xml:space="preserve">jump</command>
+        <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1770"></child>
+        </children>
+    </item>
+    <item nodeId="node-1770">
+        <command xml:space="preserve">climb bus stop</command>
+        <result xml:space="preserve">Little is to be achieved by that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1771"></child>
+        </children>
+    </item>
+    <item nodeId="node-1771">
+        <command xml:space="preserve">look bus stop</command>
+        <result xml:space="preserve">The bus stop appears to be in a state of disrepair. One side is slumped over and is low enough for you to climb on top of it.
+
+On the bus stop is a red herring.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1772"></child>
+        </children>
+    </item>
+    <item nodeId="node-1772">
+        <command xml:space="preserve">climb side</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1773"></child>
+        </children>
+    </item>
+    <item nodeId="node-1773">
+        <command xml:space="preserve">go up</command>
+        <result xml:space="preserve">You get onto the bus stop.
+
+On the bus stop you can see a red herring.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1774"></child>
+        </children>
+    </item>
+    <item nodeId="node-1774">
+        <command xml:space="preserve">eat red herring</command>
+        <result xml:space="preserve">I eat fishy business for breakfast, unfortunately I've already eaten lunch
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1775"></child>
+        </children>
+    </item>
+    <item nodeId="node-1775">
+        <command xml:space="preserve">take red herring</command>
+        <result xml:space="preserve">Taken.
+
+Drooling, the heron eyes you closely with an intense stare. Are these the eyes of a chicken chaser, or of hunger?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1776"></child>
+        </children>
+    </item>
+    <item nodeId="node-1776">
+        <command xml:space="preserve">gobble at heron</command>
+        <result xml:space="preserve">Drooling, the heron eyes you closely with an intense stare. Are these the eyes of a chicken chaser, or of hunger?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1777"></child>
+        </children>
+    </item>
+    <item nodeId="node-1777">
+        <command xml:space="preserve">gobble heron</command>
+        <result xml:space="preserve">Drooling, the heron eyes you closely with an intense stare. Are these the eyes of a chicken chaser, or of hunger?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1778"></child>
+        </children>
+    </item>
+    <item nodeId="node-1778">
+        <command xml:space="preserve">look at heron</command>
+        <result xml:space="preserve">You see nothing special about the heron.
+
+Drooling, the heron eyes you closely with an intense stare. Are these the eyes of a chicken chaser, or of hunger?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1779"></child>
+        </children>
+    </item>
+    <item nodeId="node-1779">
+        <command xml:space="preserve">feed red herring to heron</command>
+        <result xml:space="preserve">The heron snaps the herring from your beak hungrily and flies away ungracefully. In the commotion, it drops a torn photograph
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1780"></child>
+        </children>
+    </item>
+    <item nodeId="node-1780">
+        <command xml:space="preserve">take torn photograph</command>
+        <result xml:space="preserve">That is far too big for you to carry in your beak and you don't want to ruffle your feathers! You can not take it with you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1781"></child>
+        </children>
+    </item>
+    <item nodeId="node-1781">
+        <command xml:space="preserve">look at photograph</command>
+        <result xml:space="preserve">You see nothing special about the torn photograph.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1782"></child>
+        </children>
+    </item>
+    <item nodeId="node-1782">
+        <command xml:space="preserve">reset</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1783"></child>
+        </children>
+    </item>
+    <item nodeId="node-1783">
+        <command xml:space="preserve">reset</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1784"></child>
+        </children>
+    </item>
+    <item nodeId="node-1784">
+        <command xml:space="preserve">stop</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1785"></child>
+        </children>
+    </item>
+    <item nodeId="node-1785">
+        <command xml:space="preserve">reset</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1786"></child>
+        </children>
+    </item>
+    <item nodeId="node-1786">
+        <command xml:space="preserve">reset</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1787">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 On the Case
+The chick's distress is still fresh and palpable. She can't help me now. I leave her to her clucking. With some luck, she'll still be there when I come home to roost. I spread my wings and glide away to the next case. A case more interesting than the typical cuckolding of henpecked husbands I get saddled with. The case of... WHY THE CHICKEN CROSSED THE ROAD.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1788"></child>
+        </children>
+    </item>
+    <item nodeId="node-1788">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1789"></child>
+        </children>
+    </item>
+    <item nodeId="node-1789">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1790"></child>
+        </children>
+    </item>
+    <item nodeId="node-1790">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1253">
+    <item nodeId="node-1791">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1792"></child>
+        </children>
+    </item>
+    <item nodeId="node-1792">
+        <command xml:space="preserve">rulesn</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1793"></child>
+        </children>
+    </item>
+    <item nodeId="node-1793">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't travel in what's not a vehicle rule" applies.]
+[Rule "can't go through undescribed doors rule" applies.]
+[Rule "can't go through closed doors rule" applies.]
+[Rule "determine map connection rule" applies.]
+[Rule "can't go that way rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "move player and vehicle rule" applies.]
+[Rule "move floating objects rule" applies.]
+[Rule "check light in new location rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "describe room gone into rule" applies.]
+
+[Rule "determine visibility ceiling rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "declare everything unmentioned rule" applies.]
+[Rule "room description heading rule" applies.]
+On the Case
+[Rule "room description body text rule" applies.]
+DESCRIPTION
+
+[Rule "room description paragraphs about objects rule" applies.]
+[Rule "initialise locale description rule" applies.]
+[Rule "find notable locale objects rule" applies.]
+[Rule "standard notable locale objects rule" applies.]
+[Rule "interesting locale paragraphs rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "you-can-also-see rule" applies.]
+[Rule "check new arrival rule" applies.]
+[Rule "first time looking rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "other people looking rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1794"></child>
+        </children>
+    </item>
+    <item nodeId="node-1794">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1795"></child>
+        </children>
+    </item>
+    <item nodeId="node-1795">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't travel in what's not a vehicle rule" applies.]
+[Rule "can't go through undescribed doors rule" applies.]
+[Rule "can't go through closed doors rule" applies.]
+[Rule "determine map connection rule" applies.]
+[Rule "can't go that way rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "move player and vehicle rule" applies.]
+[Rule "move floating objects rule" applies.]
+[Rule "check light in new location rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "describe room gone into rule" applies.]
+
+[Rule "determine visibility ceiling rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "declare everything unmentioned rule" applies.]
+[Rule "room description heading rule" applies.]
+Turkey Street Station
+[Rule "room description body text rule" applies.]
+DESCRIPTION
+
+[Rule "room description paragraphs about objects rule" applies.]
+[Rule "initialise locale description rule" applies.]
+[Rule "find notable locale objects rule" applies.]
+[Rule "standard notable locale objects rule" applies.]
+[Rule "interesting locale paragraphs rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "you-can-also-see rule" applies.]
+[Rule "check new arrival rule" applies.]
+[Rule "first time looking rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "other people looking rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1796"></child>
+        </children>
+    </item>
+    <item nodeId="node-1796">
+        <command xml:space="preserve">q</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+Are you sure you want to quit? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1797"></child>
+        </children>
+    </item>
+    <item nodeId="node-1797">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1798">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1799"></child>
+        </children>
+    </item>
+    <item nodeId="node-1799">
+        <command xml:space="preserve">close door</command>
+        <result xml:space="preserve">That's already closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1800">
+        <command xml:space="preserve">open bottle</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1801"></child>
+        </children>
+    </item>
+    <item nodeId="node-1801">
+        <command xml:space="preserve">x bottle</command>
+        <result xml:space="preserve">You see nothing special about the bottle.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1802"></child>
+        </children>
+    </item>
+    <item nodeId="node-1802">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1803">
+        <command xml:space="preserve">observe</command>
+        <result xml:space="preserve">(the child)
+You see nothing special about the child.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1804"></child>
+        </children>
+    </item>
+    <item nodeId="node-1804">
+        <command xml:space="preserve">look at</command>
+        <result xml:space="preserve">(the child)
+You see nothing special about the child.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1805"></child>
+        </children>
+    </item>
+    <item nodeId="node-1805">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a child here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1806"></child>
+        </children>
+    </item>
+    <item nodeId="node-1806">
+        <command xml:space="preserve">gobble child</command>
+        <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
+The child runs screaming, and appears to have dropped something
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1807"></child>
+        </children>
+    </item>
+    <item nodeId="node-1807">
+        <command xml:space="preserve">gobble at the book</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1808"></child>
+        </children>
+    </item>
+    <item nodeId="node-1808">
+        <command xml:space="preserve">UNDO</command>
+        <result xml:space="preserve">The Roost
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1809"></child>
+        </children>
+    </item>
+    <item nodeId="node-1809">
+        <command xml:space="preserve">UNDO</command>
+        <result xml:space="preserve">The Roost
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1810"></child>
+        </children>
+    </item>
+    <item nodeId="node-1810">
+        <command xml:space="preserve">UNDO</command>
+        <result xml:space="preserve">The Roost
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1811"></child>
+        </children>
+    </item>
+    <item nodeId="node-1811">
+        <command xml:space="preserve">UNDO</command>
+        <result xml:space="preserve">The Roost
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1812"></child>
+        </children>
+    </item>
+    <item nodeId="node-1812">
+        <command xml:space="preserve">UNDO</command>
+        <result xml:space="preserve">The Roost
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1813"></child>
+        </children>
+    </item>
+    <item nodeId="node-1813">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a child here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1814"></child>
+        </children>
+    </item>
+    <item nodeId="node-1814">
+        <command xml:space="preserve">gobble at the child</command>
+        <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
+The child runs screaming, and appears to have dropped something
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1815">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+On the Case
+The chick's distress is still fresh and palpable. She can't help me now. I leave her to her clucking. With some luck, she'll still be there when I come home to roost. I spread my wings and glide away to the next case. A case more interesting than the typical cuckolding of henpecked husbands I get saddled with. The case of... WHY THE CHICKEN CROSSED THE ROAD. 
+
+This road continues north ... to Turkey Street.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1964"></child>
+            <child nodeId="node-1962"></child>
+            <child nodeId="node-2044"></child>
+            <child nodeId="node-1820"></child>
+            <child nodeId="node-1816"></child>
+        </children>
+    </item>
+    <item nodeId="node-1816">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1817"></child>
+        </children>
+    </item>
+    <item nodeId="node-1817">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Turkey Street Station
-DESCRIPTION
+A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. 
+
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street, like a lighthouse for a shipwrecked life.
+
+A very dead chicken lies in the center of the road
+
+Crows. Scavengers, the murderous lot of them. I'd watch my belongings around them, if I could carry any.
+
+Glorious, majestic, and free in all the ways that I am not. I already hate this bird. The feeling is probably mutual.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1254"></child>
+        <children><child nodeId="node-1818"></child>
         </children>
     </item>
-    <item nodeId="node-1254">
+    <item nodeId="node-1818">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't, since Station Entrance leads nowhere.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1819"></child>
+        </children>
+    </item>
+    <item nodeId="node-1819">
+        <command xml:space="preserve">go south</command>
+        <result xml:space="preserve">You can't, since Station Entrance leads nowhere.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1820">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Turkey Street Station
+A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. 
+
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+You can see a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1945"></child>
+            <child nodeId="node-1939"></child>
+            <child nodeId="node-1932"></child>
+            <child nodeId="node-1923"></child>
+            <child nodeId="node-1919"></child>
+            <child nodeId="node-1917"></child>
+            <child nodeId="node-1914"></child>
+            <child nodeId="node-1908"></child>
+            <child nodeId="node-1904"></child>
+            <child nodeId="node-1849"></child>
+            <child nodeId="node-1848"></child>
+            <child nodeId="node-1847"></child>
+            <child nodeId="node-1844"></child>
+            <child nodeId="node-1827"></child>
+            <child nodeId="node-1824"></child>
+            <child nodeId="node-1823"></child>
+            <child nodeId="node-1821"></child>
+        </children>
+    </item>
+    <item nodeId="node-1821">
+        <command xml:space="preserve">x nandos</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1822"></child>
+        </children>
+    </item>
+    <item nodeId="node-1822">
+        <command xml:space="preserve">x nando's</command>
+        <result xml:space="preserve">THE HORROR!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1823">
+        <command xml:space="preserve">x mouse</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1824">
+        <command xml:space="preserve">x lamppost</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1825"></child>
+        </children>
+    </item>
+    <item nodeId="node-1825">
+        <command xml:space="preserve">x crow</command>
+        <result xml:space="preserve">Upon closer examination, the crow appears to have a locket hanging from it's neck. Maybe you could scare the crow into dropping it somehow
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1826"></child>
+        </children>
+    </item>
+    <item nodeId="node-1826">
+        <command xml:space="preserve">x crow</command>
+        <result xml:space="preserve">A pair of beady eyes stares at you. Crows. Scavengers, the murderous lot of them. I'd watch my belongings around them, if I could carry any. YAY. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1827">
+        <command xml:space="preserve">x crow</command>
+        <result xml:space="preserve">Upon closer examination, the crow appears to have a locket hanging from it's neck. Maybe you could scare the crow into dropping it somehow
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1839"></child>
+            <child nodeId="node-1830"></child>
+            <child nodeId="node-1828"></child>
+        </children>
+    </item>
+    <item nodeId="node-1828">
+        <command xml:space="preserve">x crow</command>
+        <result xml:space="preserve">You see nothing special about the crow.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1829"></child>
+        </children>
+    </item>
+    <item nodeId="node-1829">
+        <command xml:space="preserve">x eagle</command>
+        <result xml:space="preserve">You see nothing special about the eagle.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1830">
+        <command xml:space="preserve">gobble crow</command>
+        <result xml:space="preserve">You stare down the crow. It stares back at you. Time slows down. Eternity passes. "Gobble. GOBBLE." 
+
+ "Ca-kaw! Ca'kaw caKAW" The crow screeches and drops the locket just out of reach. You should take it to examine it elsewhere before it snatches it back!
+
+Your standoff with the crow has terrified the mouse. It no longer feels safe inside it's cardboard box and is escaping for freedom with the shiny thing. Catch it!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1836"></child>
+            <child nodeId="node-1831"></child>
+        </children>
+    </item>
+    <item nodeId="node-1831">
+        <command xml:space="preserve">take ring</command>
+        <result xml:space="preserve">The mouse is far to quick for you to catch
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1832"></child>
+        </children>
+    </item>
+    <item nodeId="node-1832">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1833"></child>
+        </children>
+    </item>
+    <item nodeId="node-1833">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+Death swoops in from above and in a flash of beak and squeak, the mouse is gone. The eagle returns to his perch, leaving the shiny ring on the ground.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1834"></child>
+        </children>
+    </item>
+    <item nodeId="node-1834">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+You can see a ring, a locket, a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1835"></child>
+        </children>
+    </item>
+    <item nodeId="node-1835">
+        <command xml:space="preserve">examine ring</command>
+        <result xml:space="preserve">A small, shiny bauble. A white elephant.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1836">
+        <command xml:space="preserve">catch mouse</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1837"></child>
+        </children>
+    </item>
+    <item nodeId="node-1837">
+        <command xml:space="preserve">take mouse</command>
+        <result xml:space="preserve">That is far too big for you to carry in your beak and you don't want to ruffle your feathers! You can not take it with you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1838"></child>
+        </children>
+    </item>
+    <item nodeId="node-1838">
+        <command xml:space="preserve">take ring</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1839">
+        <command xml:space="preserve">gobble at crow</command>
+        <result xml:space="preserve">You stare down the crow menacingly. It stares back at you. Time slows down. Eternity passes. "Gobble. GOBBLE." 
+
+ "Ca-kaw! Ca'kaw caKAW" The crow screeches in fear, and drops the locket just out of reach. You should take it to examine it elsewhere before it snatches it back!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1840"></child>
+        </children>
+    </item>
+    <item nodeId="node-1840">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street, like a lighthouse for a shipwrecked life.
+
+You can see a locket, a dead chicken, a crow and an eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1841"></child>
+        </children>
+    </item>
+    <item nodeId="node-1841">
+        <command xml:space="preserve">take locket</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1842"></child>
+        </children>
+    </item>
+    <item nodeId="node-1842">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. 
+
+There's an edge to the air in East End, an edge I live on. And so does an ornithophobic child cowering in fear from the spectre of a gluttonous duck feasting on bits of bread strewn everywhere. For now, a cordon of turkeys joins me on the edge.
+
+You can see a child and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1843"></child>
+        </children>
+    </item>
+    <item nodeId="node-1843">
+        <command xml:space="preserve">x locket</command>
+        <result xml:space="preserve">A small, heart-shaped locket. No inscription. Just a chicken... and a chick.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1844">
+        <command xml:space="preserve">x chicken</command>
+        <result xml:space="preserve">This chicken is quite dead. Tire-tracks run down its spine and through its spilled guts. Still clutched in its beak, a letter!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1845"></child>
+            <child nodeId="node-2136"></child>
+        </children>
+    </item>
+    <item nodeId="node-2136">
+        <command xml:space="preserve">x letter</command>
+        <result xml:space="preserve">Is this... an ode to farts? Whatever it is, it's personal, sappy, and somewhat disgusting.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2137"></child>
+        </children>
+    </item>
+    <item nodeId="node-2137">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+You can see a nothing (examined), a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1845">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+You can see a letter, a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1846"></child>
+            <child nodeId="node-2131"></child>
+        </children>
+    </item>
+    <item nodeId="node-2131">
+        <command xml:space="preserve">x letter</command>
+        <result xml:space="preserve">Is this... an ode to farts? Whatever it is, it's personal, sappy, and somewhat disgusting.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2132"></child>
+        </children>
+    </item>
+    <item nodeId="node-2132">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+You can see a  (examined), a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1846">
+        <command xml:space="preserve">x chicken</command>
+        <result xml:space="preserve">You see nothing special about the dead chicken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1847">
+        <command xml:space="preserve">x box</command>
+        <result xml:space="preserve">YAY
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1848">
+        <command xml:space="preserve">x Nando's</command>
+        <result xml:space="preserve">You see nothing special about the Nando's.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1849">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Turkey Street West
-DESCRIPTION WEST
+A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. 
+
+The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition.
+
+Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something.
+
+A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?
+
+You can also see a bus stop and a garbage bin here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1255"></child>
+        <children><child nodeId="node-1893"></child>
+            <child nodeId="node-1885"></child>
+            <child nodeId="node-1884"></child>
+            <child nodeId="node-1875"></child>
+            <child nodeId="node-1856"></child>
+            <child nodeId="node-1852"></child>
+            <child nodeId="node-1850"></child>
         </children>
     </item>
-    <item nodeId="node-1255">
+    <item nodeId="node-1850">
+        <command xml:space="preserve">x bus stop</command>
+        <result xml:space="preserve">The bus stop appears to be in a state of disrepair. One side is slumped over and is low enough for you to climb on top of it.
+
+On the bus stop is a red herring.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1851"></child>
+        </children>
+    </item>
+    <item nodeId="node-1851">
+        <command xml:space="preserve">get on bus stop</command>
+        <result xml:space="preserve">You get onto the bus stop.
+
+On the bus stop you can see a red herring.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1852">
+        <command xml:space="preserve">x bin</command>
+        <result xml:space="preserve">This garbage bin is utterly filthy, like your sense of humor. In the depths of this filth (within the bin, not yourself) lies ... THE MURDER WEAPON.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1853"></child>
+        </children>
+    </item>
+    <item nodeId="node-1853">
+        <command xml:space="preserve">x bin</command>
+        <result xml:space="preserve">In the garbage bin is a murder weapon.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1854"></child>
+        </children>
+    </item>
+    <item nodeId="node-1854">
+        <command xml:space="preserve">take murder weapon</command>
+        <result xml:space="preserve">That is far too big for you to carry in your beak and you don't want to ruffle your feathers! You can not take it with you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1855"></child>
+        </children>
+    </item>
+    <item nodeId="node-1855">
+        <command xml:space="preserve">x murder weapon</command>
+        <result xml:space="preserve">You see nothing special about the murder weapon.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1856">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">The road is blocked by Turkeys!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1872"></child>
+            <child nodeId="node-1857"></child>
+        </children>
+    </item>
+    <item nodeId="node-1857">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">The road is blocked by Turkeys!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1860"></child>
+            <child nodeId="node-1858"></child>
+        </children>
+    </item>
+    <item nodeId="node-1858">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1859"></child>
+        </children>
+    </item>
+    <item nodeId="node-1859">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't travel in what's not a vehicle rule" applies.]
+[Rule "can't go through undescribed doors rule" applies.]
+[Rule "can't go through closed doors rule" applies.]
+[Rule "determine map connection rule" applies.]
+[Rule "can't go that way rule" applies.]
+You can't go that way.
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1860">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -153,32 +1695,10 @@ DESCRIPTION
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1256"></child>
+        <children><child nodeId="node-1861"></child>
         </children>
     </item>
-    <item nodeId="node-1256">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Turkey Street West
-DESCRIPTION WEST
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1257"></child>
-        </children>
-    </item>
-    <item nodeId="node-1257">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Turkey Street Station
-DESCRIPTION
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1258"></child>
-        </children>
-    </item>
-    <item nodeId="node-1258">
+    <item nodeId="node-1861">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Turkey Street East
@@ -186,10 +1706,310 @@ DESCRIPTION EAST
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1259"></child>
+        <children><child nodeId="node-1862"></child>
         </children>
     </item>
-    <item nodeId="node-1259">
+    <item nodeId="node-1862">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1863"></child>
+        </children>
+    </item>
+    <item nodeId="node-1863">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+DESCRIPTION WEST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1864"></child>
+        </children>
+    </item>
+    <item nodeId="node-1864">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">The road is blocked by Turkeys!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1865"></child>
+        </children>
+    </item>
+    <item nodeId="node-1865">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1866"></child>
+        </children>
+    </item>
+    <item nodeId="node-1866">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1867"></child>
+        </children>
+    </item>
+    <item nodeId="node-1867">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1868"></child>
+        </children>
+    </item>
+    <item nodeId="node-1868">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+DESCRIPTION EAST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1869"></child>
+        </children>
+    </item>
+    <item nodeId="node-1869">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1870"></child>
+        </children>
+    </item>
+    <item nodeId="node-1870">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+DESCRIPTION WEST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1871"></child>
+        </children>
+    </item>
+    <item nodeId="node-1871">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">The road is blocked by Turkeys!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1872">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1873"></child>
+        </children>
+    </item>
+    <item nodeId="node-1873">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1874"></child>
+        </children>
+    </item>
+    <item nodeId="node-1874">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "Instead of going nowhere from Turkey Street West" applies.]
+The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1875">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1883"></child>
+            <child nodeId="node-1881"></child>
+            <child nodeId="node-1880"></child>
+            <child nodeId="node-1876"></child>
+        </children>
+    </item>
+    <item nodeId="node-1876">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">Which do you mean, Sainsburys Entrance door or Tesco Entrance door?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1877"></child>
+        </children>
+    </item>
+    <item nodeId="node-1877">
+        <command xml:space="preserve">x sainsburys entrance door</command>
+        <result xml:space="preserve">You see nothing special about Sainsburys Entrance door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1878"></child>
+        </children>
+    </item>
+    <item nodeId="node-1878">
+        <command xml:space="preserve">close door</command>
+        <result xml:space="preserve">Which do you mean, Sainsburys Entrance door or Tesco Entrance door?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1879"></child>
+        </children>
+    </item>
+    <item nodeId="node-1879">
+        <command xml:space="preserve">close sainsbury door</command>
+        <result xml:space="preserve">You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1880">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1881">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1882"></child>
+        </children>
+    </item>
+    <item nodeId="node-1882">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't travel in what's not a vehicle rule" applies.]
+[Rule "can't go through undescribed doors rule" applies.]
+[Rule "can't go through closed doors rule" applies.]
+[Rule "determine map connection rule" applies.]
+[Rule "can't go that way rule" applies.]
+You can't, since Sainsburys Entrance door leads nowhere.
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1883">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street West
+DESCRIPTION WEST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1884">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street West
+The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition.
+
+A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?
+
+You can also see a bus stop (on which is a red herring), a garbage bin (closed) and a heron here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1885">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance.
+
+A very dead chicken lies in the center of the road
+
+Glorious, majestic, and free in all the ways that I am not. I already hate this bird. The feeling is probably mutual.
+
+You can also see a crow here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1890"></child>
+            <child nodeId="node-1886"></child>
+        </children>
+    </item>
+    <item nodeId="node-1886">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition.
+
+Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something.
+
+A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?
+
+You can also see a bus stop (on which is a red herring) and a garbage bin (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1887"></child>
+        </children>
+    </item>
+    <item nodeId="node-1887">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1888"></child>
+        </children>
+    </item>
+    <item nodeId="node-1888">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+DESCRIPTION EAST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1889"></child>
+        </children>
+    </item>
+    <item nodeId="node-1889">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Turkey Street Station
@@ -198,60 +2018,2234 @@ DESCRIPTION
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1260">
+    <item nodeId="node-1890">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. 
+
+There's an edge to the air in East End, an edge I live on. And so do OBJECT and OBJECT2. For now, a cordon of turkeys joins me on the edge.
+
+Dark of wing and dull of bill. The duck stands in a field, and wears no pants. It appears hungry. Hungry for the truth? Or for more murder?
+
+You can also see a child here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1891"></child>
+        </children>
+    </item>
+    <item nodeId="node-1891">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1892"></child>
+        </children>
+    </item>
+    <item nodeId="node-1892">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street East
+There's an edge to the air in East End, an edge I live on. And so do OBJECT and OBJECT2. For now, a cordon of turkeys joins me on the edge.
+
+Dark of wing and dull of bill. The duck stands in a field, and wears no pants. It appears hungry. Hungry for the truth? Or for more murder?
+
+You can also see a child here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1893">
+        <command xml:space="preserve">clear</command>
+        <result xml:space="preserve">What do you want to clear?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1894"></child>
+        </children>
+    </item>
+    <item nodeId="node-1894">
+        <command xml:space="preserve">clear screen</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1895"></child>
+        </children>
+    </item>
+    <item nodeId="node-1895">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1896"></child>
+        </children>
+    </item>
+    <item nodeId="node-1896">
+        <command xml:space="preserve">HELP</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1897"></child>
+        </children>
+    </item>
+    <item nodeId="node-1897">
+        <command xml:space="preserve">HELP</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1898"></child>
+        </children>
+    </item>
+    <item nodeId="node-1898">
+        <command xml:space="preserve">COMMANDS</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1899"></child>
+        </children>
+    </item>
+    <item nodeId="node-1899">
+        <command xml:space="preserve">COMMANDS</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1900"></child>
+        </children>
+    </item>
+    <item nodeId="node-1900">
+        <command xml:space="preserve">command</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1901"></child>
+        </children>
+    </item>
+    <item nodeId="node-1901">
+        <command xml:space="preserve">commands</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1902"></child>
+        </children>
+    </item>
+    <item nodeId="node-1902">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1903"></child>
+        </children>
+    </item>
+    <item nodeId="node-1903">
+        <command xml:space="preserve">UNDO</command>
+        <result xml:space="preserve">Turkey Street West
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1904">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">The doors to the station are shut fast behind you, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1905"></child>
+        </children>
+    </item>
+    <item nodeId="node-1905">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">The doors to the shops are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1906"></child>
+        </children>
+    </item>
+    <item nodeId="node-1906">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. 
+
+The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition.
+
+Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something.
+
+A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?
+
+You can also see a bus stop and a garbage bin here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1907"></child>
+        </children>
+    </item>
+    <item nodeId="node-1907">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">The doors to the shops are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1908">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1909"></child>
+        </children>
+    </item>
+    <item nodeId="node-1909">
+        <command xml:space="preserve">gobble crow</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "instead of gobbling the crow" applies.]
+"Gobble, gobble." "Ca-kaw! Ca'kaw caKAW" Chattering away like a thief in the night.
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "Every turn" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1910"></child>
+        </children>
+    </item>
+    <item nodeId="node-1910">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "determine visibility ceiling rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "declare everything unmentioned rule" applies.]
+[Rule "room description heading rule" applies.]
+Turkey Street Station
+[Rule "room description body text rule" applies.]
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+[Rule "room description paragraphs about objects rule" applies.]
+[Rule "initialise locale description rule" applies.]
+[Rule "find notable locale objects rule" applies.]
+[Rule "standard notable locale objects rule" applies.]
+[Rule "interesting locale paragraphs rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "you-can-also-see rule" applies.]
+You can see a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+[Rule "check new arrival rule" applies.]
+[Rule "first time looking rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "other people looking rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "Every turn" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1911"></child>
+        </children>
+    </item>
+    <item nodeId="node-1911">
+        <command xml:space="preserve">x crow</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "can't act in the dark rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "Instead of examining the crow when the locket is lost" applies.]
+Upon closer examination, the crow appears to have a locket hanging from it's neck. Maybe you could scare the crow into dropping it somehow
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "Every turn" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1912"></child>
+        </children>
+    </item>
+    <item nodeId="node-1912">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "determine visibility ceiling rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "declare everything unmentioned rule" applies.]
+[Rule "room description heading rule" applies.]
+Turkey Street Station
+[Rule "room description body text rule" applies.]
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+[Rule "room description paragraphs about objects rule" applies.]
+[Rule "initialise locale description rule" applies.]
+[Rule "find notable locale objects rule" applies.]
+[Rule "standard notable locale objects rule" applies.]
+[Rule "interesting locale paragraphs rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "you-can-also-see rule" applies.]
+You can see a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+[Rule "check new arrival rule" applies.]
+[Rule "first time looking rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "other people looking rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "Every turn" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1913"></child>
+        </children>
+    </item>
+    <item nodeId="node-1913">
+        <command xml:space="preserve">gobble crow</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "Instead of gobbling the crow when the locket is found" applies.]
+You stare down the crow. It stares back at you. Time slows down. Eternity passes. "Gobble. GOBBLE." 
+
+ "Ca-kaw! Ca'kaw caKAW" The crow screeches and drops the locket just out of reach. You should take it to examine it elsewhere before it snatches it back!
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+
+*** Run-time problem P10: Since the field mouse is not allowed the property "evidence condition", it is against the rules to try to use it.
+
+
+[Rule "Every turn" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1914">
+        <command xml:space="preserve">r</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1915"></child>
+        </children>
+    </item>
+    <item nodeId="node-1915">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. 
+
+There's an edge to the air in East End, an edge I live on. And so does an ornithophobic child cowering in fear from the spectre of a gluttonous duck feasting on bits of bread strewn everywhere. For now, a cordon of turkeys joins me on the edge.
+
+You can see a child and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1916"></child>
+        </children>
+    </item>
+    <item nodeId="node-1916">
+        <command xml:space="preserve">take bread</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1917">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">Try as you might, neither your feathers or your intellect will allow you to open this box. It's sealed tight.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1918"></child>
+        </children>
+    </item>
+    <item nodeId="node-1918">
+        <command xml:space="preserve">eat box</command>
+        <result xml:space="preserve">That's plainly inedible.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1919">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">The doors to the station are shut fast behind you, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1920"></child>
+        </children>
+    </item>
+    <item nodeId="node-1920">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">The doors to the station are shut fast behind you, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1921"></child>
+        </children>
+    </item>
+    <item nodeId="node-1921">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. 
+
+The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition.
+
+Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something.
+
+A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?
+
+You can also see a bus stop and a garbage bin here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1922"></child>
+        </children>
+    </item>
+    <item nodeId="node-1922">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">The doors are shut fast, and because you are a turkey, they might as well be shut forever. You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1923">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1929"></child>
+            <child nodeId="node-1924"></child>
+        </children>
+    </item>
+    <item nodeId="node-1924">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Station Entrance)
+You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1925"></child>
+        </children>
+    </item>
+    <item nodeId="node-1925">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+DESCRIPTION WEST
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1926"></child>
+        </children>
+    </item>
+    <item nodeId="node-1926">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Sainsburys Entrance door)
+You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1927"></child>
+        </children>
+    </item>
+    <item nodeId="node-1927">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1928"></child>
+        </children>
+    </item>
+    <item nodeId="node-1928">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "standard set going variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't travel in what's not a vehicle rule" applies.]
+[Rule "can't go through undescribed doors rule" applies.]
+[Rule "can't go through closed doors rule" applies.]
+(first opening Sainsburys Entrance door)
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "Instead of opening doors" applies.]
+You can't do that! You're a turkey!
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1929">
+        <command xml:space="preserve">look around</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1930"></child>
+        </children>
+    </item>
+    <item nodeId="node-1930">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1931"></child>
+        </children>
+    </item>
+    <item nodeId="node-1931">
+        <command xml:space="preserve">examine</command>
+        <result xml:space="preserve">(Station Entrance)
+You see nothing special about Station Entrance.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1932">
+        <command xml:space="preserve">gobble crow</command>
+        <result xml:space="preserve">"Gobble, gobble." "Ca-kaw! Ca'kaw caKAW" Chattering away like a thief in the night.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1938"></child>
+            <child nodeId="node-1933"></child>
+        </children>
+    </item>
+    <item nodeId="node-1933">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1934"></child>
+        </children>
+    </item>
+    <item nodeId="node-1934">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1935"></child>
+        </children>
+    </item>
+    <item nodeId="node-1935">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+You can see a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1936"></child>
+        </children>
+    </item>
+    <item nodeId="node-1936">
+        <command xml:space="preserve">x crow</command>
+        <result xml:space="preserve">Upon closer examination, the crow appears to have a locket hanging from it's neck. Maybe you could scare the crow into dropping it somehow
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1937"></child>
+        </children>
+    </item>
+    <item nodeId="node-1937">
+        <command xml:space="preserve">gobble crow</command>
+        <result xml:space="preserve">You stare down the crow. It stares back at you. Time slows down. Eternity passes. "Gobble. GOBBLE." 
+
+ "Ca-kaw! Ca'kaw caKAW" The crow screeches and drops the locket just out of reach. You should take it to examine it elsewhere before it snatches it back!
+
+Your standoff with the crow has terrified the mouse. It no longer feels safe inside it's cardboard box and is escaping for freedom with the shiny thing. Catch it!
+
+
+*** Run-time problem P10: Since the field mouse is not allowed the property "evidence condition", it is against the rules to try to use it.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1938">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+You can see a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1939">
+        <command xml:space="preserve">gobble at</command>
+        <result xml:space="preserve">What do you want to gobble at?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1940"></child>
+        </children>
+    </item>
+    <item nodeId="node-1940">
+        <command xml:space="preserve">gobble at</command>
+        <result xml:space="preserve">What do you want to gobble at?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1941"></child>
+        </children>
+    </item>
+    <item nodeId="node-1941">
+        <command xml:space="preserve">gobble at bin</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1942"></child>
+        </children>
+    </item>
+    <item nodeId="node-1942">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. 
+
+The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition.
+
+Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something.
+
+A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?
+
+You can also see a bus stop and a garbage bin here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1943"></child>
+        </children>
+    </item>
+    <item nodeId="node-1943">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">The road is blocked by Turkeys!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1944"></child>
+        </children>
+    </item>
+    <item nodeId="node-1944">
+        <command xml:space="preserve">gobble at bin</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1945">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. 
+
+There's an edge to the air in East End, an edge I live on.  And so does an ornithophobic child cowering in fear from the spectre of a gluttonous duck feasting on bread strewn everywhere. For now, a cordon of turkeys joins me on the edge to the east.
+
+You can see some bread, a child and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1955"></child>
+            <child nodeId="node-2068"></child>
+            <child nodeId="node-2083"></child>
+            <child nodeId="node-1950"></child>
+            <child nodeId="node-1946"></child>
+        </children>
+    </item>
+    <item nodeId="node-1946">
+        <command xml:space="preserve">x bread</command>
+        <result xml:space="preserve">You see nothing special about the bits of bread.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1948"></child>
+            <child nodeId="node-1947"></child>
+        </children>
+    </item>
+    <item nodeId="node-1947">
+        <command xml:space="preserve">take bread</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1948">
+        <command xml:space="preserve">eat bread</command>
+        <result xml:space="preserve">They're plainly inedible.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1949"></child>
+        </children>
+    </item>
+    <item nodeId="node-1949">
+        <command xml:space="preserve">take bread</command>
+        <result xml:space="preserve">They're plainly inedible.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1950">
+        <command xml:space="preserve">take bread</command>
+        <result xml:space="preserve">NAY
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1952"></child>
+            <child nodeId="node-1951"></child>
+            <child nodeId="node-2079"></child>
+        </children>
+    </item>
+    <item nodeId="node-2079">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street East
+There's an edge to the air in East End, an edge I live on. And so does an ornithophobic child cowering in fear from the spectre of an irate duck. For now, a cordon of turkeys joins me on the edge to the east.
+
+You can see a rose, a child and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1951">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  some bits of bread
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1952">
+        <command xml:space="preserve">eat bread</command>
+        <result xml:space="preserve">You eat the bits of bread. Not bad.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1953"></child>
+        </children>
+    </item>
+    <item nodeId="node-1953">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street East
+There's an edge to the air in East End, an edge I live on. And so does an ornithophobic child cowering in fear from the spectre of a gluttonous duck feasting on bits of bread strewn everywhere. For now, a cordon of turkeys joins me on the edge.
+
+You can see a child and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1954"></child>
+        </children>
+    </item>
+    <item nodeId="node-1954">
+        <command xml:space="preserve">x bread</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2083">
+        <command xml:space="preserve">gobble child</command>
+        <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
+The child runs screaming, and appears to have dropped something
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2084"></child>
+        </children>
+    </item>
+    <item nodeId="node-2084">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street East
+There's an edge to the air in East End, an edge I live on. And so does a gluttonous duck feasting on bread strewn everywhere. For now, a cordon of turkeys joins me on the edge to the east.
+
+You can see a book, some bread and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2103"></child>
+        </children>
+    </item>
+    <item nodeId="node-2103">
+        <command xml:space="preserve">x book</command>
+        <result xml:space="preserve">"A Night Time Smoke". Trashy and romantic. Like my life.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2104"></child>
+        </children>
+    </item>
+    <item nodeId="node-2104">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street East
+There's an edge to the air in East End, an edge I live on. And so does a gluttonous duck feasting on bread strewn everywhere. For now, a cordon of turkeys joins me on the edge to the east.
+
+You can see a book (examined), some bread and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2105"></child>
+        </children>
+    </item>
+    <item nodeId="node-2105">
+        <command xml:space="preserve">eat bread</command>
+        <result xml:space="preserve">"QUACK QUACK QU-AAAAACK!" The duck shouts at you furiously for finishing it's meal. It might as well be spitting! Digging into its feathers it tosses something red in your general direction.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2106"></child>
+        </children>
+    </item>
+    <item nodeId="node-2106">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street East
+There's an edge to the air in East End, an edge I live on.  And so does an irate duck.For now, a cordon of turkeys joins me on the edge to the east.
+
+You can see a rose, a book and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2107"></child>
+        </children>
+    </item>
+    <item nodeId="node-2107">
+        <command xml:space="preserve">x rose</command>
+        <result xml:space="preserve">The symbolism of a rose is obvious: "My love for you is transitory and based solely on your appearance".
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2108"></child>
+        </children>
+    </item>
+    <item nodeId="node-2108">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+You can see a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2109"></child>
+        </children>
+    </item>
+    <item nodeId="node-2109">
+        <command xml:space="preserve">x chicken</command>
+        <result xml:space="preserve">This chicken is quite dead. Tire-tracks run down its spine and through its spilled guts. Still clutched in its beak, a letter!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2110"></child>
+        </children>
+    </item>
+    <item nodeId="node-2110">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+You can see a letter, a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2111"></child>
+        </children>
+    </item>
+    <item nodeId="node-2111">
+        <command xml:space="preserve">x letter</command>
+        <result xml:space="preserve">Is this... an ode to farts? Whatever it is, it's personal, sappy, and somewhat disgusting.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2112"></child>
+        </children>
+    </item>
+    <item nodeId="node-2112">
+        <command xml:space="preserve">x crow</command>
+        <result xml:space="preserve">Upon closer examination, the crow appears to have a locket hanging from it's neck. Maybe you could scare the crow into dropping it somehow
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2113"></child>
+        </children>
+    </item>
+    <item nodeId="node-2113">
+        <command xml:space="preserve">gobble crow</command>
+        <result xml:space="preserve">You stare down the crow. It stares back at you. Time slows down. Eternity passes. "Gobble. GOBBLE." 
+
+ "Ca-kaw! Ca'kaw caKAW" The crow screeches and drops the locket just out of reach. You should take it to examine it elsewhere before it snatches it back!
+
+Your standoff with the crow has terrified the mouse. It no longer feels safe inside it's cardboard box and is escaping for freedom with the shiny thing. Catch it!
+
+Death swoops in from above and in a flash of beak and squeak, the mouse is gone. The eagle returns to his perch, leaving the shiny ring on the ground.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2114"></child>
+        </children>
+    </item>
+    <item nodeId="node-2114">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+You can see a ring, a locket, a letter, a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2115"></child>
+        </children>
+    </item>
+    <item nodeId="node-2115">
+        <command xml:space="preserve">x ring</command>
+        <result xml:space="preserve">A small, shiny bauble. A white elephant.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2116"></child>
+        </children>
+    </item>
+    <item nodeId="node-2116">
+        <command xml:space="preserve">x locket</command>
+        <result xml:space="preserve">A small, heart-shaped locket. No inscription. Just a chicken... and a chick.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2117"></child>
+        </children>
+    </item>
+    <item nodeId="node-2117">
+        <command xml:space="preserve">score</command>
+        <result xml:space="preserve">You have so far scored 50 out of a possible 70, in 20 turns.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2118"></child>
+        </children>
+    </item>
+    <item nodeId="node-2118">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. 
+
+The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys to the west is a recent addition.
+
+You can see a bus stop, a garbage bin, a heron and an Owl here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2119"></child>
+        </children>
+    </item>
+    <item nodeId="node-2119">
+        <command xml:space="preserve">x bin</command>
+        <result xml:space="preserve">This garbage bin is utterly filthy, like your sense of humor. In the depths of this filth (within the bin, not yourself) lies ... THE MURDER WEAPON.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2120"></child>
+        </children>
+    </item>
+    <item nodeId="node-2120">
+        <command xml:space="preserve">x murder weapon</command>
+        <result xml:space="preserve">It is such a simple thing. Small, yet incalculably valuable. And to the right bird, lethal.
+
+[Your score has just gone up by ten points.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2121"></child>
+        </children>
+    </item>
+    <item nodeId="node-2121">
+        <command xml:space="preserve">get up bus stop</command>
+        <result xml:space="preserve">I only understood you as far as wanting to get up.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2122"></child>
+        </children>
+    </item>
+    <item nodeId="node-2122">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">You get onto the bus stop.
+
+On the bus stop you can see a red herring.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2123"></child>
+        </children>
+    </item>
+    <item nodeId="node-2123">
+        <command xml:space="preserve">take herring</command>
+        <result xml:space="preserve">Taken.
+
+Drooling, the heron eyes you closely with an intense stare. Are these the eyes of a chicken chaser, or of hunger?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2124"></child>
+        </children>
+    </item>
+    <item nodeId="node-2124">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">You get off the bus stop.
+
+Turkey Street West
+The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys to the west is a recent addition.
+
+You can see a bus stop, a garbage bin, a heron and an Owl here.
+
+Drooling, the heron eyes you closely with an intense stare. Are these the eyes of a chicken chaser, or of hunger?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2125"></child>
+        </children>
+    </item>
+    <item nodeId="node-2125">
+        <command xml:space="preserve">give heron the herring</command>
+        <result xml:space="preserve">The heron snaps the herring from your beak hungrily. In the commotion, it drops a torn photograph
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2126"></child>
+        </children>
+    </item>
+    <item nodeId="node-2126">
+        <command xml:space="preserve">x photograph</command>
+        <result xml:space="preserve">A picture of two near-identical chicks. Crudely torn apart by life's currents.
+
+In my line of work, you meet a lot of birds. And the birds always like a bad egg. But the bad eggs... don't always like the birds. 
+
+ The rose, the picture, the locket, the book, the ring... they tell a story of a chicken consumed with love. But the letter... the letter tells the story of a forbidden love. Love that cannot, should not be. 
+
+ It wasn't the car that killed the chicken. It wasn't the tire pressing down on the spine, it wasn't the sudden egress of organs. It was the simplest thing in the world. 
+
+ The chicken was killed with love. Love drove it out into the street, love drove it out to find an ending. 
+
+ Why did the chicken cross Turkey Street? Why did the chicken cross the road? We all know this one. The chicken crossed the road... to get to the other side. 
+
+
+    *** The End ***
+
+
+In that game you scored 70 out of a possible 70, in 27 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2068">
+        <command xml:space="preserve">eat bread</command>
+        <result xml:space="preserve">(first taking the bread)
+YAY
+You eat the bread. Not bad.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2069"></child>
+        </children>
+    </item>
+    <item nodeId="node-2069">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street East
+There's an edge to the air in East End, an edge I live on.  And so does an ornithophobic child cowering in fear from the spectre of a gluttonous duck feasting on bread strewn everywhere. For now, a cordon of turkeys joins me on the edge.
+
+You can see a child and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2070"></child>
+        </children>
+    </item>
+    <item nodeId="node-2070">
+        <command xml:space="preserve">x bread</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1955">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">The road is blocked by Turkeys!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1958"></child>
+            <child nodeId="node-2059"></child>
+            <child nodeId="node-1956"></child>
+        </children>
+    </item>
+    <item nodeId="node-1956">
+        <command xml:space="preserve">x child</command>
+        <result xml:space="preserve">A small human with its back turned to you. Like all of its kind, the child delights in violence, and is acquainted with fear. Good.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1957"></child>
+        </children>
+    </item>
+    <item nodeId="node-1957">
+        <command xml:space="preserve">x child</command>
+        <result xml:space="preserve">A small human with its back turned to you. Like all of its kind, the child delights in violence, and is acquainted with fear. Good.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2059">
+        <command xml:space="preserve">gobble child</command>
+        <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
+The child runs screaming, and appears to have dropped something
+GOBBLE GOBBLE GOBBLE!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2060"></child>
+        </children>
+    </item>
+    <item nodeId="node-2060">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Turkey Street East
+There's an edge to the air in East End, an edge I live on. 
+
+You can see a book, some bread and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1958">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">The road is blocked by Turkeys!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1959"></child>
+        </children>
+    </item>
+    <item nodeId="node-1959">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street Station
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street, like a lighthouse for a shipwrecked life.
+
+A very dead chicken lies in the center of the road
+
+Crows. Scavengers, the murderous lot of them. I'd watch my belongings around them, if I could carry any.
+
+Glorious, majestic, and free in all the ways that I am not. I already hate this bird. The feeling is probably mutual.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1960"></child>
+        </children>
+    </item>
+    <item nodeId="node-1960">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. 
+
+The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition.
+
+Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something.
+
+A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?
+
+You can also see a bus stop and a garbage bin here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1961"></child>
+        </children>
+    </item>
+    <item nodeId="node-1961">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">The road is blocked by Turkeys!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2044">
+        <command xml:space="preserve">m</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2045"></child>
+        </children>
+    </item>
+    <item nodeId="node-2045">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Turkey Street Station
+A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. 
+
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+You can see a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2046"></child>
+        </children>
+    </item>
+    <item nodeId="node-2046">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+People have always looked to the East for their panaceas. But Turkey Street is sick, rotten to the core. I can't cure what ails it--I can only burn it out. 
+
+There's an edge to the air in East End, an edge I live on. And so does an ornithophobic child cowering in fear from the spectre of a gluttonous duck feasting on bits of bread strewn everywhere. For now, a cordon of turkeys joins me on the edge.
+
+You can see a child and a duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2047"></child>
+        </children>
+    </item>
+    <item nodeId="node-2047">
+        <command xml:space="preserve">take bread</command>
+        <result xml:space="preserve">YAY
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2048"></child>
+        </children>
+    </item>
+    <item nodeId="node-2048">
+        <command xml:space="preserve">take bread</command>
+        <result xml:space="preserve">Alas, you are a turkey and have nowhere else to carry things. Please drop what you have before picking this up
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2049"></child>
+        </children>
+    </item>
+    <item nodeId="node-2049">
+        <command xml:space="preserve">x bread</command>
+        <result xml:space="preserve">You see nothing special about the bits of bread.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2050"></child>
+        </children>
+    </item>
+    <item nodeId="node-2050">
+        <command xml:space="preserve">eat bread</command>
+        <result xml:space="preserve">You eat the bits of bread. Not bad.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2051"></child>
+        </children>
+    </item>
+    <item nodeId="node-2051">
+        <command xml:space="preserve">x bread</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1962">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go home again. You are ON. THE. CASE.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1963"></child>
+        </children>
+    </item>
+    <item nodeId="node-1963">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go home again. You are ON. THE. CASE.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1964">
+        <command xml:space="preserve"> n</command>
+        <result xml:space="preserve">
+Turkey Street Station
+A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. 
+
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street near a Nando's, like a lighthouse for a shipwrecked life.
+
+You can see a dead chicken, a cardboard box with a hole in it, a crow and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1965"></child>
+        </children>
+    </item>
+    <item nodeId="node-1965">
+        <command xml:space="preserve">x crow</command>
+        <result xml:space="preserve">Upon closer examination, the crow appears to have a locket hanging from it's neck. Maybe you could scare the crow into dropping it somehow
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1966"></child>
+        </children>
+    </item>
+    <item nodeId="node-1966">
+        <command xml:space="preserve">gobble crow</command>
+        <result xml:space="preserve">You stare down the crow. It stares back at you. Time slows down. Eternity passes. "Gobble. GOBBLE." 
+
+ "Ca-kaw! Ca'kaw caKAW" The crow screeches and drops the locket just out of reach. You should take it to examine it elsewhere before it snatches it back!
+
+Your standoff with the crow has terrified the mouse. It no longer feels safe inside it's cardboard box and is escaping for freedom with the shiny thing. Catch it!
+
+
+*** Run-time problem P10: Since the field mouse is not allowed the property "evidence condition", it is against the rules to try to use it.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1967">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Roost
 The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1261"></child>
+        <children><child nodeId="node-1973"></child>
+            <child nodeId="node-1968"></child>
         </children>
     </item>
-    <item nodeId="node-1261">
+    <item nodeId="node-1968">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1969"></child>
+        </children>
+    </item>
+    <item nodeId="node-1969">
+        <command xml:space="preserve">x blue door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1970"></child>
+        </children>
+    </item>
+    <item nodeId="node-1970">
+        <command xml:space="preserve">open blue door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1971"></child>
+        </children>
+    </item>
+    <item nodeId="node-1971">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+blue door
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1972"></child>
+        </children>
+    </item>
+    <item nodeId="node-1972">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1973">
         <command xml:space="preserve">x</command>
         <result xml:space="preserve">What do you want to examine?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1262"></child>
+        <children><child nodeId="node-1974"></child>
         </children>
     </item>
-    <item nodeId="node-1262">
+    <item nodeId="node-1974">
         <command xml:space="preserve">look at chick</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1263"></child>
+        <children><child nodeId="node-1975"></child>
         </children>
     </item>
-    <item nodeId="node-1263">
+    <item nodeId="node-1975">
         <command xml:space="preserve">x chick</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1264">
+    <item nodeId="node-1976">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1977">
+        <command xml:space="preserve">gobble child</command>
+        <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
+The child runs screaming, and appears to have dropped something
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1995"></child>
+            <child nodeId="node-1990"></child>
+            <child nodeId="node-1978"></child>
+        </children>
+    </item>
+    <item nodeId="node-1978">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1979"></child>
+        </children>
+    </item>
+    <item nodeId="node-1979">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1980"></child>
+        </children>
+    </item>
+    <item nodeId="node-1980">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1981"></child>
+        </children>
+    </item>
+    <item nodeId="node-1981">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1982"></child>
+        </children>
+    </item>
+    <item nodeId="node-1982">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a book here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1983"></child>
+        </children>
+    </item>
+    <item nodeId="node-1983">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1984"></child>
+        </children>
+    </item>
+    <item nodeId="node-1984">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a book here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1985"></child>
+        </children>
+    </item>
+    <item nodeId="node-1985">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1986"></child>
+        </children>
+    </item>
+    <item nodeId="node-1986">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a book here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1987"></child>
+        </children>
+    </item>
+    <item nodeId="node-1987">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1988"></child>
+        </children>
+    </item>
+    <item nodeId="node-1988">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a book here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1989"></child>
+        </children>
+    </item>
+    <item nodeId="node-1989">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1990">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1991"></child>
+        </children>
+    </item>
+    <item nodeId="node-1991">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1992"></child>
+        </children>
+    </item>
+    <item nodeId="node-1992">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+On the Case
+You are on the case! Keep heading north to reach Turkey Street
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1993"></child>
+        </children>
+    </item>
+    <item nodeId="node-1993">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+A very dead chicken lies in the center of the road
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1994"></child>
+        </children>
+    </item>
+    <item nodeId="node-1994">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Station Entrance)
+You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1995">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The Roost
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a book here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1996"></child>
+        </children>
+    </item>
+    <item nodeId="node-1996">
+        <command xml:space="preserve">x book</command>
+        <result xml:space="preserve">You see nothing special about the book.
+
+
+
+    *** The End ***
+
+
+In that game you scored 50 out of a possible 50, in 3 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1997"></child>
+        </children>
+    </item>
+    <item nodeId="node-1997">
+        <command xml:space="preserve">x book</command>
+        <result xml:space="preserve">You see nothing special about the book.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1998">
+        <command xml:space="preserve">gobble chick</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1999"></child>
+        </children>
+    </item>
+    <item nodeId="node-1999">
+        <command xml:space="preserve">x chick</command>
+        <result xml:space="preserve">You see nothing special about the chick.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2000">
+        <command xml:space="preserve">gobble bottle</command>
+        <result xml:space="preserve">OH FUCK!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2001"></child>
+        </children>
+    </item>
+    <item nodeId="node-2001">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+On the Case
+The chick's distress is still fresh and palpable. She can't help me now. I leave her to her clucking. With some luck, she'll still be there when I come home to roost. I spread my wings and glide away to the next case. A case more interesting than the typical cuckolding of henpecked husbands I get saddled with. The case of... WHY THE CHICKEN CROSSED THE ROAD.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2002"></child>
+        </children>
+    </item>
+    <item nodeId="node-2002">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Turkey Street Station
+A bang. A yelp. A corpse. A chicken with a chalk outline, leaving behind a ghost with nobody to haunt.  The pancaked poultry beckons from within the cordon. I'll have to do the haunting for it. 
+
+All roads lead back to the scene of the crime. Futility, or just fatality? There's a metaphor here, if one cares to explore it. And also a station entrance. A lonely lamppost stands across the street, like a lighthouse for a shipwrecked life.
+
+A very dead chicken lies in the center of the road
+
+Crows. Scavengers, the murderous lot of them. I'd watch my belongings around them, if I could carry any.
+
+Glorious, majestic, and free in all the ways that I am not. I already hate this bird. The feeling is probably mutual.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2003"></child>
+        </children>
+    </item>
+    <item nodeId="node-2003">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+A cardinal direction. A cardinal sin. My corpse has taken another spin on the karmic wheel, helped along by some mundane ones. There's no justice on these streets. There's just us. 
+
+The West End is known for two things. Good plays, and bad turns. Which explains the unfolding supermarket turf war. The cordon of turkeys is a recent addition.
+
+Herons like to feast on small prey. This one has a lean, hungry look to it. It knows something.
+
+A winged killer, a seductive bird of prey. Once its yellow eye falls on you, it's already too late. Did it fall on the chicken?
+
+You can also see a bus stop and a garbage bin here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2004">
+        <command xml:space="preserve">gobble book</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2005"></child>
+        </children>
+    </item>
+    <item nodeId="node-2005">
+        <command xml:space="preserve">gobble at book</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2006">
+        <command xml:space="preserve">gobble at child</command>
+        <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
+The child runs screaming
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2007">
+        <command xml:space="preserve">gobble at chick</command>
+        <result xml:space="preserve">"Cluck. Cluck. Cluck cluck CLUCK-AH." She sings her sweet song to me.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2008"></child>
+        </children>
+    </item>
+    <item nodeId="node-2008">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+On the Case
+You are on the case! Keep heading north to reach Turkey Street
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2009"></child>
+        </children>
+    </item>
+    <item nodeId="node-2009">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+A very dead chicken lies in the center of the road
+
+You can also see a fox and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2010"></child>
+        </children>
+    </item>
+    <item nodeId="node-2010">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Turkey Street West
+DESCRIPTION WEST
+
+You can see a Duck and a Heron here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2011"></child>
+        </children>
+    </item>
+    <item nodeId="node-2011">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street Station
+DESCRIPTION
+
+A very dead chicken lies in the center of the road
+
+You can also see a fox and an Eagle here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2012"></child>
+        </children>
+    </item>
+    <item nodeId="node-2012">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Turkey Street East
+DESCRIPTION EAST
+
+You can see a child and an Owl here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2013">
+        <command xml:space="preserve">gobble</command>
+        <result xml:space="preserve">What do you want to gobble?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2017"></child>
+            <child nodeId="node-2016"></child>
+            <child nodeId="node-2014"></child>
+        </children>
+    </item>
+    <item nodeId="node-2014">
+        <command xml:space="preserve">gobble chick</command>
+        <result xml:space="preserve">"Gobble gobble?" Cluck. Cluck. Cluck cluck CLUCK-AH." She sings her sweet song to me.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2015"></child>
+        </children>
+    </item>
+    <item nodeId="node-2015">
+        <command xml:space="preserve">gobble bottle</command>
+        <result xml:space="preserve">GOBBLE GOBBLE GOBBLE!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2016">
+        <command xml:space="preserve">gobble at</command>
+        <result xml:space="preserve">What do you want to gobble at?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2017">
+        <command xml:space="preserve">gobbble</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2018">
         <command xml:space="preserve">exit</command>
         <result xml:space="preserve">But you aren't in anything at the moment.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1265"></child>
+        <children><child nodeId="node-2019"></child>
         </children>
     </item>
-    <item nodeId="node-1265">
+    <item nodeId="node-2019">
         <command xml:space="preserve">quit</command>
         <result xml:space="preserve">Are you sure you want to quit? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1266"></child>
+        <children><child nodeId="node-2020"></child>
         </children>
     </item>
-    <item nodeId="node-1266">
+    <item nodeId="node-2020">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2021">
+        <command xml:space="preserve">drink bottle</command>
+        <result xml:space="preserve">You have had enough
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2022">
+        <command xml:space="preserve">close door</command>
+        <result xml:space="preserve">You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2035"></child>
+            <child nodeId="node-2023"></child>
+        </children>
+    </item>
+    <item nodeId="node-2023">
+        <command xml:space="preserve">speak</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2024"></child>
+        </children>
+    </item>
+    <item nodeId="node-2024">
+        <command xml:space="preserve">talk</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2025"></child>
+        </children>
+    </item>
+    <item nodeId="node-2025">
+        <command xml:space="preserve">talk to</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2026"></child>
+        </children>
+    </item>
+    <item nodeId="node-2026">
+        <command xml:space="preserve">verds</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2027"></child>
+        </children>
+    </item>
+    <item nodeId="node-2027">
+        <command xml:space="preserve">verbs</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2028"></child>
+        </children>
+    </item>
+    <item nodeId="node-2028">
+        <command xml:space="preserve">LIST</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2029"></child>
+        </children>
+    </item>
+    <item nodeId="node-2029">
+        <command xml:space="preserve">SHOWME</command>
+        <result xml:space="preserve">The Roost - room
+    yourself - person
+    exit door - closed door
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2030"></child>
+        </children>
+    </item>
+    <item nodeId="node-2030">
+        <command xml:space="preserve">COMMAND</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2031"></child>
+        </children>
+    </item>
+    <item nodeId="node-2031">
+        <command xml:space="preserve">COMMANDS</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2032"></child>
+        </children>
+    </item>
+    <item nodeId="node-2032">
+        <command xml:space="preserve">RULES</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2033"></child>
+        </children>
+    </item>
+    <item nodeId="node-2033">
+        <command xml:space="preserve">RULES</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2034"></child>
+        </children>
+    </item>
+    <item nodeId="node-2034">
+        <command xml:space="preserve">take</command>
+        <result xml:space="preserve">(the exit door)
+[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "can't take yourself rule" applies.]
+[Rule "can't take other people rule" applies.]
+[Rule "can't take component parts rule" applies.]
+[Rule "can't take people's possessions rule" applies.]
+[Rule "can't take items out of play rule" applies.]
+[Rule "can't take what you're inside rule" applies.]
+[Rule "can't take what's already taken rule" applies.]
+[Rule "can't take scenery rule" applies.]
+[Rule "can only take things rule" applies.]
+[Rule "can't take what's fixed in place rule" applies.]
+That's fixed in place.
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "notify score changes rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2035">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You can't do that! You're a turkey!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2036">
+        <command xml:space="preserve">cheat</command>
+        <result xml:space="preserve">In my line of work, you meet a lot of birds. And the birds always like a bad egg. But the bad eggs... don't always like the birds. 
+
+ The rose, the picture, the locket, the book, the ring... they tell a story of a chicken consumed with love. But the letter... the letter tells the story of a forbidden love. Love that cannot, should not be. 
+
+ It wasn't the car that killed the chicken. It wasn't the tire pressing down on the spine, it wasn't the sudden egress of organs. It was the simplest thing in the world. 
+
+ The chicken was killed with love. Love drove it out into the street, love drove it out to find an ending. 
+
+ Why did the chicken cross Turkey Street? Why did the chicken cross the road? We all know this one. The chicken crossed the road... to get to the other side. 
+
+
+    *** The End ***
+
+
+In that game you scored 1000 out of a possible 70, in 1 turn.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2037">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">Turkey Street
+An Interactive Fiction by Raymond Vermeulen and Matthew Deline
+Release 1 / Serial number 180502 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+The Roost
+Back at the roost, there's two wild turkeys. One's a bottle and it's perfectly aged, one's a P.I. and it's aged perfectly. The name's Fowl Feathers. Uncompromising since 2015. In my line of work, you meet a lot of birds. And the birds always like a bad egg. 
+
+The roost smells faintly of sawdust, old eggs, and bourbon. The half-drunk bottle explains the half-drunk turkey. A chick is pacing back and forth, occasionally stopping to peck at itself.
+
+You can see a sign here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2038"></child>
+        </children>
+    </item>
+    <item nodeId="node-2038">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">On the Case
+The chick's distress is still fresh and palpable. She can't help me now. I leave her to her clucking. With some luck, she'll still be there when I come home to roost. I spread my wings and glide away to the next case. A case more interesting than the typical cuckolding of henpecked husbands I get saddled with. The case of... WHY THE CHICKEN CROSSED THE ROAD.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2039"></child>
+        </children>
+    </item>
+    <item nodeId="node-2039">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart?</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2040"></child>
+        </children>
+    </item>
+    <item nodeId="node-2040">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">Turkey Street
+                                                                        by Raymond Vermeulen and Matthew Deline
+
+
+
+Welcome to Turkey Street! You are about to embark upon a gritty and super serious parser adventure where you play as a turkey detective. Before you start, please be aware that some of the commands may be different from other games that you have played in the past.
+
+Commands are limited to directional travel (N, S, E, W), LOOK, EXAMINE (or X), GIVE, TAKE, DROP, WAIT, EAT, DRINK, and GOBBLE or GOBBLE AT (which refers to turkey speak, not the action of eating). You can also type COMMANDS to see this list again, UNDO to go back a turn, or SAVE to record your progress. Have fun!
+
+
+   Start the story - from the beginning    :    (SPACE)
+                   - from a saved position :       R
+   Quit                                    :       Q</result>
         <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>
